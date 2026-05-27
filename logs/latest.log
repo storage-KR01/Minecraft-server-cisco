@@ -1,0 +1,130 @@
+[04Apr2026 15:23:51.860] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.5.1, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[04Apr2026 15:23:51.873] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.18 by Debian; OS Linux arch amd64 version 6.1.0-43-cloud-amd64
+[04Apr2026 15:23:56.414] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirector CoreMod initialized successfully!
+[04Apr2026 15:23:56.525] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/sylein/cisco-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2364!/ Service=ModLauncher Env=SERVER
+[04Apr2026 15:23:57.906] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/sylein/cisco-server/libraries/net/minecraftforge/fmlcore/1.19.2-43.5.1/fmlcore-1.19.2-43.5.1.jar is missing mods.toml file
+[04Apr2026 15:23:57.910] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/sylein/cisco-server/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.5.1/javafmllanguage-1.19.2-43.5.1.jar is missing mods.toml file
+[04Apr2026 15:23:57.912] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/sylein/cisco-server/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.5.1/lowcodelanguage-1.19.2-43.5.1.jar is missing mods.toml file
+[04Apr2026 15:23:57.914] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/sylein/cisco-server/libraries/net/minecraftforge/mclanguage/1.19.2-43.5.1/mclanguage-1.19.2-43.5.1.jar is missing mods.toml file
+[04Apr2026 15:23:58.500] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[04Apr2026 15:23:58.503] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /home/sylein/cisco-server/mods/curios-forge-1.19.2-5.1.6.4.jar
+[04Apr2026 15:23:58.504] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 16 dependencies adding them to mods collection
+[04Apr2026 15:24:08.643] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Apr2026 15:24:08.928] [main/ERROR] [mixin/]: Mixin config celestisynth.mixins.json does not specify "minVersion" property
+[04Apr2026 15:24:09.021] [main/ERROR] [mixin/]: Mixin config necronomicon.forge.mixins.json does not specify "minVersion" property
+[04Apr2026 15:24:09.674] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[04Apr2026 15:24:09.678] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.aizistral.enigmaticlegacy.MixinConnector]
+[04Apr2026 15:24:09.682] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[04Apr2026 15:24:09.797] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
+[04Apr2026 15:24:09.872] [main/WARN] [mixin/]: Reference map 'nerb-forge-refmap.json' for nerb.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:09.904] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 30 options available, 0 override(s) found
+[04Apr2026 15:24:10.064] [main/WARN] [ModernFixConfig/]: ModelDataManager bugfixes have been disabled to prevent broken rendering with Rubidium installed. Please migrate to Embeddium.
+[04Apr2026 15:24:10.072] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 3 override(s) found
+[04Apr2026 15:24:10.073] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.model_data_manager_cme' overriden (by mods [rubidium]) to 'false'
+[04Apr2026 15:24:10.074] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.item_cache_flag' overriden (by mods [canary]) to 'false'
+[04Apr2026 15:24:10.074] [main/WARN] [ModernFix/]: Option 'mixin.perf.thread_priorities' overriden (by mods [smoothboot]) to 'false'
+[04Apr2026 15:24:10.075] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[04Apr2026 15:24:10.096] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[04Apr2026 15:24:10.129] [main/WARN] [mixin/]: Reference map 'vinery-forge-refmap.json' for vinery.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:10.164] [main/WARN] [mixin/]: Reference map 'morevillagers-forge-forge-refmap.json' for morevillagers.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:10.197] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting sc_libs/com/electronwill/nightconfig/core/io/WritingMode
+[04Apr2026 15:24:10.203] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting sc_libs/com/electronwill/nightconfig/core/io/ParsingMode
+[04Apr2026 15:24:10.217] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting sc_libs/com/electronwill/nightconfig/core/io/IndentStyle
+[04Apr2026 15:24:10.219] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting sc_libs/com/electronwill/nightconfig/core/io/NewlineStyle
+[04Apr2026 15:24:10.255] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting me/wesley1808/servercore/common/config/Config$Table
+[04Apr2026 15:24:10.288] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:10.497] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for corgilib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:10.503] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:10.553] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/illusivesoulworks/polymorph/common/integration/PolymorphIntegrations$Mod
+[04Apr2026 15:24:10.557] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/illusivesoulworks/polymorph/common/integration/PolymorphIntegrations$Loader
+[04Apr2026 15:24:10.651] [main/WARN] [CanaryConfig/]: Mod 'pluto' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[04Apr2026 15:24:10.661] [main/INFO] [Canary/]: Loaded configuration file for Canary: 117 options available, 1 override(s) found
+[04Apr2026 15:24:10.703] [main/WARN] [mixin/]: Reference map 'tlc.refmap.json' for tlc.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:10.796] [main/WARN] [mixin/]: Reference map 'insanelib.refmap.json' for insanelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:10.842] [main/WARN] [mixin/]: Reference map 'Bakery-forge-refmap.json' for bakery.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:10.885] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/llamalad7/mixinextras/service/MixinExtrasVersion
+[04Apr2026 15:24:10.978] [main/WARN] [mixin/]: Reference map 'dummmmmmy-forge-refmap.json' for dummmmmmy.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:11.133] [main/WARN] [mixin/]: Reference map 'smallships-forge-refmap.json' for smallships.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:11.169] [main/WARN] [mixin/]: Reference map 'octolib.refmap.json' for octolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:11.208] [main/WARN] [mixin/]: Reference map 'simplyswords-common-refmap.json' for simplyswords-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:11.211] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:11.266] [main/WARN] [mixin/]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 15:24:11.285] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting malte0811/ferritecore/mixin/config/FerriteMixinConfig$LithiumSupportState
+[04Apr2026 15:24:11.320] [main/INFO] [BadOptimizations/]: Loading config from /home/sylein/cisco-server/config/badoptimizations.txt
+[04Apr2026 15:24:11.321] [main/INFO] [BadOptimizations/]: Config version: 3
+[04Apr2026 15:24:11.322] [main/INFO] [BadOptimizations/]: BadOptimizations config dump:
+[04Apr2026 15:24:11.322] [main/INFO] [BadOptimizations/]: enable_toast_optimizations: true
+[04Apr2026 15:24:11.322] [main/INFO] [BadOptimizations/]: ignore_mod_incompatibilities: false
+[04Apr2026 15:24:11.323] [main/INFO] [BadOptimizations/]: lightmap_time_change_needed_for_update: 80
+[04Apr2026 15:24:11.323] [main/INFO] [BadOptimizations/]: enable_lightmap_caching: true
+[04Apr2026 15:24:11.323] [main/INFO] [BadOptimizations/]: enable_particle_manager_optimization: true
+[04Apr2026 15:24:11.323] [main/INFO] [BadOptimizations/]: enable_entity_renderer_caching: true
+[04Apr2026 15:24:11.323] [main/INFO] [BadOptimizations/]: log_config: true
+[04Apr2026 15:24:11.323] [main/INFO] [BadOptimizations/]: enable_remove_redundant_fov_calculations: true
+[04Apr2026 15:24:11.323] [main/INFO] [BadOptimizations/]: config_version: 3
+[04Apr2026 15:24:11.323] [main/INFO] [BadOptimizations/]: enable_sky_angle_caching_in_worldrenderer: true
+[04Apr2026 15:24:11.323] [main/INFO] [BadOptimizations/]: enable_block_entity_renderer_caching: true
+[04Apr2026 15:24:11.323] [main/INFO] [BadOptimizations/]: skycolor_time_change_needed_for_update: 3
+[04Apr2026 15:24:11.323] [main/INFO] [BadOptimizations/]: enable_entity_flag_caching: true
+[04Apr2026 15:24:11.323] [main/INFO] [BadOptimizations/]: enable_debug_renderer_disable_if_not_needed: true
+[04Apr2026 15:24:11.323] [main/INFO] [BadOptimizations/]: enable_sky_color_caching: true
+[04Apr2026 15:24:11.324] [main/INFO] [BadOptimizations/]: enable_remove_tutorial_if_not_demo: true
+[04Apr2026 15:24:11.324] [main/INFO] [BadOptimizations/]: show_f3_text: true
+[04Apr2026 15:24:11.324] [main/INFO] [BadOptimizations/]: Disabled entity_renderer_caching because Twilight Forest is present
+[04Apr2026 15:24:11.354] [main/INFO] [dev.tonimatas.packetfixer.mixins.v1_19_forge.MixinPlugin/]: Packet Fixer forge 1.19-1.19.2 has been applied successfully.
+[04Apr2026 15:24:12.024] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Apr2026 15:24:12.046] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Apr2026 15:24:12.243] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/components/fan/AirCurrent (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.components.fan.AirCurrent)
+[04Apr2026 15:24:12.949] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[04Apr2026 15:24:12.975] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Apr2026 15:24:12.977] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Apr2026 15:24:13.035] [main/WARN] [mixin/]: Error loading class: vazkii/neat/HealthBarRenderer (java.lang.ClassNotFoundException: vazkii.neat.HealthBarRenderer)
+[04Apr2026 15:24:13.036] [main/WARN] [mixin/]: @Mixin target vazkii.neat.HealthBarRenderer was not found autoleveling.mixins.json:neat/HealthBarRendererMixin
+[04Apr2026 15:24:13.465] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[04Apr2026 15:24:13.747] [main/WARN] [mixin/]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
+[04Apr2026 15:24:13.747] [main/WARN] [mixin/]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin
+[04Apr2026 15:24:13.755] [main/WARN] [mixin/]: Error loading class: fuzs/visualworkbench/world/inventory/ModCraftingMenu (java.lang.ClassNotFoundException: fuzs.visualworkbench.world.inventory.ModCraftingMenu)
+[04Apr2026 15:24:13.755] [main/WARN] [mixin/]: @Mixin target fuzs.visualworkbench.world.inventory.ModCraftingMenu was not found itemproductionlib.mixins.json:visualworkbench/ModCraftingMenuMixin
+[04Apr2026 15:24:13.817] [main/WARN] [Canary/]: Force-disabling mixin 'entity.collisions.suffocation.EntityMixin' as rule 'mixin.entity.collisions.suffocation' (added by user configuration) disables it and children
+[04Apr2026 15:24:14.052] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: recipeessentials.json
+[04Apr2026 15:24:14.118] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[04Apr2026 15:24:14.225] [main/WARN] [mixin/]: Error loading class: shadows/apotheosis/ench/table/ApothEnchantContainer (java.lang.ClassNotFoundException: shadows.apotheosis.ench.table.ApothEnchantContainer)
+[04Apr2026 15:24:14.226] [main/WARN] [mixin/]: @Mixin target shadows.apotheosis.ench.table.ApothEnchantContainer was not found origins_classes.mixins.json:common.apotheosis.ApotheosisEnchantmentMenuMixin
+[04Apr2026 15:24:14.231] [main/WARN] [mixin/]: Error loading class: se/mickelus/tetra/blocks/workbench/WorkbenchTile (java.lang.ClassNotFoundException: se.mickelus.tetra.blocks.workbench.WorkbenchTile)
+[04Apr2026 15:24:14.232] [main/WARN] [mixin/]: @Mixin target se.mickelus.tetra.blocks.workbench.WorkbenchTile was not found origins_classes.mixins.json:common.tetra.WorkbenchTileMixin
+[04Apr2026 15:24:14.276] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[04Apr2026 15:24:14.277] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[04Apr2026 15:24:14.442] [main/WARN] [mixin/]: Error loading class: fuzs/easymagic/world/inventory/ModEnchantmentMenu (java.lang.ClassNotFoundException: fuzs.easymagic.world.inventory.ModEnchantmentMenu)
+[04Apr2026 15:24:14.443] [main/WARN] [mixin/]: @Mixin target fuzs.easymagic.world.inventory.ModEnchantmentMenu was not found skilltree.mixins.json:easymagic/ModEnchantmentMenuMixin
+[04Apr2026 15:24:14.571] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[04Apr2026 15:24:14.573] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[04Apr2026 15:24:14.573] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[04Apr2026 15:24:14.606] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/EnchantedBookItem
+[04Apr2026 15:24:14.633] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[04Apr2026 15:24:14.633] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[04Apr2026 15:24:14.758] [main/WARN] [mixin/]: Error loading class: net/darkhax/darkutils/features/charms/CharmEffects (java.lang.ClassNotFoundException: net.darkhax.darkutils.features.charms.CharmEffects)
+[04Apr2026 15:24:14.762] [main/WARN] [mixin/]: Error loading class: com/brandon3055/csg/ModEventHandler (java.lang.ClassNotFoundException: com.brandon3055.csg.ModEventHandler)
+[04Apr2026 15:24:14.776] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 2 memory leak fixes!
+[04Apr2026 15:24:14.777] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [entityMemoriesLeak, biomeTemperatureLeak]
+[04Apr2026 15:24:15.213] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[04Apr2026 15:24:15.215] [main/WARN] [MixinExtras|Service/]: Found problematic active MixinExtras instance at ca.fxco.memoryleakfix.mixinextras (version 0.2.0-beta.6)
+[04Apr2026 15:24:15.216] [main/WARN] [MixinExtras|Service/]: Versions from 0.2.0-beta.1 to 0.2.0-beta.9 have limited support and it is strongly recommended to update.
+[04Apr2026 15:24:16.179] [main/INFO] [Smooth Boot (Reloaded)/]: Smooth Boot (Reloaded) config initialized
+[04Apr2026 15:24:16.186] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/datafix/DataFixerOptimizationOption
+[04Apr2026 15:24:16.217] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/Unit
+[04Apr2026 15:24:16.296] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/ChatFormatting
+[04Apr2026 15:24:16.314] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_216202_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[04Apr2026 15:24:16.686] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (28.34 s after launch)
+[04Apr2026 15:24:16.823] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/Util$IdentityStrategy
+[04Apr2026 15:24:16.840] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Reference$Type
+[04Apr2026 15:24:16.909] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Apr2026 15:24:16.910] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Apr2026 15:24:18.236] [main/INFO] [mixin/]: Mixing MixinPlayer from enigmaticlegacy.mixins.json into net.minecraft.world.entity.player.Player
+[04Apr2026 15:24:18.683] [main/INFO] [mixin/]: Mixing MixinLivingEntity from enigmaticlegacy.mixins.json into net.minecraft.world.entity.LivingEntity
+[04Apr2026 15:24:18.716] [main/WARN] [mixin/]: @Final field f_20945_:Ljava/util/Map; in vinery-common.mixins.json:LivingEntityMixin should be final
+[04Apr2026 15:24:19.099] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[04Apr2026 15:24:19.101] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[04Apr2026 15:24:19.101] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[04Apr2026 15:24:19.102] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into m_60823_ from com.abdelaziz.canary.mixin.block.flatten_states.BlockStateBaseMixin
+[04Apr2026 15:24:19.103] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[04Apr2026 15:24:19.699] [main/INFO] [mixin/]: Mixing MixinMobEffect from enigmaticlegacy.mixins.json into net.minecraft.world.effect.MobEffect
