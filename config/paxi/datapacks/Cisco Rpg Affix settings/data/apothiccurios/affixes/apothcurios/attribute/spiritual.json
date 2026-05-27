@@ -1,0 +1,57 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "apotheosis:healing_received",
+	"operation": "MULTIPLY_TOTAL",
+	"values": {
+		"rare": {
+			"min": 0.10,
+			"steps": 1.5,
+			"step": 0.025
+		},
+		"epic": {
+			"min": 0.10,
+			"steps": 2,
+			"step": 0.025
+		},
+		"mythic": {
+			"min": 0.15,
+			"steps": 2,
+			"step": 0.025
+		},
+		"ancient": {
+			"min": 0.20,
+			"steps": 3,
+			"step": 0.025
+		}
+	},
+	"types": [
+		"curios:ring",
+		"curios:head",
+		"curios:necklace",
+		"curios:back",
+		"curios:an_focus",
+		"curios:bangle",
+		"curios:body",
+		"curios:bundle",
+		"curios:quiver",
+		"curios:spellstone",
+		"curios:hostility_curse",
+		"curios:artifact_head",
+					"curios:artifact_necklace",
+                    "curios:artifact_body",
+                    "curios:artifact_belt",
+                    "curios:artifact_bracelet",
+		"curios:hands",
+		"curios:trinkets",
+		"curios:belt",
+		"curios:charm",
+		"curios:talisman",
+		"curios:feet",
+		"curios:aether_ring",
+        "curios:aether_cape",
+        "curios:aether_gloves",
+        "curios:aether_accessory",
+        "curios:aether_shield",
+        "curios:aether_pendant"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"medievalorigins:goblin/cunning",
+		"medievalorigins:goblin/frail",
+		"medievalorigins:goblin/greedy",
+		"medievalorigins:goblin/greedy_dungeons_gear",
+		"medievalorigins:goblin/looter",
+		"medievalorigins:goblin/nippy",
+		"medievalorigins:goblin/stunted"
+	],
+	"icon": "minecraft:gold_block",
+	"impact": 1,
+	"order": 1
+}

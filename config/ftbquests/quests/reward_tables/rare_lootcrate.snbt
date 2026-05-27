@@ -1,0 +1,27 @@
+{
+	id: "66C8707CBE3F7F8F"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "rare_lootcrate"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 7, item: "minecraft:diamond" }
+		{ count: 25, item: "minecraft:emerald" }
+		{ count: 5, item: "irons_spellbooks:rare_ink" }
+		{
+			type: "xp_levels"
+			xp_levels: 25
+		}
+		{ count: 2, item: "minecraft:netherite_scrap" }
+		{ count: 10, item: "minecraft:gold_ingot" }
+		{ count: 2, item: "skilltree:wisdom_scroll" }
+	]
+	title: "Rare Crate"
+}

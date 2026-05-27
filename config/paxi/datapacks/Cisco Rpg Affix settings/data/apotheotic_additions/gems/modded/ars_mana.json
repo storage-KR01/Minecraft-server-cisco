@@ -1,0 +1,113 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "ars_nouveau"
+	}],
+	"variant": "ars_mana",
+	"weight": 10,
+	"quality": 0,
+	"dimensions": [
+	],
+	"bonuses": [{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": ["helmet"]
+			},
+			"attribute": "ars_nouveau:ars_nouveau.perk.flat_max_mana",
+			"operation": "ADDITION",
+			"values": {
+				"common": 25,
+				"uncommon": 50,
+				"rare": 75,
+				"epic": 100,
+				"mythic": 125,
+				"ancient": 150
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"boots", "leggings"
+				]
+			},
+			"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.5,
+				"uncommon": 1.0,
+				"rare": 1.5,
+				"epic": 2.0,
+				"mythic": 2.5,
+				"ancient": 3.0
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"attribute": "ars_nouveau:ars_nouveau.perk.warding",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.05,
+				"uncommon": 0.10,
+				"rare": 0.15,
+				"epic": 0.20,
+				"mythic": 0.25,
+				"ancient": 0.30
+			}
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "curios",
+                "types": [
+					"curios:ring",
+					"curios:hostility_curse",
+					"curios:head",
+					"curios:necklace",
+					"curios:back",
+					"curios:an_focus",
+					"curios:bangle",
+					"curios:body",
+					"curios:bundle",
+					"curios:quiver",
+					"curios:spellstone",
+					"curios:artifact_head",
+					"curios:artifact_necklace",
+                    "curios:artifact_body",
+                    "curios:artifact_belt",
+                    "curios:artifact_bracelet",
+					"curios:hands",
+					"curios:belt",
+					"curios:charm",
+					"curios:feet",
+					"curios:talisman",
+					"curios:aether_ring",
+					"curios:aether_cape",
+					"curios:aether_gloves",
+					"curios:aether_accessory",
+					"curios:aether_shield",
+					"curios:aether_pendant",
+					"curios:trinkets"
+	]
+},
+"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+"operation": "ADDITION",
+"values": {
+	"common": 0.25,
+	"uncommon": 0.5,
+	"rare": 0.75,
+	"epic": 1.0,
+	"mythic": 1.25,
+	"ancient": 1.5
+			}
+		}
+	]
+}

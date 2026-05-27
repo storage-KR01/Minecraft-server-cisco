@@ -1,0 +1,14 @@
+{
+        "powers": [
+                "medievalorigins:siren/amphibious",
+                "medievalorigins:siren/flammable",
+                "medievalorigins:siren/holy_water",
+                "medievalorigins:siren/out_of_your_depth",
+                "medievalorigins:siren/prone",
+                "medievalorigins:siren/siren_song",
+                "medievalorigins:siren/water_vision"
+        ],
+        "icon": "minecraft:sea_lantern",
+        "impact": 2,
+        "order": 1
+}

@@ -1,0 +1,67 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "minecraft:generic.max_health",
+	"operation": "ADDITION",
+	"values": {
+		"common": {
+			"min": 2,
+			"steps": 1,
+			"step": 0.5
+		},
+		"uncommon": {
+			"min": 2,
+			"steps": 1,
+			"step": 0.5
+		},
+		"rare": {
+			"min": 3,
+			"steps": 1.5,
+			"step": 0.5
+		},
+		"epic": {
+			"min": 3,
+			"steps": 2.5,
+			"step": 0.5
+		},
+		"mythic": {
+			"min": 3,
+			"steps": 2.5,
+			"step": 0.5
+		},
+		"ancient": {
+			"min": 4,
+			"steps": 4,
+			"step": 0.5
+		}
+	},
+	"types": [
+		"curios:ring",
+		"curios:head",
+		"curios:artifact_head",
+		"curios:artifact_necklace",
+		"curios:artifact_body",
+		"curios:artifact_belt",
+		"curios:artifact_bracelet",
+		"curios:necklace",
+		"curios:back",
+		"curios:an_focus",
+		"curios:hostility_curse",
+		"curios:trinkets",
+		"curios:bangle",
+		"curios:body",
+		"curios:bundle",
+		"curios:quiver",
+		"curios:spellstone",
+		"curios:hands",
+		"curios:belt",
+		"curios:talisman",
+		"curios:charm",
+		"curios:feet",
+		"curios:aether_ring",
+        "curios:aether_cape",
+        "curios:aether_gloves",
+        "curios:aether_accessory",
+        "curios:aether_shield",
+        "curios:aether_pendant"
+	]
+}

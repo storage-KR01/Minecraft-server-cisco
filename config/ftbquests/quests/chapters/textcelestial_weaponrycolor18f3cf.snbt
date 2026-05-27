@@ -1,0 +1,297 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "textcelestial_weaponrycolor18f3cf"
+	group: "6D7A192B0CC378A4"
+	icon: {
+		Count: 1b
+		id: "celestisynth:rainfall_serenity"
+		tag: {
+			Damage: 0
+			affix_data: {
+				affixes: {
+					"apotheosis:socket": 0.0f
+				}
+			}
+		}
+	}
+	id: "1E28D02E4B2112A6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bCelestial &fweapons are incredibly &cpowerful &fweapons which drastically change the way you approach combat."
+				""
+				"To begin crafting them you will need to craft a &bcelestial workbench&f."
+			]
+			id: "4516659941A8ACA3"
+			rewards: [
+				{
+					count: 5
+					id: "6BD1B7EBE0FF6CED"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "7F130A597A6FADEC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Celestial Weaponry"
+			tasks: [{
+				id: "50ADAAD38EA7EA49"
+				item: "celestisynth:celestial_crafting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4516659941A8ACA3"]
+			description: ["The &9bow of stars &fdoes not use arrows but rather fires &bbeams &fof pure starlight at it's foes completely &dbypassing &ftheir projectile immunities and piercing through them."]
+			id: "61E1C4092341059D"
+			rewards: [
+				{
+					count: 4
+					id: "0642694BE8DD78DD"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "12395DC9B1BA0D82"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Starfall Bow"
+			tasks: [{
+				id: "659BC9E187C1937F"
+				item: {
+					Count: 1b
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4516659941A8ACA3"]
+			description: [
+				"The &dblade of flowers &fexcels at area control and continuous damage."
+				""
+				"It's base material consists of plants and flowers which can be found in the overworld."
+			]
+			id: "73577C298D8325F9"
+			rewards: [
+				{
+					count: 4
+					id: "553B4D238DD98E5A"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "0B83B136B4E2D315"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Blade of Flowers"
+			tasks: [{
+				id: "75635EE06FB4A512"
+				item: {
+					Count: 1b
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4516659941A8ACA3"]
+			description: [
+				"The &ablade of hurricane &fgrants its user unparralled mobility."
+				""
+				"It's extremely light weight allows it to be used as an offhand pairing with many unlikely weapons such as the &9rainfall serinity."
+				""
+				"It's material can be found anwhere between Y 100 and 320 high atop mountains."
+			]
+			id: "73FF0D06DB7C9169"
+			rewards: [
+				{
+					count: 4
+					id: "6A2008CDAA628A6D"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "5A73F651B2BC8BE1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Blade of Hurricane"
+			tasks: [{
+				id: "4CE55C39A829AB64"
+				item: {
+					Count: 1b
+					id: "celestisynth:breezebreaker"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4516659941A8ACA3"]
+			description: [
+				"The &cmighty &aaxe of spirits &fexcels at high burst damage."
+				""
+				"It's base materials consist mainly of eyes of ender and can be obtained through crafting."
+			]
+			id: "3C6E507E27435CA4"
+			rewards: [
+				{
+					count: 4
+					id: "645B5243712478AC"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "14574434D75683F0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Axe of Spirits"
+			tasks: [{
+				id: "31BB3D9FCFA3832F"
+				item: {
+					Count: 1b
+					id: "celestisynth:poltergeist"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4516659941A8ACA3"]
+			description: [
+				"This &cpowerful &6blade of flame &fexcels at doing high continuous damage while remaning mobile."
+				""
+				"The base material required to craft it can be found in the &4nether."
+			]
+			id: "3039D1DD7A08CF86"
+			rewards: [
+				{
+					count: 4
+					id: "7A8C70D799259AF4"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "22C84AE08B7D5190"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Blade of the Sun"
+			tasks: [{
+				id: "3E94C080E3764E55"
+				item: {
+					Count: 1b
+					id: "celestisynth:solaris"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4516659941A8ACA3"]
+			description: [
+				"This &blunar scythe &fexcels at granting &1defensive &abuffs &fand dealing moderate continous damage."
+				""
+				"It's  base materials can be found in caves."
+			]
+			id: "718D18633766EA28"
+			rewards: [
+				{
+					count: 4
+					id: "2A623A58B5EB75E8"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "684C0CEA0342F08A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Scythe of the Sorrowful Moon"
+			tasks: [{
+				id: "59C8D7B7F2EA969B"
+				item: {
+					Count: 1b
+					id: "celestisynth:crescentia"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "{\"text\":\"Celestial Weaponry\",\"color\":\"#18F3CF\"}"
+}

@@ -1,0 +1,71 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+	"weight": 5,
+	"quality": 1.5,
+	"dimensions": ["aether:the_aether"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+		"type": "apotheosis:drop_transform",
+		"gem_class": {
+			"key": "pickaxe",
+			"types": [
+				"pickaxe"
+			]
+		},
+		"blocks": "forge:stone",
+		"inputs": {
+			"tag": "forge:cobblestone"
+		},
+		"output": {
+			"item": "aether:holystone"
+		},
+		"values": {
+			"rare": 0.20,
+			"epic": 0.40,
+			"mythic": 0.60,
+			"ancient": 0.80
+		},
+		"desc": "gem.apotheotic_additions:alchemy/purity.pickaxe"
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "light_weapon",
+			"types": [
+				"sword",
+				"trident"
+			]
+		},
+		"attribute": "apotheosis:current_hp_damage",
+		"operation": "ADDITION",
+		"values": {
+			"rare": 0.01,
+			"epic": 0.015,
+			"mythic": 0.02,
+			"ancient": 0.025
+		}
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "lower_armor",
+			"types": [
+				"leggings", "boots"
+			]
+		},
+		"attribute": "apotheosis:healing_received",
+		"operation": "ADDITION",
+		"values": {
+			"rare": 0.05,
+			"epic": 0.1,
+			"mythic": 0.15,
+			"ancient": 0.2
+		}
+	}
+]
+}

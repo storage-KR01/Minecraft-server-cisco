@@ -1,0 +1,139 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+	"weight": 3,
+	"quality": 1.5,
+	"dimensions": [],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "wand",
+				"types": [
+					"wand"
+				]
+			},
+			"mob_effect": "irons_spellbooks:vigor",
+			"target": "attack_self",
+			"values": {
+				"epic": {
+					"duration": 60,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"mythic": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"ancient": {
+					"duration": 200,
+					"amplifier": 0,
+					"cooldown": 400
+				}
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "spellbook",
+				"types": [
+					"spellbook"
+				]
+			},
+			"attribute": "irons_spellbooks:blood_spell_power",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 0.5,
+				"epic": 1.0,
+				"mythic": 1.5,
+				"ancient": 2.0
+			}
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"leggings", "boots"
+				]
+			},
+			"modifiers": [{
+					"attribute": "irons_spellbooks:blood_magic_resist",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.15,
+						"rare": 0.25,
+						"epic": 0.35,
+						"mythic": 0.45,
+						"ancient": 0.5
+					}
+				},
+				{
+					"attribute": "irons_spellbooks:holy_magic_resist",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": -0.15,
+						"rare": -0.25,
+						"epic": -0.35,
+						"mythic": -0.45,
+						"ancient": -0.5
+					}
+				},
+				{
+					"type": "apotheosis:attribute",
+					"gem_class": {
+						"key": "curios",
+						"types": [
+							"curios:ring",
+							"curios:hostility_curse",
+							"curios:head",
+							"curios:necklace",
+							"curios:back",
+							"curios:an_focus",
+							"curios:bangle",
+							"curios:body",
+							"curios:bundle",
+							"curios:quiver",
+							"curios:spellstone",
+							"curios:artifact_head",
+							"curios:artifact_necklace",
+							"curios:artifact_body",
+							"curios:artifact_belt",
+							"curios:artifact_bracelet",
+							"curios:hands",
+							"curios:belt",
+							"curios:charm",
+							"curios:feet",
+							"curios:talisman",
+							"curios:aether_ring",
+							"curios:aether_cape",
+							"curios:aether_gloves",
+							"curios:aether_accessory",
+							"curios:aether_shield",
+							"curios:aether_pendant",
+							"curios:trinkets"
+			]
+		},
+		"attribute": "irons_spellbooks:blood_spell_power",
+		"operation": "ADDITION",
+		"values": {
+			"rare": 0.25,
+			"epic": 0.5,
+			"mythic": 0.75,
+			"ancient": 1.0
+					}
+				}
+			]
+		}
+	]
+}

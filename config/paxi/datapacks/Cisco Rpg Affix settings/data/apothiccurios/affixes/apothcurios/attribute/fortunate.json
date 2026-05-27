@@ -1,0 +1,57 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "minecraft:generic.luck",
+	"operation": "ADDITION",
+	"values": {
+		"rare": {
+			"min": 0.5,
+			"steps": 1,
+			"step": 0.25
+		},
+		"epic": {
+			"min": 0.5,
+			"steps": 1.5,
+			"step": 0.25
+		},
+		"mythic": {
+			"min": 1,
+			"steps": 2,
+			"step": 0.25
+		},
+		"ancient": {
+			"min": 2,
+			"steps": 3,
+			"step": 0.25
+		}
+	},
+	"types": [
+	 "curios:ring",
+	 "curios:head",
+	 "curios:necklace",
+	 "curios:back",
+	 "curios:an_focus",
+	 "curios:bangle",
+	 "curios:body",
+	 "curios:bundle",
+	 "curios:hostility_curse",
+	 "curios:quiver",
+	 "curios:artifact_head",
+					"curios:artifact_necklace",
+                    "curios:artifact_body",
+                    "curios:artifact_belt",
+                    "curios:artifact_bracelet",
+	 "curios:spellstone",
+	 "curios:trinkets",
+	 "curios:hands",
+	 "curios:talisman",
+	 "curios:belt",
+	 "curios:charm",
+	 "curios:feet",
+	 "curios:aether_ring",
+        "curios:aether_cape",
+        "curios:aether_gloves",
+        "curios:aether_accessory",
+        "curios:aether_shield",
+        "curios:aether_pendant"
+	]
+}

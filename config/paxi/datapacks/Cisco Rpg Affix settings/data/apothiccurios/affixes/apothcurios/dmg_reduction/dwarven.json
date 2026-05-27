@@ -1,0 +1,56 @@
+{
+	"type": "apotheosis:damage_reduction",
+	"damage_type": "FIRE",
+	"values": {
+		"rare": {
+			"min": 0.10,
+			"steps": 5,
+			"step": 0.01
+		},
+		"epic": {
+			"min": 0.10,
+			"steps": 10,
+			"step": 0.01
+		},
+		"mythic": {
+			"min": 0.10,
+			"steps": 15,
+			"step": 0.01
+		},
+		"ancient": {
+			"min": 0.15,
+			"steps": 15,
+			"step": 0.01
+		}
+	},
+	"types": [
+		"curios:ring",
+		"curios:head",
+		"curios:necklace",
+		"curios:trinkets",
+		"curios:back",
+		"curios:an_focus",
+		"curios:bangle",
+		"curios:body",
+		"curios:hostility_curse",
+		"curios:bundle",
+		"curios:quiver",
+		"curios:artifact_head",
+					"curios:artifact_necklace",
+                    "curios:artifact_body",
+                    "curios:artifact_belt",
+                    "curios:artifact_bracelet",
+		"curios:spellstone",
+		"curios:talisman",
+		"curios:hands",
+		"curios:belt",
+		"curios:charm",
+		"curios:feet",
+		"curios:aether_ring",
+        "curios:aether_cape",
+        "curios:aether_gloves",
+        "curios:aether_accessory",
+        "curios:aether_shield",
+        "curios:aether_pendant"
+	]
+}

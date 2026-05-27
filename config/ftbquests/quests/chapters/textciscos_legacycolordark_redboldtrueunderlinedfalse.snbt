@@ -1,0 +1,378 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "textciscos_legacycolordark_redboldtrueunderlinedfalse"
+	group: "103C318287AA2A0F"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "cisco_mod:supreme_nightfall"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "60A5389CE8B10B5A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["134D9801D13D58F5"]
+			description: [
+				"*&4Arthas&f approaches you with an offer .* &6Cisco &fis but a foolish half breed born of &0tainted &4blood&f. Look at you his prized pupil forged in his image yet bound needlessly by his chains."
+				""
+				"Do you truly believe that &6Cisco's &fpower was ever truly yours to share? The true power he keeps for himself while cautioning you to excercise balance and restraint.  "
+				""
+				"But i see that blazing hunger flickering behind your loyalty. Join me and together will we strike down the false &6hero &f. We wont kneel before the &egods &fthat toyed with him nor cower before the legacy he clings to. "
+				""
+				"Together we will claim that precious spark of divinity he posseses and wield it as we see fit."
+			]
+			id: "4BDA63A50DFBBDA5"
+			rewards: [{
+				count: 3
+				id: "6AF3FD57DCA20AD1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Where Loyalty Dies"
+			tasks: [{
+				id: "364EB200D442E031"
+				title: "Click to complete"
+				type: "checkmark"
+			}]
+			title: "Path of Betrayal"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BDA63A50DFBBDA5"]
+			description: [
+				"So you have chosen the shadows over your would be saviour....good. "
+				""
+				"Despite his shortcomings Cisco is not to be underestimated. Summoning him with the intent of betrayal without weakining him first would  be a grave blunder. "
+				""
+				"Gather fell fragments and nocturnal amethyst then twist the talisman of challenge to gain the upper hand."
+			]
+			id: "06FA4049EBC45DA2"
+			rewards: [
+				{
+					count: 2
+					id: "79F258BF521C1274"
+					item: "cisco_mod:championlootbag"
+					type: "item"
+				}
+				{
+					id: "4B26B5F9B5775FEB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "The Rite of Treachery"
+			tasks: [
+				{
+					id: "148187ABDB18895A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:fell_fragment"
+					}
+					type: "item"
+				}
+				{
+					id: "5EE09AC7CB76C38D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:fell_fragment"
+					}
+					type: "item"
+				}
+				{
+					id: "266F1661B80182EB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:nocturnal_amethyst"
+					}
+					type: "item"
+				}
+				{
+					id: "75A8B40D2220E62F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:nocturnal_amethyst"
+					}
+					type: "item"
+				}
+			]
+			title: "Threads of Treason"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06FA4049EBC45DA2"]
+			description: [
+				"The moment has come little betrayer."
+				""
+				"The &etalisman of challenge &fonce a relic forged in trust and used for your freindly duel will carry your treachery straight to &6his &fheart."
+			]
+			id: "20489A4126AE5804"
+			rewards: [{
+				count: 20
+				id: "4C5CF25F315A8678"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "The Betrayers Seal"
+			tasks: [{
+				id: "1A69EEB7109AB42F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:talisman_of_betrayal"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20489A4126AE5804"]
+			description: [
+				"Call fourth your &6old master &fthe so called &9sage &fwho would cage your true power."
+				""
+				"He will come willingly believing this to be another test of your strength. In that moment he will feel his strength sapped. When he stands before you weakened do not hesitate cut him down and claim his &edivine spark &fas your own."
+				""
+				"Summon &6him&f. Fight &6him&f. End &6him&f."
+			]
+			id: "29854A90DE3D647E"
+			rewards: [
+				{
+					count: 2
+					id: "24ACA58EF6D4ACB4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:tablet_of_descension"
+					}
+					type: "item"
+				}
+				{
+					id: "6C92AACD2361909F"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			subtitle: "The Final Severance"
+			tasks: [{
+				advancement: "cisco_mod:ashesof_allegiance"
+				criterion: ""
+				id: "3286F7A92EEDC7F4"
+				title: "Defeat Descended Cisco"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29854A90DE3D647E"]
+			description: [
+				"&cSupreme Nightfall &f, a blade of endless dusk cleaving foes when held, shielding its master when hidden."
+				""
+				"Remember this, &cNightfall &fdoes not serve the cowardly. Wield it boldly, betray its trust, and it shall turn on you in time. "
+				""
+				"Should you keep its edge sated…no mortal or god shall stand in your way."
+			]
+			id: "60D7A13216197BB1"
+			rewards: [{
+				count: 5
+				id: "6A67EF78710935F6"
+				item: "cisco_mod:championlootbag"
+				type: "item"
+			}]
+			subtitle: "Balance Unbound"
+			tasks: [{
+				id: "6A34BA78F4CFBC8A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:supreme_nightfall"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Supreme Nightfall"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["29854A90DE3D647E"]
+			description: [
+				"The more you bleed the less you break.  When ruin draws near become one with the abyss , unstoppable , untouchable."
+				""
+				"The might of iron and shadow is yours to wield ."
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cisco_mod:descended_hero_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "663F82C45A362B8D"
+			rewards: [{
+				count: 10
+				id: "263ACDA4C7F12250"
+				item: "cisco_mod:championlootbag"
+				type: "item"
+			}]
+			subtitle: "Avatar Of the Dark One"
+			tasks: [
+				{
+					id: "2EDF8BEAB6B0D0FC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:descended_hero_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "446068D66C2F3788"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:descended_hero_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "320CA560C4E84F5F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:descended_hero_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CDA34CF7DA0FA11"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:descended_hero_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Descended Armor Set"
+			x: 1.0d
+			y: 5.5d
+		}
+	]
+	title: "{\"text\":\"Ashes of Allegiance\",\"color\":\"black\",\"bold\":true,\"underlined\":false}"
+}

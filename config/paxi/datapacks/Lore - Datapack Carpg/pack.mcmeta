@@ -1,0 +1,11 @@
+{
+  "pack": {
+      "name": "Name",
+      "id": "id",
+      "pack_format": 8,
+      "authors": [
+          "Your Name"
+      ],
+      "description": "Description"
+  }
+}

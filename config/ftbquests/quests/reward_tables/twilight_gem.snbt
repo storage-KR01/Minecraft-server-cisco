@@ -1,0 +1,78 @@
+{
+	id: "440B827FE3DBDE3F"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:twilight/forest"
+					rarity: "mythic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:the_nether/inferno"
+					rarity: "mythic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:twilight/queen"
+					rarity: "mythic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheotic_additions:modded/archmage"
+					rarity: "mythic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheotic_additions:modded/ars_mana"
+					rarity: "mythic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:overworld/earth"
+					rarity: "mythic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheotic_additions:modded/hearty"
+					rarity: "mythic"
+				}
+			}
+		}
+	]
+	title: "Twilight Gem"
+}

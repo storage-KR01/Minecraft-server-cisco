@@ -1,0 +1,59 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "apotheosis:sundering",
+	"target": "ARROW_TARGET",
+	"values": {
+		"mythic": {
+			"duration": {
+				"min": 80,
+				"steps": 2,
+				"step": 20
+			},
+			"amplifier": {
+				"min": 0,
+				"steps": 4,
+				"step": 0.26
+			},
+			"cooldown": 240
+		},
+		"ancient": {
+			"duration": {
+				"min": 100,
+				"steps": 8,
+				"step": 20
+			},
+			"amplifier": 1,
+			"cooldown": 240
+		}
+	},
+	"types": [
+		"curios:ring",
+		"curios:head",
+		"curios:necklace",
+		"curios:back",
+		"curios:hostility_curse",
+		"curios:an_focus",
+		"curios:bangle",
+		"curios:artifact_head",
+					"curios:artifact_necklace",
+                    "curios:artifact_body",
+                    "curios:artifact_belt",
+                    "curios:artifact_bracelet",
+		"curios:body",
+		"curios:bundle",
+		"curios:quiver",
+		"curios:spellstone",
+		"curios:hands",
+		"curios:belt",
+		"curios:talisman",
+		"curios:charm",
+		"curios:feet",
+		"curios:trinkets",
+		"curios:aether_ring",
+        "curios:aether_cape",
+        "curios:aether_gloves",
+        "curios:aether_accessory",
+        "curios:aether_shield",
+        "curios:aether_pendant"
+	]
+}

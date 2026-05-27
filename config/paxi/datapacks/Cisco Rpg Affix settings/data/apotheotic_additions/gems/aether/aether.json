@@ -1,0 +1,86 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+	"weight": 5,
+	"quality": 1.5,
+	"dimensions": ["aether:the_aether"],
+	"unique": true,
+	"min_rarity": "mythic",
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"attribute": "apotheosis:experience_gained",
+			"operation": "ADDITION",
+			"values": {
+				"mythic": 0.5,
+				"ancient": 1
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "apotheosis:overheal",
+			"operation": "ADDITION",
+			"values": {
+				"mythic": 0.25,
+				"ancient": 0.5
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "curios",
+                "types": [
+					"curios:ring",
+					"curios:hostility_curse",
+					"curios:head",
+					"curios:necklace",
+					"curios:back",
+					"curios:an_focus",
+					"curios:bangle",
+					"curios:body",
+					"curios:bundle",
+					"curios:quiver",
+					"curios:spellstone",
+					"curios:artifact_head",
+					"curios:artifact_necklace",
+                    "curios:artifact_body",
+                    "curios:artifact_belt",
+                    "curios:artifact_bracelet",
+					"curios:hands",
+					"curios:belt",
+					"curios:charm",
+					"curios:feet",
+					"curios:talisman",
+					"curios:aether_ring",
+					"curios:aether_cape",
+					"curios:aether_gloves",
+					"curios:aether_accessory",
+					"curios:aether_shield",
+					"curios:aether_pendant",
+					"curios:trinkets"
+	]
+},
+"attribute": "apotheosis:experience_gained",
+"operation": "ADDITION",
+"values": {
+	"mythic": 0.25,
+	"ancient": 0.5
+	
+			}
+		}
+]
+}

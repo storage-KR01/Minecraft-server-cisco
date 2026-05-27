@@ -1,0 +1,24 @@
+For this modpack it is necessary to have java 18 installed which can be found here: https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html
+
+
+TO START THE SERVER USE THE FOLLOWING:
+
+Windows Users : use the start.psi
+Linux Users :use start.sh
+
+File extensions .ps1 and .sh  may not be visible if not enabled .
+
+
+If powershell does not work for you then i recommend a manual installation.
+
+The best guide ive found to manual installation can be found here  : https://www.youtube.com/watch?v=3HD0ibIpO-A
+
+Remember that the files contained within this server pack are necessary to configure the server correctly so make sure that they are used to create the server. Multiplayer is configured to be  slightly more difficult to remain challenging for larger groups of players.
+
+If you would prefer to avoid the hassle and just purchase a server instead I HIGLHY recommend Bisect Server Hosting:
+
+They have a wide array of prices for all budgets and i would recommend at least 1gb per player trying to not go below 4gb.  Go to https://www.bisecthosting.com/Cisco and get any plan that suits your needs . You can even get 25% off your first purchase with my creator code Cisco.
+
+If you have any concerns, issues or suggestions our helpful discord community will be glad to assist: https://discord.gg/4UNdG2umJR
+
+Thanks for the continued love and support and happy gaming !

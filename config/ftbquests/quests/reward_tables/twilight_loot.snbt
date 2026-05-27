@@ -1,0 +1,87 @@
+{
+	id: "10B1A06C859FCE72"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 3, item: "twilightforest:fiery_ingot" }
+		{ count: 3, item: "twilightforest:ironwood_ingot" }
+		{ count: 3, item: "twilightforest:knightmetal_ingot" }
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:ore_magnet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:triple_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:seeker_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:ice_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:ender_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{ count: 2, item: "twilightforest:transformation_powder" }
+		{ count: 5, item: "minecraft:diamond" }
+		{
+			type: "xp_levels"
+			xp_levels: 20
+		}
+	]
+	title: "Twilight loot"
+}

@@ -1,0 +1,1039 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "divine_equipment_2"
+	group: "103C318287AA2A0F"
+	id: "0E6DFB787AF77C36"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The &5lawbringers &fwere a race of mysterious &ecelestial &fbeings whose purpose was to cast judgment on gods found guilty of committing crimes they deemed &4\"unforgivables\"&f."
+				""
+				"One such crime was ressurecting the dead. &6Pollux &fwas found guilty of this when he brought his twin brother back from death and as punishement the pair were sealed into two seperate blades."
+			]
+			id: "3580F0EA2CE8D2E2"
+			rewards: [
+				{
+					id: "6BF4E1B6366E12D1"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "2B6EDF6118A07466"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "190B476A4D673FFC"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Divine Justice ?"
+			tasks: [{
+				id: "5DB24AC6804A64E5"
+				item: {
+					Count: 1b
+					id: "cisco_mod:adjudicator"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&bThe thunder god &fgifted this blade to a &cbrave warrior &ftasked with guarding the gate to the &ethunder isles."
+				""
+				"&fHe once used it to turn a field full of invading enemies to a field full of ash."
+			]
+			id: "40014A5448A7A399"
+			rewards: [
+				{
+					id: "5AB7F0AFDEE1E2CB"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "581FB555DDBEFFA6"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "6A07B710996B09AD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Thundering Blade"
+			tasks: [{
+				id: "2DEDD2C5F8357260"
+				item: {
+					Count: 1b
+					id: "cisco_mod:azure_thunder"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&aThe wind diety &eblesed &fthis armor and gifted it to the first settlers of her nation, Since then it has been used by the &6sovereign monarchy &fof &athe land of wind &funder it's ruler titled &2\"Ventus Supremi\". "
+				""
+				"&eA great prince &fwearing this armor once shattered an enemy detachment which such ferocity and speed that the survivors reported being attacked by a hurricane."
+			]
+			id: "78C1188FB63AB9F3"
+			rewards: [
+				{
+					id: "23C0CCC927EC5AB1"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "199EF524884DE3EA"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "206C499860FDEEA4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Windblessed Armor"
+			tasks: [
+				{
+					id: "097DAED0A78F27D6"
+					item: {
+						Count: 1b
+						id: "cisco_mod:test_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46580E7835BD403F"
+					item: {
+						Count: 1b
+						id: "cisco_mod:test_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12301E20DC909AA1"
+					item: {
+						Count: 1b
+						id: "cisco_mod:test_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A0798488626EB83"
+					item: {
+						Count: 1b
+						id: "cisco_mod:test_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"A legendary spear which contains powerful &awind magic. &fNoone knows its true origin or the purpose for it's creation."
+				""
+				"However &9scholars &fspeculate that it may have been forged in &2the land of wind &fand has since been lost to time."
+			]
+			id: "03F0D1AADD54130B"
+			rewards: [
+				{
+					id: "7B9D378838F54A71"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "0FA7420719D96FBD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "219F626CD8F3879F"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Spear of the sky."
+			tasks: [{
+				id: "1DEAE07B4D97EA75"
+				item: {
+					Count: 1b
+					id: "cisco_mod:skysplitter"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			description: ["These &dtwin daggers &fcarry the &9souls &fof brothers with an unbreakable bond."]
+			id: "5EBA52F0EA2C8B2D"
+			rewards: [
+				{
+					count: 2
+					id: "6D71AB910E8344BC"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "0804809BF1989E03"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 3
+					id: "00DE986E3A956505"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Twin Dieties"
+			tasks: [
+				{
+					id: "3127F4724E7D2F29"
+					item: {
+						Count: 1b
+						id: "cisco_mod:pollux"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51D8E21E115842FE"
+					item: {
+						Count: 1b
+						id: "cisco_mod:castor"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Some believe that this weapon originated from &bthe ice god &fand her &adescendants &fconquered and ruled over the &3ice tribes &fusing it's power."
+				""
+				"&4The first fell king &fis also rumored to be a member of &3the ice tribe."
+			]
+			id: "3B3D87E1DD88AB6D"
+			rewards: [
+				{
+					id: "775FCD112BB21463"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "1315723A20FD2E02"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "30C51D98AA44373D"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Winter Tempest"
+			tasks: [{
+				id: "2705A070DC211F49"
+				item: {
+					Count: 1b
+					id: "cisco_mod:glacies"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The first &eascended hero &6Cisco. &fFought with an unamed hero to defeat the &4the first fell king Arthas ."
+				""
+				"&fHis &cpower &fwas passed down through his &6descendants &fwho would later fight against the &6descendants &fof &4the fell king."
+			]
+			icon: {
+				Count: 1b
+				id: "cisco_mod:ascended_hero_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "652844E630256154"
+			rewards: [{
+				count: 6
+				id: "09880AE0C18DEDAD"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Ascendant Azure"
+			tasks: [
+				{
+					id: "52B4D8A9576B2C14"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "380A36C12812E974"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "454E027415607B47"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E6A0C40AC71FE81"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -12.5d
+		}
+		{
+			description: [
+				"500 years after the events of &rthe first fell king war &4the second fell king Bjorn &fattacked and nearly annilated the &6fire kingdom. "
+				""
+				"&fIn this Era &5Princess Carmilla &fof that nation inherited her ancestor &ecisco's &cpower &fand become &ethe second ascended hero &fdefeating and pushing back &4the fell forces."
+			]
+			icon: {
+				Count: 1b
+				id: "cisco_mod:ascended_hero_violet_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "468D94096009130F"
+			rewards: [{
+				count: 6
+				id: "3362BE8E49F43EFF"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Ascendant Violet"
+			tasks: [
+				{
+					id: "1256A7ACAB582AD2"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_violet_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C67D9FF911F590B"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_violet_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57AD31B70BAEA7E6"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_violet_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "084144F8B39044BE"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_violet_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -13.5d
+		}
+		{
+			description: [
+				"Another 250 years elapsed untill &4the third fell king Sylvi &farose once more, this time with the intent of conquest rather than complete destruction. She for the most part succeded merging &bthe ice , &ethunder &fand &5shrouded &fnations into one large empire."
+				""
+				"&6The fire kingdom &aallied &fwith &2the wind &fand &eholy nations &fto combat the opposing threat. In this Era &6Arthur a knight &fof the &6fire kingdom &finherited his ancestor's &cpower &fbecoming &ethe third ascended hero. &fAfter years of ceaseless fighting he approached &4Sylvi &fwith an offer."
+				""
+				"For the rest of her lifetime there would be peace and in return he would marry her thus merging the bloodlines of &4the first fell king &fand &6cisco &fensuring that thier descendants would eventually have the &cpower and standing &fto unite all the kingdoms into one."
+			]
+			icon: {
+				Count: 1b
+				id: "cisco_mod:ascended_hero_rouge_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "3A3D55AD20EC67CA"
+			rewards: [{
+				count: 6
+				id: "1CC9499169AD319A"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Ascendant Rouge"
+			tasks: [
+				{
+					id: "2261E00BE8EF02E1"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_rouge_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73644FF7B8E791B5"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_rouge_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0742B6D3642E0860"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_rouge_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13610822FC3517CF"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_rouge_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -13.5d
+		}
+		{
+			description: [
+				"To assess one's &1magical &fability &dthe order of the owl &fwould have thier initiates attune a &1magical &4stone &fto the location of thier assigned dorm."
+				""
+				"Those who failed to do this within the alloted time frame and were lucky would be considered talentless and expelled from &dthe order &fwithout exception."
+				""
+				"The unlucky however...would either &5teleport &fwithin a wall, a hungry creature's den, or meet some other very unfortunate end."
+			]
+			id: "7C993A2E0A1083B2"
+			rewards: [{
+				count: 2
+				id: "1D01AB6E98C50158"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Rites and Runes"
+			tasks: [{
+				id: "15EDCF7ED8F62399"
+				item: {
+					Count: 1b
+					id: "cisco_mod:keystone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"This &6ornate ring &fwas gifted to all members of &dthe order of the owl &fwho could attain the rank of &bsage. "
+				""
+				"This could be achieved only by ascending the ranks to &dmage knight adept &fthen acquiring complete mastery over any one of the many fields of &1magic."
+				""
+				"To signify that mastery they would need to create a unique &anew &1spell &fbased in that field to add to the &dgrand repository."
+			]
+			id: "2F79470C2A41C34F"
+			rewards: [{
+				count: 2
+				id: "03D33F04535401D4"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Brilliance"
+			tasks: [{
+				id: "78F8C7C873C3D109"
+				item: {
+					Count: 1b
+					id: "cisco_mod:band_of_brilliance"
+					tag: {
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"When a cult of &5fanatic mages &fwithin the &bice nation &faccidentally released &0the fell forces &fupon the world they could do nothing to stop the massacre which followed."
+				""
+				"&4Bjorn &fa general serving under the ruling tribe proposed a request for aid with the only nation with which they had a good relationship, &6the fire kingdom."
+				""
+				"&6The fire kingdom &fhowever &frefused seeing the issue as just punishement for thier foolishness. With the royal family slain the very mages responsible for the calamity proposed a solution."
+				""
+				"&dA ritual &fto send the strongest warrior still breathing to &0the fallen realm &fin hopes of obtaining the &cpower &fneccesary to stop &0the fellforces. &fThey cast the spell on bjorn transporting him to &0the realm of the fallen."
+				""
+				"Years passed for him but in only moments he returned clad in &4demonium armor &fonly able to eirily utter one word \"Revenge\". &fThe fell forces &fcowered in his presence and with thier &cstrength &fhe would launch a campaign to destroy everything starting with &6the fire kingdom. "
+			]
+			icon: {
+				Count: 1b
+				id: "cisco_mod:bjorn_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "2D7E8A4D16EFB349"
+			rewards: [{
+				count: 6
+				id: "014F5C8179253726"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "The Crimson Demon"
+			tasks: [
+				{
+					id: "35AFEEE318F529AB"
+					item: {
+						Count: 1b
+						id: "cisco_mod:bjorn_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F0CEFCB609F7C78"
+					item: {
+						Count: 1b
+						id: "cisco_mod:bjorn_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "696031A1CD4E6DD5"
+					item: {
+						Count: 1b
+						id: "cisco_mod:bjorn_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A98C6B8672B10F9"
+					item: {
+						Count: 1b
+						id: "cisco_mod:bjorn_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -18.0d
+		}
+		{
+			description: [
+				"&4Princess sylvi &fof the ruling &bice tribe &fwas renowned as a fierce warrior but best known for her remarkable intellect and aptitude for battle strategy."
+				""
+				"When her father was &ckilled &fin battle she fully expected to ascend &6the throne. &fHer uncle ragnar however had other plans and at the conclave opposed her rule gaining support from majority of the &bice tribes."
+				""
+				"As a result &4sylvi &fwas forced into exile. What exactly happened during that period was unknown but when &4she &freturned an army of &0fell legionaires &fmarched behind her."
+				""
+				"She would decimate her uncles forces and personally send him to &3niflheim. &fAfter putting the rest of the traitorous leaders to the sword and reclaiming her birthright &4she &fwould set her sights on the neighbouring kingdoms. "
+				""
+				"When it was proposed to her that she be called &4\"Fell Queen\" &fshe refused insisting that the mantle of &4\"Fell King\" &fbe used instead to honor those that came before her."
+			]
+			icon: {
+				Count: 1b
+				id: "cisco_mod:sylvi_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "2968DC942BC62CC7"
+			rewards: [{
+				count: 6
+				id: "7D50715D3C650781"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "The Silver Wolf"
+			tasks: [
+				{
+					id: "128CB79CCCAF8522"
+					item: {
+						Count: 1b
+						id: "cisco_mod:sylvi_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D02F5A713CF4415"
+					item: {
+						Count: 1b
+						id: "cisco_mod:sylvi_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "493E5DF3D8CC2D8E"
+					item: {
+						Count: 1b
+						id: "cisco_mod:sylvi_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "719275DD8F8A4B89"
+					item: {
+						Count: 1b
+						id: "cisco_mod:sylvi_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2968DC942BC62CC7"]
+			description: [
+				"Shortly after her 16th burdr-dagr &bsylvi &fentered her first battle against a neighbouring tribe . As one by one the members of her personal body guard unit fell, she fought on ferociously seemingly getting stronger as the battle raged on. "
+				""
+				"Though the victory came at a heavy cost ,her father &3King &3Ivar &fdesired to reward her bravery and thus had a &9pristine blade &fforged and &denchanted &fas a gift to his &bheir apparent."
+				""
+				"\"A &9blade &fthat will grow in strength to match your will \" he said as he placed it into her hands. She would use this blade to claim her birthright bringing it down upon her traitourous uncle ragnar's neck ending the conflict of succession."
+				""
+				" "
+			]
+			id: "1CD063D46825CB77"
+			rewards: [{
+				count: 6
+				id: "5772D0D61840A6C3"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Silver Wolf's Bite"
+			tasks: [{
+				id: "5F051DEEDE3EE01E"
+				item: {
+					Count: 1b
+					id: "cisco_mod:frostfang"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["2D7E8A4D16EFB349"]
+			description: [
+				"&4Bjorn &femerged from &0the fallen realm &fa fractured shell of his former self. Despite &4his &fnew found &cpower &fwhatever that was left of his mind seemed to be locked in a pernicious grip by an unholy entity."
+				""
+				"He emerged from the portal wielding &6Hellbrand&f, a peculilar weapon seemingly a conduit for &0the dark &fpresense. It whispered to him tales of glorious destruction whilst remaining ever vigilant for those who would seek to betray, the newly crowned &4Fell King."
+			]
+			id: "0E265B63DD8AF9A9"
+			rewards: [{
+				count: 6
+				id: "5259C920F7C857A8"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Infernal Demon's Wrath"
+			tasks: [{
+				id: "71D1803D45F3B322"
+				item: {
+					Count: 1b
+					id: "cisco_mod:hellbrand"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -22.5d
+		}
+		{
+			description: [
+				"Centuries after the death of &6Cisco &fwe would see the rise of &2Alexander &fhis descendant, &2the verdant ascendant &fand heir to unified bloodlines of &elight &fand &4fell."
+				""
+				"He possesed and unmathced command over time and gravity and would go on to unify the known kingdoms  into a singular empire later being crowned &athe sovereign ascendant."
+			]
+			icon: {
+				Count: 1b
+				id: "cisco_mod:sovereign_ascendant_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "73F72E1154910A0E"
+			rewards: [{
+				count: 6
+				id: "2660ABB50ED9ED93"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Ascendant Verdant"
+			tasks: [{
+				id: "50DD04D67905A075"
+				item: {
+					Count: 1b
+					id: "cisco_mod:sovereign_ascendant_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -16.5d
+		}
+	]
+	title: "{\"text\":\"Divine Equipment\",\"color\":\"#DEA812\"}"
+}

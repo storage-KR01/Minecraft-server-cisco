@@ -1,0 +1,108 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "blue_skies"
+	}],
+	"weight": 5,
+	"quality": 1.5,
+	"dimensions": ["blue_skies:everdawn", "blue_skies:everbright"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"boots", "leggings"
+				]
+			},
+			"attribute": "forge:reach_distance",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 1.0,
+				"epic": 2.0,
+				"mythic": 3.5,
+				"ancient": 4.0
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "pickaxe",
+				"types": [
+					"pickaxe"
+				]
+			},
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 0.5,
+				"epic": 1.0,
+				"mythic": 1.5,
+				"ancient": 2.0
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"attribute": "apotheosis:dodge_chance",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 0.01,
+				"epic": 0.03,
+				"mythic": 0.05,
+				"ancient": 0.07
+			}
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "curios",
+                "types": [
+					"curios:ring",
+					"curios:hostility_curse",
+					"curios:head",
+					"curios:necklace",
+					"curios:back",
+					"curios:an_focus",
+					"curios:bangle",
+					"curios:body",
+					"curios:bundle",
+					"curios:quiver",
+					"curios:spellstone",
+					"curios:artifact_head",
+					"curios:artifact_necklace",
+                    "curios:artifact_body",
+                    "curios:artifact_belt",
+                    "curios:artifact_bracelet",
+					"curios:hands",
+					"curios:belt",
+					"curios:charm",
+					"curios:feet",
+					"curios:talisman",
+					"curios:aether_ring",
+					"curios:aether_cape",
+					"curios:aether_gloves",
+					"curios:aether_accessory",
+					"curios:aether_shield",
+					"curios:aether_pendant",
+					"curios:trinkets"
+	]
+},
+"attribute": "apotheosis:dodge_chance",
+"operation": "ADDITION",
+"values": {
+	"rare": 0.05,
+	"epic": 0.075,
+	"mythic": 0.1,
+	"ancient": 0.125
+			}
+		}
+]
+}

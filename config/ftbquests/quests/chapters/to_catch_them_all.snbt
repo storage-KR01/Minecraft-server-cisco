@@ -1,0 +1,990 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "to_catch_them_all"
+	group: "023383BFD724C232"
+	id: "7B31E0A28ED8CC27"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The angler's best freind."]
+			icon: {
+				Count: 1b
+				id: "aquaculture:neptunium_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "508B2896433C0FD2"
+			rewards: [
+				{
+					count: 20
+					id: "4A1546794F04CEC1"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BE154B1A4CDC72F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37CA63178D8CDCF6"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+			]
+			size: 3.0d
+			subtitle: "Ready to Reel"
+			tasks: [{
+				id: "41696155EA6B0499"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/fishing_rods"
+					}
+				}
+				title: "Any #forge:tools/fishing_rods"
+				type: "item"
+			}]
+			title: "Craft a fishing Rod"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: ["Can be found in Artic Ocean biomes."]
+			id: "4C0118A4314C479A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D506DFD1877149D"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "527CB5F42D0AD176"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "4F09B35CC5656FB4"
+				item: "aquaculture:atlantic_cod"
+				type: "item"
+			}]
+			title: "Catch the Atlantic Cod"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			description: ["Can be found Artic Ocean biomes."]
+			id: "79304805795D2052"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3ADAC5487F31743B"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "0F661D35DDA19267"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "2093495C0C25A69B"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			title: "Catch the Atlantic Herring"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["Can be found in Arctic Ocean biomes."]
+			id: "2FF855494EC1A358"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "536BE723B6E94DB3"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "71574727F0C59444"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "5F601B9B44001B20"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			title: "Catch the Blackfish"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			description: ["Can be found in Artic Ocean biomes."]
+			id: "22B2DC295DB9942B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A8DA7557E6E7B6A"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "2CBBA6810AB6044A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "2071F5B980DC4A24"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			title: "Catch the Pacific Halibut"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			description: ["Can be found in Artic Ocean biomes."]
+			id: "669A58EED7974F36"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "434A3394C5BF29AD"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "02850CDD041E0A63"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "5A0E54A1F1F7225A"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			title: "Catch the Atlantic Halibut"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			description: ["Can be found in Artic Ocean biomes."]
+			id: "4EF05E8961A84202"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "097331CFFD2353AF"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "744D5BF1817AEDD5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "638E9FBD839ABD57"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			title: "Catch Pink Salmon"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Can be found in Artic Ocean biomes."]
+			id: "59EE376FF7441095"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AC6A302CB41629A"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "1FCA8BA152777347"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "73F4A3F382030A6F"
+				item: "aquaculture:pollock"
+				type: "item"
+			}]
+			title: "Catch the Pollock"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			description: ["Can be found in Artic Ocean biomes."]
+			id: "7ACCEBD4B0E14458"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07AC91DAFB1BAD61"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "202328E790EB7652"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing "
+			tasks: [{
+				id: "31362321BBB088BC"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			title: "Catch the Rainbow Trout"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: ["Can be found in freshwater biomes."]
+			id: "4BD979392CBA653E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B41C087D23C83DF"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "4CD28F863F0DA731"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "3CB9F1E3588A3A3C"
+				item: "aquaculture:brown_trout"
+				type: "item"
+			}]
+			title: "Catch the Brown Trout"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			description: ["Can be found in Arid biomes."]
+			id: "6529AEDA004AB1EE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "411FACAAADF55C77"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "338449EA3BE83AA4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "7D88294A1552E6C5"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			title: "Catch the Bayad"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			description: ["Can be found in Arid biomes."]
+			id: "65E0A1C332E32EAE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F96404449692756"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "0095C066533750E3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "3AA094A0850BBAB4"
+				item: "aquaculture:capitaine"
+				type: "item"
+			}]
+			title: "Catch the Capitaine"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			description: ["Can be found in Arid biomes."]
+			id: "6E8C6CC9FA43BFD1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3EE96E9C426CCE2D"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "3387D92A67E024E9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "6319292129E7AC67"
+				item: "aquaculture:boulti"
+				type: "item"
+			}]
+			title: "Catch the Boulti"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			description: ["Can be found in Arid biomes."]
+			id: "0C647E0922374143"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3110454EC5A8C63E"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "51A8FCAD293A348A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "3AD75737B53E1AA6"
+				item: "aquaculture:synodontis"
+				type: "item"
+			}]
+			title: "Catch the Synodontis"
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			description: ["Can be found in freshwater biomes."]
+			id: "61B9931B3F82A987"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "536AEAF4D2DFEFCC"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "5B486063A1E343B9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "77F6406AFAF03A01"
+				item: "aquaculture:smallmouth_bass"
+				type: "item"
+			}]
+			title: "Catch the Smallmouth Bass"
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			description: ["Can be found in freshwater biomes."]
+			id: "3E24ABC71B67D6B8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F17175BF87BC06C"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "1CF236D134558A43"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "5374F9D2807C62CA"
+				item: "aquaculture:bluegill"
+				type: "item"
+			}]
+			title: "Catch the Bluegill"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			description: ["Can be found in freshwater biomes."]
+			id: "59E68B0FA66C1C0E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0761CBDAD0A0C205"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "6C02710835B58CE2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "1DF8F68B395BF28A"
+				item: "aquaculture:carp"
+				type: "item"
+			}]
+			title: "Catch the Carp"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			description: ["Can be found in freshwater biomes."]
+			id: "0A84E2D9DC88BCE5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3446E682ECAB6DC3"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "15BC8EC9273C41DA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "5E347AA1994B7930"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			title: "Catch the Catfish"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			description: ["Can be found in freshwater biomes."]
+			id: "3BE1B31D0E70DE1B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "645752BC154E42A5"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "2EC23D6284B05567"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "6426B77CB9AC0F5E"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			title: "Catch the Gar"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			description: ["This useful item similar to a composter will allow you to aquire worms for bait."]
+			id: "59DE6D9B5364B1F7"
+			rewards: [
+				{
+					count: 5
+					id: "293D5960684C459D"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1302F5B36F8C2F86"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Worm Farm"
+			tasks: [{
+				id: "6B124DFA00D6AACF"
+				item: "aquaculture:worm_farm"
+				type: "item"
+			}]
+			title: "Craft the worm farm"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: ["There are many different hooks with the iron hook being the simplest.Try out different ones to find the one that best suits your goals."]
+			id: "4F869E1251CD6529"
+			rewards: [
+				{
+					id: "2898F67D36954B07"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "6CDFBA3373D9756B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Iron Hook"
+			tasks: [{
+				id: "177BB39CBFEABEFE"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			title: "Craft a iron hook"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["This will allow you to apply modifications to your fishing rod and apply bait to your hook."]
+			id: "7D0AD8C2F1A268EF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5302CBA41A7DD0C0"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "589D2BD5BA8896C1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Tackle Box"
+			tasks: [{
+				id: "2A11A0FCC8875B85"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			description: ["A modification of the fishing rod."]
+			id: "304D7CB1044BDE47"
+			rewards: [
+				{
+					id: "6EB2DF70A4857537"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "4FCDD53FF626ED84"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Bobber"
+			tasks: [{
+				id: "581DFC4ACB1FDBC5"
+				item: "aquaculture:bobber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["Can be found in freshwater biomes."]
+			id: "6D4350F2E19E0991"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DEB6574275776A4"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "3D6F604552C81169"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "726089C7C37A7C1F"
+				item: {
+					Count: 1b
+					id: "aquaculture:minnow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Catch the Minnow"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: ["Can be found in freshwater biomes."]
+			id: "078FB6D55A3474A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D3A3FA6AFABFA07"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "19BA151D7777C6D6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "16A60B276C384130"
+				item: "aquaculture:muskellunge"
+				type: "item"
+			}]
+			title: "Catch the Muskellunge"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Can be found in freshwater biomes."]
+			id: "325EFB65E8866115"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "146006EC158DF7D6"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "39FAC1D3720DDF9C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "2E4853B99E083F39"
+				item: "aquaculture:perch"
+				type: "item"
+			}]
+			title: "Catch the Perch"
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			description: ["Can be found in jungle biomes."]
+			id: "238E54DFBC82CEB9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63AA5E3410FB5675"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "20FCAABB8AD147F4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "61525B0C62039B98"
+				item: "aquaculture:arapaima"
+				type: "item"
+			}]
+			title: "Catch the Arapaima"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			description: ["Can be found in Jungle biomes."]
+			id: "0496358871EF502B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7159CD1EDFC95567"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "04C819AABDC12FCE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "746B342E3BB8D159"
+				item: "aquaculture:piranha"
+				type: "item"
+			}]
+			title: "Catch the Piranha"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			description: ["Can be found in jungle biomes."]
+			id: "749E67CE6B7DC915"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72919AC545228EC7"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "02932B158DD87A8B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "1C5E68267EDE2580"
+				item: "aquaculture:tambaqui"
+				type: "item"
+			}]
+			title: "Catch the Tambaqui"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			description: ["Can be found in mushroom island biomes."]
+			id: "7750EEF61F093126"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "651A2402EBF05E71"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "53BCA3BAC9FDC87E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "2C636CD9B1C31AA5"
+				item: "aquaculture:brown_shrooma"
+				type: "item"
+			}]
+			title: "Catch the Brown Shrooma"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			description: ["Can be found in Mushroom Island biomes."]
+			id: "5F6BA6903D655CEB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F510296049FA94A"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "4221F3C58945BF1D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "7FBAF2A9D635DEC6"
+				item: "aquaculture:red_shrooma"
+				type: "item"
+			}]
+			title: "Catch the Red Shrooma"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			description: ["Can be found in Saltwater biomes."]
+			id: "2F0C491BAE702AE6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26E719FB2DDCAF5C"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "31949499B36545A9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "249E8DA43DC579A8"
+				item: "aquaculture:jellyfish"
+				type: "item"
+			}]
+			title: "Catch the Jellyfish"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			description: ["Can be found in saltwater biomes."]
+			id: "59D992BD32908464"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "156AC87174677F79"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "7DCF3B7ECD259114"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "06D199BA909BA99F"
+				item: "aquaculture:red_grouper"
+				type: "item"
+			}]
+			title: "Catch the Red Grouper"
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			description: ["Can be found in saltwater biomes."]
+			id: "4F03742F77A11AA9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C4570585F30494D"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "7E8923407CC961A8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "687E1B4D35132EC1"
+				item: "aquaculture:tuna"
+				type: "item"
+			}]
+			title: "Catch the Tuna"
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			description: ["Can be found just about anywhere."]
+			id: "59E47267D700F46C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4FAEBDD445E028BD"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "094029369C536376"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "7F11B8F02CC49312"
+				item: "aquaculture:goldfish"
+				type: "item"
+			}]
+			title: "Catch the Goldfish"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["An alternative bait. Can be found in Swamp biomes."]
+			id: "22159B2FA352990E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "511FFA95239F38D8"
+					table_id: 1995657998408143183L
+					type: "loot"
+				}
+				{
+					id: "644272C802AA4D5C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fishing"
+			tasks: [{
+				id: "35BA17C3ABBB283A"
+				item: {
+					Count: 1b
+					id: "aquaculture:leech"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+	]
+	title: "{\"text\":\"Angler's Trophies\",\"color\":\"aqua\",\"bold\":false,\"underlined\":false}"
+}

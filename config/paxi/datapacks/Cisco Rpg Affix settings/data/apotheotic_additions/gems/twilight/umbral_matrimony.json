@@ -1,0 +1,95 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	}],
+	"weight": 7,
+	"quality": 6.5,
+	"dimensions": ["aether:the_aether", "twilightforest:twilight_forest"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+		"type": "apotheosis:drop_transform",
+		"gem_class": {
+			"key": "pickaxe",
+			"types": [
+				"pickaxe"
+			]
+		},
+		"blocks": "forge:ores/zanite",
+		"inputs": {
+			"item": "aether:zanite_gemstone"
+		},
+		"output": {
+			"item": "twilightforest:liveroot"
+		},
+		"values": {
+			"rare": 0.05,
+			"epic": 0.1,
+			"mythic": 0.15,
+			"ancient": 0.20
+		},
+		"desc": "gem.apotheotic_additions:alchemy/umbral_matrimony.bonus.pickaxe"
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "curios_armor",
+			"types": [
+			    "curios:body", "curios:head", "curios:back", "curios:feet", "curios:hands"
+			]
+		},
+		"attribute": "minecraft:generic.max_health",
+		"operation": "ADDITION",
+		"values": {
+			"rare": 0.5,
+			"epic": 1,
+			"mythic": 1.5,
+			"ancient": 2
+		}
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "curios_jewelry",
+			"types": [
+				"curios:ring", "curios:an_focus", "curios:necklace", "curios:charm", "curios:belt"
+			]
+		},
+		"attribute": "minecraft:generic.armor",
+		"operation": "ADDITION",
+		"values": {
+			"rare": 2.5,
+			"epic": 5,
+			"mythic": 7.5,
+			"ancient": 10
+		}
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "curios_aether",
+			"types": [
+				"curios:aether_gloves", "curios:aether_accessory", "curios:aether_shield", "curios:aether_cape", "curios:aether_pendant", "curios:aether_ring"
+			]
+		},
+		"attribute": "minecraft:generic.armor",
+		"operation": "ADDITION",
+		"values": {
+			"rare": 0.25,
+			"epic": 0.5,
+			"mythic": 0.75,
+			"ancient": 1
+		}
+	}
+]
+}

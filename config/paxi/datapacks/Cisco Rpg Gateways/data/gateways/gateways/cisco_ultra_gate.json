@@ -1,0 +1,139 @@
+{
+    "size": "large",
+    "color": "#F2FA0E",
+    "allow_discarding": false,
+    "leash_range": "256",
+    "waves": [{
+            "entities": [{
+                    "entity": "cisco_mod:cisco"
+                }           
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 12.5
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 100
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 2.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                }
+            ],
+            "rewards": [{
+                "type": "stack",
+                "stack":  {
+                "item": "cisco_mod:champion_coin"
+            }
+            },
+            {
+                "type": "stack",
+                "stack": {
+                    "item": "cisco_mod:champion_coin"
+                }
+            },
+            {
+                "type": "stack",
+                "stack": {
+                    "item": "cisco_mod:champion_coin"
+                }
+            },
+            {
+                "type": "stack",
+                "stack": {
+                    "item": "cisco_mod:champion_coin"
+                }
+            }],
+            "max_wave_time": 3000,
+            "setup_time": 200
+        },
+            {
+                "entities": [{
+                        "entity": "cisco_mod:fellkingboss"
+                    }
+                ],
+                "modifiers": [{
+                        "attribute": "generic.max_health",
+                        "operation": "MULTIPLY_TOTAL",
+                        "value": 15.50
+                    },
+                    {
+                        "attribute": "generic.armor",
+                        "operation": "ADDITION",
+                        "value": 170
+                    },
+                    {
+                        "attribute": "generic.attack_damage",
+                        "operation": "MULTIPLY_TOTAL",
+                        "value": 3.50
+                    },
+                    {
+                        "attribute": "generic.knockback_resistance",
+                        "operation": "ADDITION",
+                        "value": 0.30
+                    },
+                    {
+                        "attribute": "generic.movement_speed",
+                        "operation": "MULTIPLY_TOTAL",
+                        "value": 0.10
+                    }
+                ],
+                "rewards": [{
+                    "type": "stack",
+                    "stack": {
+                    "item": "cisco_mod:tabletof_ascension",
+                    "item": "cisco_mod:tabletof_ascension"
+                }
+                }],
+                "max_wave_time": 2500,
+                "setup_time": 400
+            }
+        ],
+          "rewards": [{
+        "type": "entity_loot",
+        "entity": "cisco_mod:cisco",
+        "rolls": 3
+    },
+            {
+                "type": "stack",
+                "stack": {
+                    "item": "cisco_mod:champion_coin"
+                }
+            },
+            {
+                "type": "stack",
+                "stack": {
+                    "item": "cisco_mod:championlootbag"
+                }
+            },
+            {
+                "type": "stack",
+                "stack": {
+                    "item": "cisco_mod:championlootbag"
+                }
+            },
+	{
+		"type": "stack",
+		"stack": {
+			"item": "cisco_mod:tabletof_ascension"
+		}
+	}],
+        "completion_xp": 4000,
+        "spawn_range": 10
+    }
+
+    

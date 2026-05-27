@@ -1,0 +1,216 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "knowledge_is_power"
+	group: "3B0CDB8395E59365"
+	icon: "minecraft:writable_book"
+	id: "52F4BEAF4E532963"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The &aworld &fis a &4hostile &fplace. &4Enemies &fincrease in &cstrength &fthe further away from the &aworld &fspawn you travel,"
+				""
+				"It is wise to explore areas close to your initial spawn to acquire loot before venturing out to face tougher &4enemies."
+				""
+				"&fHigher level &cenemies &fyield more &2experience &fand at extreme levels will drop &6rare &fitems."
+			]
+			icon: "minecraft:writable_book"
+			id: "45E996352E65DF17"
+			rewards: [{
+				id: "287AC6A0CE5CEEBF"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Exploration "
+			tasks: [{
+				id: "0F10767807C97F4B"
+				title: "Click to complete."
+				type: "checkmark"
+			}]
+			title: "Knowledge is Power"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45E996352E65DF17"]
+			description: [
+				"You will encounter many &cpowerful &4enemies &fthroughout your journey,You should however be especially careful of these &4foes:"
+				""
+				"&4Infernal &4enemies &fare creatures &dspontaneously &cempowered &fby &9magic &ffrom &0the fallen realm. &fThis can occur at random to any hostile mob granting them increased stats and &dspecial effects.&fThese formidable &4foes &fcan be spotted by the &5purple particles &fthey emit."
+				""
+				"&3Dungeon Masters &fare powerful enemies who can often be found guarding chests in dungeons. In order to access these chests they will need to be defeated."
+				""
+				"&dApothic bosses &fare powerful enemies who drop &9arcane &floot when killed. A special sound and notification is given to the player when one spawns nearby."
+			]
+			icon: "forbidden_arcanus:eternal_obsidian_skull"
+			id: "1648B6BCB07BB084"
+			rewards: [{
+				id: "3C05E91D95FDCCDB"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Ferocious Foes"
+			tasks: [{
+				id: "40705319B84DDA9C"
+				title: "Click to complete."
+				type: "checkmark"
+			}]
+			title: "Enemies"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45E996352E65DF17"]
+			description: [
+				"There are many ways to increase your &cstrength &fbut the primary ways are the following:"
+				""
+				"Your &9skill tree will &fallow you to convert &aexperience &fgained from killing monsters into &9skill points &fto spend on valuable passive bonuses."
+				"Default key (o)."
+				""
+				"&bGems &fare rare items which can be found all over the &aworld &fat different qualities and grant &cpowerful &fbonuses when &dsocketed &finto your gear. Most gear you obtain will not have sockets by default and those will need to be added at a &6reforging table."
+				""
+				"&dEnchantments &fcan be applied to your gear at &dthe enchanting table &fand will also increase your &cstrength &fdrastically.&dThe enchanting table &fcan be configured in many ways to obtain very &cpowerful &denchantments."
+			]
+			icon: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:the_end/endersurge"
+					rarity: "ancient"
+				}
+			}
+			id: "736C9FD16E542DB6"
+			rewards: [{
+				id: "71CAEE4658A92A98"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Acquiring Power"
+			tasks: [{
+				id: "7A76330F546C73F2"
+				title: "Click to complete."
+				type: "checkmark"
+			}]
+			title: "Increasing your strength"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45E996352E65DF17"]
+			description: [
+				"&6Champion Coins &fare a valuable resource gained from completing quests and other endgame activities."
+				""
+				"These &ecoins &fcan be traded in the &6\"Cisco's Wares \" &fsection of the quest book for valuable items to aid you in your journey."
+			]
+			icon: "cisco_mod:champion_coin"
+			id: "19DB4898098E86AB"
+			rewards: [{
+				id: "6C098A430EECC032"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Eloquent Exchange"
+			tasks: [{
+				id: "036BC96FE22A5547"
+				title: "Click to complete."
+				type: "checkmark"
+			}]
+			title: "Coin Shop"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45E996352E65DF17"]
+			description: [
+				"Many origins despite placing light restrictions on your diet will allow you to eat a wide array of prepared meals."
+				""
+				"Foods are granted a &adiversity score &fand you will gain &cpowerful buffs &fbased on your total score. Be sure to try many different foods to increase your score."
+				""
+				"You are able to track your &adiversity score &fand foods eaten within the &6food book&f default key (.) ."
+			]
+			icon: "farmersdelight:honey_glazed_ham_block"
+			id: "29B7CEE5EB6D2DBA"
+			rewards: [{
+				id: "3E00FD77209E4AAE"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Balanced Diet"
+			tasks: [{
+				id: "78729DE8084860C2"
+				title: "Click to complete."
+				type: "checkmark"
+			}]
+			title: "Food Diversity"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"During the age of &6heroes &egods &fcreated &cpowerful &5artifacts &fto aid mortals . However the mortals gained such immense &cpower &fthat the &egods &fthemselves became weary."
+				""
+				"A mysterious &2primordial &edeity &fknown as &0\"the Dark One\" &fsacrificed a small portion of his immense &cpower &fto lay a curse upon these &5artifacts &fso that only those willing to undergo great sacrifice may wield them."
+			]
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:cursed_ring"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "7F414903DEAF07F3"
+			rewards: [{
+				id: "46DE04349C4EF39E"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Trial of the Enigmas"
+			tasks: [{
+				id: "748E8B56534A054F"
+				title: "Enigmas"
+				type: "checkmark"
+			}]
+			title: "Enigmas"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F414903DEAF07F3"]
+			dependency_requirement: "all_started"
+			description: [
+				"You possess the same &0dark &cpower &fas i which will one day allow you to wear my equipment."
+				""
+				"&0The Dark One &ffears that which sturs within you and will make your journey harder at certain points:"
+				""
+				"&aTrial 1&f :  Begins at the start of your journey increasing enemy cohesion , lethality in addition the possibility of a blood moon."
+				""
+				"&1Trial 2&f : Begins upon entering another dimension further increasing the strength of enemies but also the rewards gained from defeating them."
+				""
+				"&5Trial 3&f : Begins upon slaying &dthe ender dragon &fwhere enemies are even more merciless granting the chance of elite enemies appearing."
+			]
+			icon: "cisco_mod:thedarkone"
+			id: "095A01C3F8830264"
+			rewards: [{
+				id: "099F731731B139EB"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Unceremonious Ascent"
+			tasks: [{
+				id: "50B3906072C1FD2D"
+				title: "The trials"
+				type: "checkmark"
+			}]
+			title: "The Dark Trials"
+			x: -2.0d
+			y: -2.0d
+		}
+	]
+	title: "{\"text\":\"Tutorial\",\"color\":\"#0FFA1F\"}"
+}

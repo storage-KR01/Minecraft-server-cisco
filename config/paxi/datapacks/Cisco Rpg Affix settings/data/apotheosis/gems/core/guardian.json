@@ -1,0 +1,128 @@
+{
+	"variant": "guardian",
+	"weight": 10,
+	"quality": 0,
+	"dimensions": [
+	],
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"chestplate",
+					"leggings"
+				]
+			},
+			"attribute": "minecraft:generic.armor_toughness",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.5,
+				"uncommon": 1,
+				"rare": 2.5,
+				"epic": 3.5,
+				"mythic": 4.5,
+				"ancient": 5.5
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"attribute": "apotheosis:life_steal",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.01,
+				"uncommon": 0.02,
+				"rare": 0.03,
+				"epic": 0.04,
+				"mythic": 0.06,
+				"ancient": 0.07
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "heavy_weapon",
+				"types": [
+					"heavy_weapon"
+				]
+			},
+			"attribute": "apotheosis:overheal",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.03,
+				"uncommon": 0.07,
+				"rare": 0.10,
+				"epic": 0.15,
+				"mythic": 0.20,
+				"ancient": 0.25
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"attribute": "minecraft:generic.armor",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.02,
+				"uncommon": 0.05,
+				"rare": 0.10,
+				"epic": 0.15,
+				"mythic": 0.20,
+				"ancient": 0.25
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios",
+				"types": [
+					"curios:ring",
+		"curios:head",
+		"curios:necklace",
+		"curios:back",
+		"curios:hostility_curse",
+		"curios:an_focus",
+		"curios:bangle",
+		"curios:body",
+		"curios:bundle",
+		"curios:quiver",
+		"curios:spellstone",
+		"curios:bracelet",
+		"curios:hands",
+		"curios:belt",
+		"curios:charm",
+		"curios:feet",
+		"curios:talisman",
+		"curios:aether_ring",
+        "curios:aether_cape",
+        "curios:aether_gloves",
+        "curios:aether_accessory",
+        "curios:aether_shield",
+        "curios:aether_pendant"
+				]
+			},
+			"attribute": "minecraft:generic.armor_toughness",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.25,
+				"uncommon": 0.35,
+				"rare": 0.55,
+				"epic": 0.85,
+				"mythic": 1.25,
+				"ancient": 3.5
+			}
+		}
+	]
+}

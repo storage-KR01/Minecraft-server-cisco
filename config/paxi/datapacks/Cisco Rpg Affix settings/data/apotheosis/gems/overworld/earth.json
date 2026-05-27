@@ -1,0 +1,109 @@
+{
+	"weight": 12,
+	"quality": 0.5,
+	"dimensions": [
+		"overworld"
+	],
+	"unique": true,
+	"min_rarity": "uncommon",
+	"bonuses": [
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "melee_weapon",
+				"types": [
+					"sword",
+					"trident",
+					"heavy_weapon"
+				]
+			},
+			"enchantment": "sharpness",
+			"must_exist": false,
+			"values": {
+				"uncommon": 1,
+				"rare": 2,
+				"epic": 3,
+				"mythic": 4,
+				"ancient": 5
+			}
+		},
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"chestplate",
+					"leggings"
+				]
+			},
+			"enchantment": "protection",
+			"must_exist": false,
+			"values": {
+				"uncommon": 1,
+				"rare": 2,
+				"epic": 3,
+				"mythic": 4,
+				"ancient": 5
+			}
+		},
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "breaker",
+				"types": [
+					"shovel",
+					"pickaxe"
+				]
+			},
+			"enchantment": "apotheosis:earths_boon",
+			"must_exist": false,
+			"values": {
+				"uncommon": 1,
+				"rare": 2,
+				"epic": 3,
+				"mythic": 4,
+				"ancient": 5
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios",
+				"types": [
+					"curios:ring",
+		"curios:head",
+		"curios:necklace",
+		"curios:back",
+		"curios:an_focus",
+		"curios:bangle",
+		"curios:hostility_curse",
+		"curios:body",
+		"curios:bundle",
+		"curios:quiver",
+		"curios:spellstone",
+		"curios:bracelet",
+		"curios:hands",
+		"curios:belt",
+		"curios:charm",
+		"curios:feet",
+		"curios:talisman",
+		"curios:aether_ring",
+        "curios:aether_cape",
+        "curios:aether_gloves",
+        "curios:aether_accessory",
+        "curios:aether_shield",
+        "curios:aether_pendant"
+				]
+			},
+			"attribute": "apotheosis:mining_speed",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"uncommon": 0.1,
+				"rare": 0.15,
+				"epic": 0.45,
+				"mythic": 0.85,
+				"ancient": 0.150
+			}
+		}
+	]
+}

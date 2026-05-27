@@ -1,0 +1,27 @@
+{
+	id: "7EFF4B5F9C06ADD0"
+	loot_crate: {
+		color: 9849600
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "common_crate"
+	}
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ count: 4, item: "apotheosis:gem_dust" }
+		{ count: 4, item: "minecraft:iron_ingot" }
+		{ count: 5, item: "minecraft:emerald" }
+		{ count: 5, item: "minecraft:gold_ingot" }
+		{
+			type: "xp_levels"
+			xp_levels: 15
+		}
+		{ count: 3, item: "minecraft:enchanted_golden_apple" }
+		{ count: 2, item: "minecraft:diamond" }
+	]
+	title: "Common Crate"
+}

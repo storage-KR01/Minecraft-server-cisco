@@ -1,0 +1,130 @@
+{
+	"variant": "warlord",
+	"weight": 10,
+	"quality": 0,
+	"dimensions": [
+	],
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "light_ranged",
+				"types": [
+					"sword",
+					"trident",
+					"bow",
+					"crossbow"
+				]
+			},
+			"attribute": "apotheosis:crit_damage",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.02,
+				"uncommon": 0.05,
+				"rare": 0.07,
+				"epic": 0.10,
+				"mythic": 0.15,
+				"ancient": 0.20
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "heavy_weapon",
+				"types": [
+					"heavy_weapon"
+				]
+			},
+			"attribute": "apotheosis:crit_damage",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.075,
+				"uncommon": 0.105,
+				"rare": 0.15,
+				"epic": 0.175,
+				"mythic": 0.20,
+				"ancient": 0.25
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "minecraft:generic.max_health",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.01,
+				"uncommon": 0.03,
+				"rare": 0.05,
+				"epic": 0.07,
+				"mythic": 0.10,
+				"ancient": 0.15
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.05,
+				"uncommon": 0.075,
+				"rare": 0.09,
+				"epic": 0.10,
+				"mythic": 0.125,
+				"ancient": 0.15
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios",
+				"types": [
+					"curios:ring",
+		"curios:head",
+		"curios:necklace",
+		"curios:back",
+		"curios:an_focus",
+		"curios:bangle",
+		"curios:body",
+		"curios:bundle",
+		"curios:quiver",
+		"curios:spellstone",
+		"curios:bracelet",
+		"curios:hands",
+		"curios:hostility_curse",
+		"curios:belt",
+		"curios:charm",
+		"curios:feet",
+		"curios:talisman",
+		"curios:aether_ring",
+        "curios:aether_cape",
+        "curios:aether_gloves",
+        "curios:aether_accessory",
+        "curios:aether_shield",
+        "curios:aether_pendant"
+				]
+			},
+			"attribute": "apotheosis:crit_damage",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.015,
+				"uncommon": 0.02,
+				"rare": 0.03,
+				"epic": 0.05,
+				"mythic": 0.06,
+				"ancient": 0.07
+
+			}
+		}
+	]
+}

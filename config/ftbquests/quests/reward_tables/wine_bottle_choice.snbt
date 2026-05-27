@@ -1,0 +1,198 @@
+{
+	id: "107BA34A14A78FC7"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:stal_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:strad_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:magnetic_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:chorus_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:aegis_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:solaris_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:noir_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:bolvar_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:cherry_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:clark_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:jellie_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:apple_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:red_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:praetorian_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:chenet_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:king_danis_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:mellohi_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:cristel_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "vinery:glowing_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+	]
+	title: "Wine Bottle Choice"
+}

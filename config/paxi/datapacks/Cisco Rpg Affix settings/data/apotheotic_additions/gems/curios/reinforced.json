@@ -1,0 +1,54 @@
+{
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+	"weight": 3,
+	"quality": 4.0,
+	"dimensions": [],
+	"unique": false,
+	"min_rarity": "uncommon",
+	"bonuses": [{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios_armor",
+				"types": [
+					"curios:body", "curios:head", "curios:back", "curios:feet", "curios:hands"
+				]
+			},
+			"attribute": "minecraft:generic.armor_toughness",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.5,
+				"uncommon": 1,
+				"rare": 1.5,
+				"epic": 2,
+				"mythic": 2.5,
+				"ancient": 3
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios_jewelry",
+				"types": [
+					"curios:ring", "curios:an_focus", "curios:necklace", "curios:charm", "curios:belt"
+				]
+			},
+			"attribute": "minecraft:generic.armor",
+			"operation": "ADDITION",
+			"values": {
+				"common": 4.5,
+				"uncommon": 7,
+				"rare": 9,
+				"epic": 10,
+				"mythic": 15,
+				"ancient": 25
+			}
+		}
+	]
+}

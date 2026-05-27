@@ -1,0 +1,140 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "apotheosis:epic_material"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "apotheosis:gem_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "apotheosis:rare_material"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "apotheosis:sigil_of_socketing"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:emerald"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 399,
+          "max": 749
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "cataclysm:burning_ashes"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "apotheosis:epic_material"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:netherite_scrap"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "cisco_mod:champion_coin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "cisco_mod:champion_coin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "forbidden_arcanus:stellarite_piece"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apotheosis:mythic_material"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "apotheosis:gem_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "minecraft:emerald"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "autoleveling:level_check",
+          "min": 750,
+          "max": 9999
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ]
+}

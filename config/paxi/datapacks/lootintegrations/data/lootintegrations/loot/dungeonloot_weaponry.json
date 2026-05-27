@@ -1,0 +1,18 @@
+{
+  "loot_table": "treasure:chests/weaponry_loot",
+  "max_result_itemcount": 15,
+  "integrated_loot_tables": {
+    "minecraft:chests/simple_dungeon": 1,
+    "minecraft:chests/abandoned_mineshaft": 1,
+    "minecraft:chests/nether_bridge": 1,
+    "minecraft:chests/woodland_mansion": 1,
+    "totw_additions:chests/end_tower/end_tower_chest": 1,
+    "dungeoncrawl:chests/treasure": 1,
+    "dungeoncrawl:chests/stage_1": 1,
+    "dungeoncrawl:chests/stage_2": 1,
+    "dungeoncrawl:chests/stage_3": 1,
+    "dungeoncrawl:chests/stage_4": 1,
+    "dungeoncrawl:chests/stage_5": 1,
+    "awesomedungeonend:chests/awesome_dungeon": 3
+  }
+}

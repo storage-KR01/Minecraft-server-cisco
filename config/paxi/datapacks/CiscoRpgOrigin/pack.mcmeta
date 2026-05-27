@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "A datapack which disables origins with are not viable for Cisco's Rpg",
+        "pack_format": 15
+    }
+}

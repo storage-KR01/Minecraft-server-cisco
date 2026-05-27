@@ -1,0 +1,4 @@
+To correctly update your server replace the following folders with the ones found in the server pack:
+
+Mods folder
+Config folder

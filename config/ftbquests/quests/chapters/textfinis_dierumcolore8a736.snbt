@@ -1,0 +1,396 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "textfinis_dierumcolore8a736"
+	group: "6D7A192B0CC378A4"
+	icon: {
+		Count: 1b
+		id: "cisco_mod:absolute_equillibrium"
+		tag: {
+			Damage: 0
+			affix_data: {
+				affixes: {
+					"apotheosis:socket": 0.0f
+				}
+			}
+		}
+	}
+	id: "311E2D41844A4BEA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: ["Trade your &6radiant sunshards &ffor &eperfect &1gems."]
+			id: "57F4F47A0E411EB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "499D09C64D542015"
+				table_id: 436462268599988983L
+				type: "choice"
+			}]
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				id: "7FF35FA022696D3C"
+				item: "cisco_mod:radiant_sunshard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Open the &dgateway of memories &fto fight &cempowered &fversions of &6cisco &fand &4the fell king &fto recieve &echampion coins &fand &6tablets of ascension."]
+			icon: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:cisco_ultra_gate"
+				}
+			}
+			id: "4117F0B665E3CA2D"
+			rewards: [
+				{
+					id: "390CB681D7AEB1D1"
+					item: "cisco_mod:divine_core"
+					type: "item"
+				}
+				{
+					id: "71F73C496349C87F"
+					item: "cisco_mod:divine_core"
+					type: "item"
+				}
+			]
+			subtitle: "Gateway of Memories"
+			tasks: [
+				{
+					id: "60DADA22FA0C285F"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:cisco_ultra_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61384F21EA25B25A"
+					item: "cisco_mod:tabletof_ascension"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: ["The &4cataclysmic gate &fwill allow you to fight &cempowered &fversions of the &4cataclysmic bosses &fgranting &6radiant sunshards."]
+			icon: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:large_cataclysm_gate"
+				}
+			}
+			id: "4288F14E88A87640"
+			rewards: [
+				{
+					id: "2827FCCE98A9E346"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "5CAD9A6B291E0071"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Cataclysmic Gate"
+			tasks: [
+				{
+					id: "08BA2A07B9C99E93"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:large_cataclysm_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7772AAD89D8528AA"
+					item: "cisco_mod:radiant_sunshard"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["238511D8E52BB53E"]
+			description: [
+				"It is time to &arenew&f the &echallenge . &1Carefully &fread the descriptions of each reward and select any number of them to begin your journey a new. "
+				""
+				"&aUnlocks &fthe use of most &5Enigmas&f."
+				""
+				"&9Azure &fincreases the global level in all dimensions by 150. &4(Be careful on servers as multiple players selecting this reward will stack.)"
+				""
+				"&dViolet &fresets the Deus Chapter to allow you to tackle all the bosses at the increased levels."
+				""
+				"&4Rouge &fresets the Seven Deadly sins chapter allowing you to tackle the bosses again at increased levels."
+			]
+			icon: {
+				Count: 1b
+				id: "cisco_mod:ascended_hero_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "3C1CDBC749329522"
+			rewards: [
+				{
+					command: "/autoleveling level add 150"
+					icon: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "56FAB134FC2045F1"
+					title: "Increase world level by 150"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 2E1FB48E562F5408"
+					icon: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_violet_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "65B7C9A1856B5962"
+					title: "Reset Deus Chapter"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 3B93984312100331"
+					icon: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_rouge_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "28A470F5EE6AA58B"
+					title: "Reset Seven Deadly Sins Chapter"
+					type: "command"
+				}
+			]
+			subtitle: "Renewed Challenge"
+			tasks: [
+				{
+					advancement: "cisco_mod:regicide"
+					criterion: ""
+					id: "3CC6BF97B89DF22D"
+					title: "Have Regicide Advancement"
+					type: "advancement"
+				}
+				{
+					id: "26D9FA8E0423F0F9"
+					title: "Click to complete."
+					type: "checkmark"
+				}
+			]
+			title: "Ascendant Difficulty"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C1CDBC749329522"]
+			description: [
+				"&4Reset &fthe deus chapter and slay all the bosses at increased difficulty."
+				""
+				"&2Unlocks &fthe use of &cstronger &5Enigmas."
+				""
+				"Only for the &eabsolute bravest &fof adventurers."
+			]
+			id: "10AAB70F4D035819"
+			rewards: [
+				{
+					command: "/autoleveling level add 300"
+					icon: {
+						Count: 1b
+						id: "cisco_mod:absolute_equillibrium"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "5EF90F8D0DD4EB55"
+					title: "Raise world level by 300"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "2B68827CE773658D"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 2E1FB48E562F5408"
+					icon: "minecraft:writable_book"
+					id: "7EBB838C61DC8E17"
+					title: "Reset the deus Chapter"
+					type: "command"
+				}
+			]
+			subtitle: "Divine Challenge"
+			tasks: [
+				{
+					id: "2641BEB0376682DB"
+					item: {
+						Count: 1b
+						id: "cisco_mod:absolute_equillibrium"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F80886E60B457D5"
+					title: "Click to complete."
+					type: "checkmark"
+				}
+			]
+			title: "Divine Difficulty"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["10AAB70F4D035819"]
+			description: [
+				"Raise the world level by 500 and reset the deus chapter to tackle the bosses once more. Enemies at level &d400 - 750 &fwill drop rarer materials such as &bgem dust &fand &9sigils of socketing. "
+				""
+				"&fWhilst enemies above level &d750 &f will drop very valuable items such as &6burning ashes &fand &echampion coins."
+				""
+				"&aUnlocks &fthe use of the most &4powerful &5Enigmas&f."
+			]
+			icon: {
+				Count: 1b
+				id: "cisco_mod:bjorn_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "64914C7972F93909"
+			rewards: [
+				{
+					command: "/autoleveling level add 500"
+					icon: {
+						Count: 1b
+						id: "cisco_mod:sylvi_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "0796735DCE56B515"
+					title: "Raise world level by 500"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 2E1FB48E562F5408"
+					icon: {
+						Count: 1b
+						id: "cisco_mod:bjorn_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "6246CE0BB0E2F0D1"
+					title: "Reset Deus Chapter"
+					type: "command"
+				}
+			]
+			subtitle: "Hellheim Difficulty"
+			tasks: [{
+				id: "003F11D8E5234967"
+				title: "Click to complete"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&6The crown &fwas originally designed by &ethe Lawbringers &fas a tool to punish defiant &6gods. &fIt would would vicously rend all pleasant memories from the victim's psyche then incinerate them in a streak of purple flame. As you could imagine prolonged exposure to the device's effect would break even the most resolute of minds."
+				""
+				"However, some masochistic gods would somehow derive a twisted pleasure from it's use, later replicating the device for thier own personal pleasure."
+			]
+			icon: "cisco_mod:crown_of_debilitating_desire"
+			id: "7E2618F2B06D7339"
+			rewards: [{
+				id: "6A19F8152B2EBB8D"
+				item: "cisco_mod:crown_of_debilitating_desire"
+				type: "item"
+			}]
+			subtitle: "Descent into Madness"
+			tasks: [{
+				id: "753B0A81E6BA8B11"
+				title: "Click to complete."
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+	]
+	title: "{\"text\":\"Finis Dierum\",\"color\":\"#E8A736\"}"
+}

@@ -1,0 +1,1086 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "ciscos_dread_knight"
+	group: "3B0CDB8395E59365"
+	icon: "apotheosis:mythic_material"
+	id: "2E1FB48E562F5408"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2879C3284A204B6E"
+				"284CC876C5BF4841"
+				"37BECEA9F6F83A3D"
+				"5C65E6DBA9948523"
+				"712F03F19DE662F9"
+				"021E592772515E8C"
+				"4DF63948665C18B3"
+			]
+			dependency_requirement: "all_started"
+			description: [
+				"                  &dGatekeeper"
+				""
+				"&9The sunken city &fcan be located with &5the eye of abyss &fand the Leviathan awakens when an &dabyssal sacrifice &fis placed on it's altar."
+			]
+			icon: "cataclysm:the_baby_leviathan_bucket"
+			id: "5EA56D4E49943492"
+			rewards: [
+				{
+					id: "46DE2D512A0A2B97"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 13
+					id: "26E039A1D41E89D6"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Abyssal Terror"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:the_baby_leviathan_bucket"
+				id: "51F29EA99BAE4EDA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay The Leviathan"
+			x: 15.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["21C8FA0EB821311F"]
+			dependency_requirement: "all_started"
+			description: [
+				"                  &dGatekeeper"
+				""
+				"Use the eye of Monstrous to locate it's lair within the &cnether."
+			]
+			icon: "cataclysm:monstrous_eye"
+			id: "468FD1BC76CAA38A"
+			rewards: [
+				{
+					id: "1CED7192561576B9"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 7
+					id: "45E10A34D5716745"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Neutralizing Netherite"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:monstrous_eye"
+				id: "3C0D5B33E8C56070"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Netherite Monstrosity"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["468FD1BC76CAA38A"]
+			description: [
+				"                        &6Tier 2"
+				""
+				"Can be summoned near &9water &fwith the &cshell horn &fwhilst in the &bIce Maze biome."
+			]
+			icon: {
+				Count: 1b
+				id: "aquamirae:three_bolt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "43DFF70CCC78EE26"
+			rewards: [
+				{
+					id: "3A883A309904F0CB"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 7
+					id: "4D650F3E5630A405"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Culling the Captain"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1b
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "0741AA9A59FE37C7"
+				title: "Slay Captain Cornelia"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay The Ghost of Captain Cornelia"
+			x: 15.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"2879C3284A204B6E"
+				"021E592772515E8C"
+				"5C65E6DBA9948523"
+				"712F03F19DE662F9"
+				"284CC876C5BF4841"
+				"4DF63948665C18B3"
+			]
+			dependency_requirement: "all_started"
+			description: [
+				"                  &dGatekeeper"
+				""
+				"Summoned by tossing a &9mysterious worm &finto the &5void &fwithin the &douter end dimension."
+			]
+			icon: "alexsmobs:mysterious_worm"
+			id: "6E20A83067679C38"
+			rewards: [
+				{
+					id: "222844A9E1D5A6F6"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 13
+					id: "421606BF3AEB4956"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Voidborn Demon"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:mysterious_worm"
+				id: "1E6898419E753BE7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Void Worm"
+			x: 21.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["7D57DE098B9C58D2"]
+			dependency_requirement: "all_started"
+			description: [
+				"                  &dGatekeeper"
+				""
+				"Use the &ceye of mech &fto locate its structure then awaken it with a &dnether star."
+			]
+			icon: "cataclysm:mech_eye"
+			id: "37BECEA9F6F83A3D"
+			rewards: [
+				{
+					id: "51D8C64A28EA53D1"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 11
+					id: "55CB4B8E75F26E3F"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "The Harbinger"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:mech_eye"
+				id: "32D52FDBAB3FBCC5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Harbinger"
+			x: 18.0d
+			y: -25.5d
+		}
+		{
+			dependencies: ["0E673FBC14FEDA40"]
+			dependency_requirement: "all_started"
+			description: [
+				"                  &dGatekeeper"
+				""
+				"Can be found in the &3deep &0dark."
+			]
+			icon: "minecraft:sculk_shrieker"
+			id: "7D57DE098B9C58D2"
+			rewards: [
+				{
+					id: "20E12C24C2240B3E"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 9
+					id: "2A6E3F82B2BA8872"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Warden Woes"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:sculk_shrieker"
+				id: "5E7701C4336A2D29"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Warden"
+			x: 18.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["7D57DE098B9C58D2"]
+			description: [
+				"                    &4Tier 3"
+				""
+				"This amplified version of the &ccrimson mosquito &fcan be created when a &ccrimson mosquito &fsucks the blood of a &9mungus &fthat is covered in &1warped fungus &fwhile in the &aoverworld."
+			]
+			icon: "alexsmobs:mosquito_larva"
+			id: "284CC876C5BF4841"
+			rewards: [
+				{
+					id: "6A855E3D0F7C0B21"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 9
+					id: "40B342FADB65A85A"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Muscled Mosquito"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: "alexsmobs:mosquito_larva"
+				id: "0C5434FB9A4EEB39"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay The Warped Mosco"
+			x: 21.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["468FD1BC76CAA38A"]
+			description: [
+				"                    &6Tier 2"
+				""
+				"Found within a dungeon in the &5everdawn &ddimension."
+			]
+			icon: "minecraft:cobweb"
+			id: "33355CF6FE34D418"
+			rewards: [
+				{
+					id: "28A7C6CA4B25CBAC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 7
+					id: "6C1FEC113F923B4D"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Swatting Spiders"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: {
+					Count: 1b
+					id: "enemyexpansion:spiderlatch_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "6B64403DBD28CCC2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Arachnarch"
+			x: 21.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["468FD1BC76CAA38A"]
+			description: [
+				"                    &6Tier 2"
+				""
+				"Found within the &anature dungeon &fin the &eeverbright &ddimension."
+			]
+			id: "5C4C5ED10BEFCB22"
+			rewards: [
+				{
+					id: "2DCC245B99D26175"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 7
+					id: "246859FFA90645AB"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Striking at Starlight"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: "blue_skies:starlit_sapling"
+				id: "66EAB0D95AB09ABA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Starlit Crusher"
+			x: 18.0d
+			y: -10.5d
+		}
+		{
+			description: [
+				"                    &aTier 1"
+				""
+				"Defeat &5Rosalyne &fthe blade of dusk. Summoned using the &ddusk key."
+			]
+			icon: {
+				Count: 1b
+				id: "meetyourfight:twilights_thorn"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7A17144A30D85646"
+			rewards: [
+				{
+					id: "44149861F96DF866"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 5
+					id: "0253F233E0B2B31A"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Blade of dusk"
+			tasks: [{
+				entity: "meetyourfight:rosalyne"
+				icon: {
+					Count: 1b
+					id: "meetyourfight:twilights_thorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "75B439A424F585F7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay Rosalyne"
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"                    &aTier 1"
+				""
+				"Defeat the &eLady of Luck. &fSummoned using the &cdevil's ante."
+			]
+			id: "6EEDFAA5ECCD6D69"
+			rewards: [
+				{
+					id: "35C7FB27550E2AB9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 5
+					id: "3BF899CF30C141ED"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Lady Luck "
+			tasks: [{
+				entity: "meetyourfight:dame_fortuna"
+				icon: "meetyourfight:devils_ante"
+				id: "0EDA2162C28F3BBF"
+				title: "Slay Dame Fortuna"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"                    &aTier 1 "
+				""
+				"Defeat the &6Ancient Swampjaw. &fSummoned using the &cfossil bait."
+			]
+			id: "55FC85A0AAE7B542"
+			rewards: [
+				{
+					id: "781353C0DD1C2990"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 5
+					id: "01B93821E739088D"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Smashing Swampjaw"
+			tasks: [{
+				entity: "meetyourfight:swampjaw"
+				icon: "meetyourfight:fossil_bait"
+				id: "3C0592059CDAF0AE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay Swampjaw"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"                    &aTier 1"
+				""
+				"Slay the mysterious &eBell Ringer. &fSummoned using the &dhaunted bell."
+			]
+			id: "1C30C21B739D5F98"
+			rewards: [
+				{
+					id: "7C8AD8EF3BD7F77C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 5
+					id: "61A9BFAF527B86F2"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "The Bell Ringer"
+			tasks: [{
+				entity: "meetyourfight:bellringer"
+				icon: "meetyourfight:haunted_bell"
+				id: "02E30AD0558F717C"
+				title: "Slay The Bellringer"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat The Bell Ringer"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["468FD1BC76CAA38A"]
+			description: [
+				"                    &6Tier 2"
+				""
+				"&5The Dead King's &flair can be found by crafting and following the &2wayward compass."
+			]
+			id: "368E9A4D5A17F2E4"
+			rewards: [
+				{
+					id: "0656CBE2E0E77758"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 7
+					id: "43D2518EEB20646C"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Dead King Dies Again"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					Count: 1b
+					id: "twilightforest:skeleton_skull_candle"
+					tag: {
+						BlockEntityTag: {
+							CandleAmount: 1
+							CandleColor: 0
+						}
+					}
+				}
+				id: "3EFD597DED393B73"
+				title: "Slay the Dead King"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7D57DE098B9C58D2"]
+			description: [
+				"                    &4Tier 3"
+				""
+				"&9The Night Lich &fcan be found in rare towers in &bcold &fbiomes. Locate the towers by following &1soul stars."
+			]
+			icon: "bosses_of_mass_destruction:soul_star"
+			id: "2879C3284A204B6E"
+			rewards: [
+				{
+					id: "2CDED70E76ED0D3B"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 9
+					id: "36CDE3AC014A995C"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Night Lich Woes"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:soul_star"
+				id: "0ADDD210111FECE0"
+				title: "Slay the Night Lich"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Night Lich"
+			x: 12.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["7D57DE098B9C58D2"]
+			description: [
+				"                    &4Tier 3"
+				""
+				"&5The Obsidilith &fcan be found in rare structures in the &dend islands."
+			]
+			id: "712F03F19DE662F9"
+			rewards: [
+				{
+					id: "0B4712EC2019412F"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 9
+					id: "01F2497CCEE82E4E"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Obliterating the Obsidilith"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "6A378DAEF8095B42"
+				title: "Slay the Obsidilith"
+				type: "kill"
+				value: 1L
+			}]
+			x: 24.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["7D57DE098B9C58D2"]
+			description: [
+				"                    &4Tier 3"
+				""
+				"&4The Nether Gauntlet &fcan be found in rare structures in &cthe nether. "
+			]
+			id: "5C65E6DBA9948523"
+			rewards: [
+				{
+					id: "05DE2524D89C2C22"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 9
+					id: "66E6CA80382015D4"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Neutralizing the Nether Gauntlet"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "30A5BD0C701BA72C"
+				title: "Slay the Nether Gauntlet"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["468FD1BC76CAA38A"]
+			description: [
+				"                    &6Tier 2"
+				""
+				"The &5Void &2Blossom &fcan be found in rare caves at the bottom of the world. &5Void &alilies &fwill point the way."
+			]
+			icon: "bosses_of_mass_destruction:crystal_fruit"
+			id: "11AE539045CFF66D"
+			rewards: [
+				{
+					id: "02BD601F202C6875"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 7
+					id: "633DB7F0608F55A4"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Beating the Blossom"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:crystal_fruit"
+				id: "36B6461588426550"
+				title: "Slay the Void Blossom"
+				type: "kill"
+				value: 1L
+			}]
+			x: 24.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7D57DE098B9C58D2"]
+			dependency_requirement: "all_started"
+			description: [
+				"                  &dGatekeeper"
+				""
+				"This &cprehistoric &eking &fof the sands resides in a pyramid like structure within the &edesert."
+				""
+				"It's spawn egg and awaken material can also be found in the &ecisco's wares shop."
+			]
+			icon: "cataclysm:remnant_skull"
+			id: "4DF63948665C18B3"
+			rewards: [
+				{
+					count: 11
+					id: "220747B100E0C8FB"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "343CEF34CCB4A910"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			size: 3.0d
+			subtitle: "Into the Sands"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:remnant_skull"
+				id: "140995D9701FEEA7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the ancient Remnant"
+			x: 18.0d
+			y: -28.5d
+		}
+		{
+			description: [
+				"                    &aTier 1"
+				""
+				"The &1Insatiable &fcan be summoned by killing animals near rivers and other large bodies of water."
+				""
+				"It's spawn egg may also be purchased from the cisco's wares shop."
+			]
+			id: "33D9D6496A8344B6"
+			rewards: [
+				{
+					count: 5
+					id: "0BCC03D43C66D12D"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "7CCA12A57915047C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			size: 3.0d
+			subtitle: "Insatiable Woes"
+			tasks: [{
+				entity: "iter_rpg:insatiable"
+				icon: {
+					Count: 1b
+					id: "iter_rpg:water_armor_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "3001DBA182272F59"
+				title: "Slay the Insatiable"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D57DE098B9C58D2"]
+			description: [
+				"                    &4Tier 3"
+				""
+				"The &5Sorrow Sealed &fcan be found within the sorrowspire somewhere in the nether."
+			]
+			icon: "iter_rpg:crystal_tear"
+			id: "021E592772515E8C"
+			rewards: [
+				{
+					count: 9
+					id: "07B361EEF9493975"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "6442998F719C17B3"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			size: 3.0d
+			subtitle: "Slayer of Sorrow"
+			tasks: [{
+				entity: "iter_rpg:sorrowsealed"
+				icon: "iter_rpg:hollow_visage"
+				id: "787946C125F4A5AE"
+				title: "Slay the Sorrow Sealed"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: -22.5d
+		}
+		{
+			description: [
+				"&aTier 1 &f: Minimum level 25. Random level bonus 1-10. No increase to levels per distance."
+				""
+				"&6Tier 2 &f: Minimum level 50. Random level bonus 1-15. Small increase to levels per distance."
+				""
+				"&4Tier 3 &f: Minimum level 85. Random level bonus 1-20. Moderate increase to levels per distance."
+				""
+				"&dGatekeepers &f: Always infernal. Start at slightly higher level than the tier they gatekeep. Must be defeated in order to progress to the next tier."
+			]
+			id: "678A7FE4D87993D3"
+			rewards: [{
+				id: "606873147DCE9491"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 4.0d
+			subtitle: "Guide"
+			tasks: [{
+				id: "63E55BDCFA000833"
+				title: "Click to complete."
+				type: "checkmark"
+			}]
+			title: "Tiers"
+			x: 4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["468FD1BC76CAA38A"]
+			description: [
+				"                     &6Tier 2"
+				""
+				"The creator of abavuthana, &eUmvuthi &fcan be found in it's lair within the &6savanna &fbiome."
+			]
+			id: "3109450AC20BB4CF"
+			rewards: [
+				{
+					id: "06FCD5014735736E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 7
+					id: "4C7197F69CE4C9C6"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "The Sunbird"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: {
+					Count: 1b
+					id: "mowziesmobs:sol_visage"
+					tag: {
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "315F341CF42CFB53"
+				title: "Slay Umvuthi"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay Umvuthi"
+			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["468FD1BC76CAA38A"]
+			description: [
+				"                      &6Tier 2"
+				""
+				"This dangerous beast can be found rarely in &bsnowy &fareas."
+			]
+			id: "0F73EE0DAB5E37FD"
+			rewards: [
+				{
+					id: "7DE0EE16F5A37B50"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 7
+					id: "5B929CD8203A288C"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "The Beast of Winter"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1b
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "67E799E39F4C0365"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay Frostmaw"
+			x: 27.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"3109450AC20BB4CF"
+				"43DFF70CCC78EE26"
+				"368E9A4D5A17F2E4"
+				"33355CF6FE34D418"
+				"5C4C5ED10BEFCB22"
+				"0F73EE0DAB5E37FD"
+				"11AE539045CFF66D"
+			]
+			dependency_requirement: "all_started"
+			description: [
+				"                   &dGatekeeper"
+				""
+				"&0The Ferrous Wroughtnaut &fcan be found within a structure &7underground."
+			]
+			id: "0E673FBC14FEDA40"
+			rewards: [
+				{
+					id: "4113927B722E3C01"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 9
+					id: "1B12927A776D3BFB"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Steelborn Guardian"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: {
+					Count: 1b
+					id: "mowziesmobs:wrought_helmet"
+					tag: {
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "2AC88C168A7CC669"
+				title: "Slay The Ferrous Wroughtnaut"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7D57DE098B9C58D2"]
+			description: [
+				"                  &dGatekeeper"
+				""
+				"This dark entity resides in the &bfrosted &8prison &fwhich can be found underground or using the &aeye of curse."
+			]
+			id: "51AE1E2D5ED26F57"
+			rewards: [
+				{
+					count: 11
+					id: "59EAC35D821F42EB"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "11ECCF8C937D7F42"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			size: 3.0d
+			subtitle: "Dark Deeds"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					Count: 1b
+					id: "cataclysm:cursium_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "098BDACE01ACBD24"
+				title: "Slay Maledictus"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: -31.5d
+		}
+		{
+			dependencies: [
+				"55FC85A0AAE7B542"
+				"7A17144A30D85646"
+				"1C30C21B739D5F98"
+				"6EEDFAA5ECCD6D69"
+				"33D9D6496A8344B6"
+			]
+			description: [
+				"                  &dGatekeeper"
+				""
+				"&4The Architect of Chaos &fcan be summoned by filling a &6Great Chalice &fwith &aGreat Essence &fthen adding &cRadiant Essence&f."
+			]
+			id: "21C8FA0EB821311F"
+			rewards: [
+				{
+					id: "37E9DE2C4216B23D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 6
+					id: "66CB1C9F9792B15C"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Architect of Chaos"
+			tasks: [{
+				entity: "knightquest:netherman"
+				icon: {
+					Count: 1b
+					id: "knightquest:nether_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "066BEAECB9AD1A64"
+				title: "Slay the Netherman"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+	]
+	title: "{\"text\":\"Deus Interfectorem\",\"color\":\"gold\",\"bold\":false,\"underlined\":false}"
+}

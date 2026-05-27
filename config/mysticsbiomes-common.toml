@@ -1,0 +1,8 @@
+
+#Mystic's Biomes
+#Common Config Center
+["Biome Gen"]
+	#The higher the number, the more common the biomes will be.
+	#Default value: 4
+	"Biome Region Weight" = 4
+

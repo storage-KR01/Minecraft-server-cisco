@@ -1,0 +1,3197 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "the_squires_trials"
+	group: "3B0CDB8395E59365"
+	id: "744084D7C7EA8A6C"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "kubejs:textures/fallenpose1.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 3.5d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"I sense a familiar &cpower &fwithin you. You may be able to aid me in my quest to defeat &4the fell king."
+				""
+				"Take these items and begin the journey to increase your &4strength&f. "
+				""
+				"I will approach you when i feel you are ready."
+			]
+			icon: {
+				Count: 1b
+				id: "simplyswords:emberblade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6F010E22CD886969"
+			rewards: [
+				{
+					id: "3915EA0EA87EA1F7"
+					item: {
+						Count: 1b
+						id: "immersive_armors:wooden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42BCAFBACD08D777"
+					item: {
+						Count: 1b
+						id: "immersive_armors:wooden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "168BCCC39841DB5E"
+					item: {
+						Count: 1b
+						id: "immersive_armors:wooden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0450AE0AB51CF58F"
+					item: {
+						Count: 1b
+						id: "immersive_armors:wooden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2046B74EDCA1E887"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E902C22D024C867"
+					item: "origins:orb_of_origin"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "065F4030A653D41E"
+					item: "farmersdelight:ratatouille"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7B353C5EA98D694E"
+					item: "farmersdelight:bacon_and_eggs"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "New Adventure"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "6F3CB38E18ED5D0F"
+				type: "dimension"
+			}]
+			title: "The Adventure Begins!"
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["159FD707980D3015"]
+			description: ["Up close and personal."]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "23864A4966441D61"
+			rewards: [
+				{
+					id: "20E8C7BB6FDF96DA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "07F2D81786A4D0D0"
+					item: {
+						Count: 1b
+						id: "simplyswords:iron_longsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FD6A41F0F72C3FF"
+					item: {
+						Count: 1b
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4011BF3BC7F07BC1"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Blade and Shield"
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "70884F64A576A73F"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "3FC89AF728E064CB"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "The path of the warrior"
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["642C85E431896FB0"]
+			description: [
+				"&dSource &fcan be manipulated in almost infinite ways limited only by your creativity and the &bglyphs &favailable to you."
+				""
+				"To do this you will need to craft a &1spell book. &fIt can later be dyed in your favourite color."
+			]
+			id: "76E6E42A538C69FB"
+			rewards: [
+				{
+					id: "649F0C954A344211"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 15
+					id: "013123BDD654ACBF"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5CD6A63B6CE47BC2"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "My first Tome"
+			tasks: [{
+				id: "34F3F85607E1B315"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "Novice spell caster"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["159FD707980D3015"]
+			description: [
+				"It is time to begin your &1spell &1caster &ftraining."
+				""
+				"The are two main origins of magic in the world, one uses a resource called &d\"source\" &fand the other uses &a\"ambient mana\" &fpresent within the world and it's living creatures."
+				""
+				"Which path will you choose?"
+			]
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:caster_tome"
+				tag: { }
+			}
+			id: "642C85E431896FB0"
+			rewards: [
+				{
+					id: "55172B247C292576"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "71D4CCAF863D9405"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 20
+					id: "45DE7F2B9D1856D8"
+					item: "ars_nouveau:source_berry"
+					type: "item"
+				}
+				{
+					id: "4E62FACE68556195"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Spellcaster Trainee"
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "63EB5FF0CBAC97C3"
+				type: "kill"
+				value: 5L
+			}]
+			title: "The path of the mage"
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F010E22CD886969"]
+			dependency_requirement: "one_completed"
+			description: ["Iron is a key component in many recipes and is vital early on in your adventure."]
+			id: "363D127C20EAC8FC"
+			rewards: [
+				{
+					id: "5017C2BB9C3D7E96"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "700E1922F6322EB6"
+					table_id: 7887617014360776363L
+					type: "choice"
+				}
+				{
+					id: "50D7B70BB2C07EBD"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Finding Metal"
+			tasks: [{
+				id: "6D3D40EB7183E86C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Obtain iron"
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1050696B001AF863"]
+			description: [
+				"There is a tale of a &6legendary relic &fwhich lies in the possesion of the &avillagers.&f"
+				""
+				"Perhaps if you can gain their favor they may entrust it to you?"
+			]
+			icon: {
+				Count: 1b
+				id: "simplyswords:dormant_relic"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D47CA06F299BB0A"
+			rewards: [
+				{
+					id: "3395A29C0665625C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "061837A36064468A"
+					item: {
+						Count: 1b
+						id: "simplyswords:dormant_relic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Relic Retrieved"
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					id: "62AAAC76D5C1BAFF"
+					type: "kill"
+					value: 15L
+				}
+				{
+					advancement: "minecraft:adventure/hero_of_the_village"
+					criterion: ""
+					id: "2923403652F9E059"
+					type: "advancement"
+				}
+			]
+			title: "The relic of the ancients"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["76E6E42A538C69FB"]
+			description: [
+				"Here is where you craft the &bglyphs &fused for spell casting. "
+				""
+				"With each new &bglyph &fyour &2maximum &1mana &aincreases &fslightly."
+			]
+			id: "068B6DC27BC66D89"
+			rewards: [
+				{
+					id: "6B74C7A84490D239"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "53BD0074977DF91A"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					id: "394FD098E50272C4"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "33FB178D1BB32F39"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "4B0C29E27381842A"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "146B9EC4E4582C84"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "03AFD9309DC74346"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "0A73DBEB96F8EDAF"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					id: "40BDD35F9C30B261"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+				{
+					id: "50483295E34F0F2A"
+					item: "ars_elemental:anima_essence"
+					type: "item"
+				}
+			]
+			subtitle: "Mage's Workstation"
+			tasks: [{
+				id: "2A5A70BB90BDCB23"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C15BCCD252805DC"]
+			description: ["This &bglyph &fincreases the potency of many other glyphs when used in tandem in a spell."]
+			id: "10B64A3D6500AC09"
+			rewards: [
+				{
+					id: "1C961893086E8821"
+					item: "ars_nouveau:amulet_of_mana_boost"
+					type: "item"
+				}
+				{
+					id: "155F3C1469778A9C"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "More Power"
+			tasks: [{
+				id: "08D59C20CE91E1AE"
+				item: "ars_nouveau:glyph_amplify"
+				type: "item"
+			}]
+			title: "Amplified Magics"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: ["Aquire &5obsidian &fand craft a nether portal."]
+			id: "643A6BD7BE518653"
+			rewards: [
+				{
+					id: "5AC240EF7EA6B72B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "56D88873C3BE8FBB"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Portal to Purgatory"
+			tasks: [{
+				id: "6CF1A08007E1F61A"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Aquire Obsidian"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["643A6BD7BE518653"]
+			dependency_requirement: "one_completed"
+			description: ["The &4Nether &fis filled with large structures and powerful enemies, prepare carefully before entering."]
+			icon: "cataclysm:altar_of_fire"
+			id: "7D59BD1308E6778F"
+			rewards: [
+				{
+					count: 2
+					id: "793BAD6BEF0D23C1"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "768823027860D9B8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Brave the Nether"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5A32602FB439DCA0"
+				type: "dimension"
+			}]
+			title: "The depths of Hell"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D59BD1308E6778F"]
+			dependency_requirement: "one_completed"
+			description: ["Quartz is needed for some important recipes like upgrading to a tier 2 spellbook."]
+			id: "3E13EB56EE51145F"
+			rewards: [{
+				id: "3CD7B4D18DB4D393"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Shiny?"
+			tasks: [{
+				id: "241A7E9F197E4D1D"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			title: "Acquire Quartz"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3E13EB56EE51145F"
+				"10B64A3D6500AC09"
+			]
+			description: ["Upgrading your &1spell book &fwill allow you to cast more &cpowerful &1spells."]
+			id: "5426802195E9DEA6"
+			rewards: [
+				{
+					count: 2
+					id: "7D2DE5948309A776"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "61F96D3EBC0FF496"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "09DE92BC1BD3184D"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheotic_additions:modded/ars_mana"
+							rarity: "mythic"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Promoted"
+			tasks: [{
+				id: "5EEA82504B1AEA73"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "Rank up your magic"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3E13EB56EE51145F"
+				"7D47CA06F299BB0A"
+			]
+			description: ["These can be found in dungeon chests."]
+			id: "279BC431D5D067A3"
+			rewards: [
+				{
+					count: 2
+					id: "27364BFCA68E0AF0"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "51F4F1FA6CD2A838"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Runic Rituals"
+			tasks: [{
+				id: "3AC708072E5B8038"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			title: "Find the an ancient runic tablet"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["159FD707980D3015"]
+			description: [
+				"This will be your second main source of &cpower.&f"
+				""
+				"Master the &5apotheosis &9enchanting &fsystem and even weaker tier gear can become godly."
+			]
+			id: "2A5A2B19FD4A1ABE"
+			rewards: [
+				{
+					count: 5
+					id: "5D15E26B295C0437"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+				{
+					id: "4097AD5FA3AC631B"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "1CCD0204D23A47E5"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A8AF9A329988DCE"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A8E497CE21C5E9E"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Novice Enchanter"
+			tasks: [{
+				id: "09DB3A0954A8BE6F"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Aquire an enchanting table"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["279BC431D5D067A3"]
+			description: ["Embrace the &elight."]
+			id: "4472063587820DF7"
+			rewards: [
+				{
+					id: "5696303F0BB86FC2"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "45C4FA8173D6CB57"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "06C5E8FB6285EEFE"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Righteousness Reborn"
+			tasks: [{
+				id: "6B5745A38353222B"
+				item: {
+					Count: 1b
+					id: "simplyswords:righteous_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "For Glory!"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["279BC431D5D067A3"]
+			description: ["Embrace the &0darkness."]
+			id: "0D03A91A96743E87"
+			rewards: [
+				{
+					id: "7E21A7A3843925F7"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "2D92757874B2A87E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "00576918004B64AE"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Abyss Awakened"
+			tasks: [{
+				id: "41D7A87DF060E327"
+				item: {
+					Count: 1b
+					id: "simplyswords:tainted_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "All shall kneel..."
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"&0Netherite ingots &fare a crucial part of many complex item recipes and as such you will need a fair amount of it."
+				""
+				"Pickaxes with &cpowerful &9enhantments &for certain dungeon chests are great ways to get more of it."
+			]
+			id: "441A82CED3F13122"
+			rewards: [
+				{
+					count: 3
+					id: "38BC660C48B8869C"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "4C03091DE24B3262"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "18A4431F8E51B6AA"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Acquiring Netherite"
+			tasks: [{
+				id: "744DCDDFF0EA888C"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["441A82CED3F13122"]
+			description: ["The eye of flame can be used to locate the &eburning arena &fhome to the &6Flame King Ignis."]
+			id: "5FFC0E01052944A7"
+			rewards: [
+				{
+					id: "42B8416D7744D978"
+					item: {
+						Count: 1b
+						id: "apotheosis:potion_charm"
+						tag: {
+							Damage: 0
+							Potion: "apotheosis:strong_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "546B456BEB3B107C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "1E5759E739FF1971"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Finding the burning Arena"
+			tasks: [{
+				id: "6F0DA1C92741007F"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"441A82CED3F13122"
+				"438D84B0F7BFD2A0"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"                  &dGatekeeper"
+				""
+				"The &4nether &bstar &fobtained from slaying the &0Wither &fis used in the crafting of very powerful items."
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "64286A21FDB8288F"
+			rewards: [
+				{
+					id: "6203CC576F80DBBC"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "33D25E74EBEE02EF"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "26EE2D9260DF8B9A"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Wither Woes"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "5C003D5CDFE7C80C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the terror of the nether"
+			x: 17.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FFC0E01052944A7"]
+			description: [
+				"                 &dGatekeeper"
+				""
+				"Acquire &eburning ashes&f from &6ignited revenants &fguarding &4the burning arena."
+				""
+				"Use the &eashes &fon the altar in the center of the &4arena &fand extinguish &6The King of Flames."
+			]
+			icon: {
+				Count: 1b
+				id: "cataclysm:ignitium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2AF361BA2A4FB5EF"
+			rewards: [
+				{
+					id: "2986F6A935831405"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "4A913A0B873F09C6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Flame King Falls"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1b
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "7B361459A3E05E28"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the flame king"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A5A2B19FD4A1ABE"]
+			description: [
+				"&dAmethyst &fis another key ingredient in all things arcane and you may need quite alot of it. "
+				""
+				"Thankfully you can automate its production using the &dAmethyst Golem &ffamiliars."
+			]
+			id: "1AA5DCEFEC43DCA6"
+			rewards: [
+				{
+					count: 4
+					id: "758E9E29112E6E84"
+					item: "minecraft:budding_amethyst"
+					type: "item"
+				}
+				{
+					id: "4C789A20D7063604"
+					item: "ars_nouveau:amethyst_golem_charm"
+					type: "item"
+				}
+			]
+			subtitle: "Acquired Amethyst"
+			tasks: [{
+				id: "11BE6D9F0E889E3C"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			title: "Not gold but certainly glitters"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A5A2B19FD4A1ABE"]
+			description: [
+				"Apotheosis allows you to enchant your gear far beyond what you are used to."
+				""
+				"It may take some configuration but eventually you will be able to fashion gear that makes you unstoppable."
+			]
+			id: "1413A1E7155AB369"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "324E881EA62B2EE6"
+					table_id: 1328904735845541283L
+					type: "choice"
+				}
+				{
+					id: "51BC2BD4AD87AF46"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Beyond Limits"
+			tasks: [
+				{
+					id: "24DA250CD42B7974"
+					item: "apotheosis:seashelf"
+					type: "item"
+				}
+				{
+					id: "3F88578A5C6B42AE"
+					item: "apotheosis:hellshelf"
+					type: "item"
+				}
+				{
+					id: "0A7DACB23C822E14"
+					item: "apotheosis:melonshelf"
+					type: "item"
+				}
+			]
+			title: "Apothic Enchanting"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64286A21FDB8288F"]
+			description: [
+				"The 12 eyes needed to ignite the &dend portal &fcan be found in dungeon chests all over the &aworld &f, &fin the &4nether&f, as well a few of them needing to be crafted."
+				""
+				"These three are a good starting point."
+			]
+			icon: {
+				Count: 1b
+				id: "endrem:old_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1AB06DC31FD237A6"
+			rewards: [{
+				count: 5
+				id: "52D4A3FA2EC7D0A7"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Eye collector"
+			tasks: [
+				{
+					id: "09F6D59F4C37D75A"
+					item: {
+						Count: 1b
+						id: "endrem:rogue_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "031105FC4193EBA0"
+					item: {
+						Count: 1b
+						id: "endrem:nether_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6684A63AB4A2AAC4"
+					item: {
+						Count: 1b
+						id: "endrem:wither_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Collecting the 12 eyes"
+			x: 21.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["441A82CED3F13122"]
+			description: [
+				"One of the most powerful metals  known to us."
+				""
+				"Used in crafting the legendary &5Dreadsteel Armor &fand weapons. "
+			]
+			id: "5F9E436831D414F2"
+			rewards: [{
+				id: "5EB6E0ABC0B81F7E"
+				item: {
+					Count: 1b
+					id: "apotheosis:gem"
+					tag: {
+						gem: "apotheosis:the_end/endersurge"
+						rarity: "ancient"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Acquiring Dreadsteel"
+			tasks: [{
+				id: "5AFBE1892DF60DF9"
+				item: "dreadsteel:dreadsteel_ingot"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F9E436831D414F2"]
+			description: ["&5Dreadsteel Armor &fprovides immunity to many damage types such as &6fire &fand &blightning &fwhile providing high base armor and toughness."]
+			id: "5BD0DD3AA6849F8B"
+			rewards: [
+				{
+					id: "006FC67216290BCA"
+					item: "dreadsteel:kit_white"
+					type: "item"
+				}
+				{
+					id: "5AE135A05303FF60"
+					item: "dreadsteel:kit_black"
+					type: "item"
+				}
+				{
+					id: "2CF7688A7FB543FA"
+					item: "dreadsteel:kit_bronze"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Becoming the DreadKnight"
+			tasks: [
+				{
+					id: "45ADEAFA40456454"
+					item: {
+						Count: 1b
+						id: "dreadsteel:dreadsteel_helmet"
+						tag: {
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F0E16D5E4CE279C"
+					item: {
+						Count: 1b
+						id: "dreadsteel:dreadsteel_chestplate"
+						tag: {
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63BA8E35DC80B38D"
+					item: {
+						Count: 1b
+						id: "dreadsteel:dreadsteel_leggings"
+						tag: {
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A0A5BDA77C91CF9"
+					item: {
+						Count: 1b
+						id: "dreadsteel:dreadsteel_boots"
+						tag: {
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dread Knight"
+			x: 22.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1AB06DC31FD237A6"]
+			dependency_requirement: "one_completed"
+			description: ["It is now time to face the &5Dragon."]
+			icon: "cataclysm:altar_of_void"
+			id: "53F1FB5EE35750DC"
+			rewards: [
+				{
+					count: 3
+					id: "424B8B10BD83954B"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "6ADBC44530B2D096"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Into the void"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "212A644CA85C3A8C"
+				type: "dimension"
+			}]
+			title: "Enter the End Dimension"
+			x: 26.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53F1FB5EE35750DC"]
+			description: [
+				"                 &dGatekeeper"
+				""
+				"Not even the &5Ender Dragon &fcan stand before your &4might&f ."
+				""
+				"Slay her and liberate the &dend dimension."
+			]
+			icon: "minecraft:dragon_head"
+			id: "2F764777B6E4D941"
+			rewards: [
+				{
+					count: 2
+					id: "7B055FB937324361"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					id: "5610AD8D732C2542"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "17B3B5C6585F684B"
+					item: "skilltree:amnesia_scroll"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7603A27911060011"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "End the Ender Dragon"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "438C368AFF39962E"
+				title: "Slay the Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: 29.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F764777B6E4D941"]
+			description: ["The eye of the void is used to locate the ruined citadel where the powerful &dEnder Guardian &fresides."]
+			id: "2504D1884D6894FB"
+			rewards: [{
+				id: "2692A6297A533B8A"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Finding the ruined Citadel"
+			tasks: [{
+				id: "5A1DF16070B10E97"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2504D1884D6894FB"]
+			description: [
+				"                  &dGatekeeper"
+				""
+				"Can you conquer this powerful foe?"
+			]
+			icon: "cataclysm:void_core"
+			id: "6880914EF91D2C85"
+			rewards: [
+				{
+					count: 6
+					id: "4D5D6210F568714E"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "133084C64A8562F5"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "Ender Guardian Falls"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:void_infused_end_stone_bricks"
+				id: "35B60A8ED21B9EFD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Ender Guardian"
+			x: 32.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F764777B6E4D941"]
+			description: ["Upgrage your &1spell book &fto the final tier by combining it with the rarest of materials."]
+			id: "1B9997B20D2187C9"
+			rewards: [
+				{
+					count: 2
+					id: "7FA0813133B738B6"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2164956D47E9F278"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "62D03D236AF83B0C"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheotic_additions:modded/archmage"
+							rarity: "mythic"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Master Magician"
+			tasks: [{
+				id: "57FD84E926E5DB3E"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			title: "The Greatest Magician"
+			x: 32.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5426802195E9DEA6"]
+			description: [
+				"Summon the &cWilden Chimera &fand defeat him to obtain the wilden tribute."
+				""
+				"This can be done using the &dritual brazer&f , a &9tablet of summon wilden &fand the 3 types of wilden drops."
+			]
+			id: "438D84B0F7BFD2A0"
+			rewards: [
+				{
+					id: "734AA273FC3D961D"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5F96936CB89253F2"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Merged Monstrosity"
+			tasks: [{
+				id: "0F30ED241390A00E"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4472063587820DF7"]
+			description: ["The final form of the sword of &ejustice ."]
+			id: "0F7160FDDB088526"
+			rewards: [
+				{
+					id: "307CA6B22E227589"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/warlord"
+							rarity: "mythic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "174A52957D4B587C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "549D45B17CD41626"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Blazing Righteousness "
+			tasks: [{
+				id: "623D0CAFDC9FCFDE"
+				item: {
+					Count: 1b
+					id: "simplyswords:sunfire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0D03A91A96743E87"]
+			description: ["The final form of the sword of &0darkness."]
+			id: "00CB68DA83F73719"
+			rewards: [
+				{
+					id: "7CDC17260D54B392"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/warlord"
+							rarity: "mythic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5ED82DA8B69EAD8A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "21C02868423DC89F"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Herald of the Abyss"
+			tasks: [{
+				id: "4446DA4144047D8A"
+				item: {
+					Count: 1b
+					id: "simplyswords:harbinger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1AA5DCEFEC43DCA6"]
+			description: ["This fancy table can be used to change the &5appearance &fof items such as &1armor &fand even make them invisible."]
+			id: "643F3DBD508A8B37"
+			rewards: [
+				{
+					count: 30
+					id: "185B7CC2407D756F"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "0B90A6089B359208"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Changing Colours"
+			tasks: [{
+				id: "77EF10BF9F9B0016"
+				item: "transmog:transmogrification_table"
+				type: "item"
+			}]
+			title: "Transmoggin time!"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["068B6DC27BC66D89"]
+			description: [
+				"&6Starbuncles &fare crucial to automating &dsource &fproduction which is needed for all things ars nouveau . "
+				""
+				"Interact with a wild &6starbuncle &fby feeding it &egold nuggets &fand use the fragment to craft its charm."
+			]
+			id: "5A24E1249722EEA9"
+			rewards: [
+				{
+					id: "343DA0EE2F71E7E9"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:starbuncle_charm"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "26F650DAD1F73842"
+					item: "ironchest:diamond_chest"
+					type: "item"
+				}
+				{
+					id: "40BBD7267C69B374"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Tiny Workhorse"
+			tasks: [{
+				id: "7186C720D9C1212B"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2AF361BA2A4FB5EF"]
+			description: ["&6Ignitium Armor &fis indestructible and provides various effects such as &elava walking."]
+			id: "4C0B49A4548B6DF4"
+			rewards: [{
+				id: "6AF6AEC9E5521C1C"
+				item: {
+					Count: 1b
+					id: "apotheosis:gem"
+					tag: {
+						gem: "apotheosis:the_nether/inferno"
+						rarity: "ancient"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Ignitium Armor"
+			tasks: [
+				{
+					id: "5A287F70C48D9222"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A7802F6F1DCCF43"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61FD24E11BD52A91"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78F65745BAF9E385"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft the Ignitium set"
+			x: 25.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E13EB56EE51145F"]
+			description: ["You can grind &1gems &fto &1gem dust &fhere which is used to imbue your gear with special affixes via the reforging table."]
+			id: "74C563F2BB321AF9"
+			rewards: [
+				{
+					count: 30
+					id: "1B7C70436DBB7A23"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "4C0696B122780D95"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Grinding Gems"
+			tasks: [{
+				id: "3488579C706D27FF"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74C563F2BB321AF9"]
+			description: [
+				"This is where you reforge your &agear&f. "
+				""
+				"Reforging adds stats and sockets for &1gems &fto your &aequipment &fbased on the quality of reforging materials used."
+				""
+				"Can be upgraged further."
+			]
+			id: "28B406CDB662AAF8"
+			rewards: [{
+				count: 12
+				id: "7B3F37EE860B320D"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			subtitle: "Novice Reforger"
+			tasks: [{
+				id: "533EA8C272810FBD"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28B406CDB662AAF8"]
+			description: ["The ultimate reforging table."]
+			id: "78C3CC2B67ED66B6"
+			rewards: [{
+				count: 6
+				id: "2195F2293F28D1F1"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			subtitle: "Master Reforger"
+			tasks: [{
+				id: "5994EC545EA3E42B"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74C563F2BB321AF9"]
+			description: ["You can store enchantments here for later use. Can be upgraded further."]
+			id: "5319E400556CDC4D"
+			rewards: [{
+				id: "283D992BD1343EF9"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			subtitle: "Storing Knowledge"
+			tasks: [{
+				id: "6CA599176FD0ABA5"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5319E400556CDC4D"]
+			description: ["The ultimate enchantment library."]
+			id: "1436BCC4578225DB"
+			rewards: [
+				{
+					id: "64004E37A54AB074"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0E807B86E890B129"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Master Librarian"
+			tasks: [{
+				id: "076FB0661DD825E7"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5426802195E9DEA6"]
+			description: [
+				"&ePotion charms &fare very powerful items which can give you a potion effect permanently when in your inventory."
+				""
+				"By default they &4lose durability &fwhilst &aactive &fbut you can make them &2unbreakable &fby enchanting them with a certain amount of quanta , eterna etc refer to your recipes."
+			]
+			id: "7519AF7B737CB8AB"
+			rewards: [
+				{
+					id: "1160B3471BCF5613"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "38746CEB705B54A6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Arcane Amplification"
+			tasks: [{
+				id: "3105BCFB68A24220"
+				item: {
+					Count: 1b
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "ars_nouveau:spell_damage_potion_strong"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6880914EF91D2C85"]
+			description: [
+				"                 &dGatekeeper"
+				""
+				"The second of the powerful golems which reside in the end, destroy it."
+				""
+				"&5The Endstone Golem &fcan be summoned atop a tower usually found within ancient end cities."
+				""
+				"Use dragon's breath on it's altar to summon it."
+			]
+			icon: "minecraft:end_stone_bricks"
+			id: "5CC8583D8AD6CC6F"
+			rewards: [
+				{
+					id: "2B229F7786A45815"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "538EE46699910E26"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "17A6DF08EEF51702"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Endstone Golem Destroyed"
+			tasks: [{
+				entity: "unusualend:endstone_golem"
+				icon: "minecraft:end_stone_bricks"
+				id: "6C3FFC127596C7B9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Endstone Golem"
+			x: 35.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F010E22CD886969"]
+			description: [
+				"The skill tree will allow you customise your character and gain the strength required to face the challenges that await."
+				""
+				"Default key is (o). Click the checkmark to complete the quest."
+			]
+			id: "569DA7BBDC1F40FE"
+			rewards: [
+				{
+					id: "1E68578D912CF504"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "0EBFDA79EE4E370E"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Seeking Skill"
+			tasks: [{
+				id: "2019660B5F793D37"
+				title: "View skill tree"
+				type: "checkmark"
+			}]
+			title: "View the skill tree."
+			x: -18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E13EB56EE51145F"]
+			description: ["A combination of metals and nonmetals enhanced with &9magic &fthis resilient metal is used to craft many different weapons and armor."]
+			id: "7B1FA4C0929A40D9"
+			rewards: [
+				{
+					id: "00D8FD40F538B9AF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "06729E2C43306C64"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Acquiring Brightsteel"
+			tasks: [{
+				id: "31162B088AD41D05"
+				item: "cisco_mod:brightsteel_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B1FA4C0929A40D9"]
+			description: ["&eBrightsteel Armor &fprovides good protection and a small &8resistance &fbuff when healthy."]
+			id: "7F28DA2696D94242"
+			rewards: [{
+				count: 3
+				id: "1CC1055BBEAA1D7F"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Heavy Knight"
+			tasks: [
+				{
+					id: "0F5248E1F54F9FAD"
+					item: {
+						Count: 1b
+						id: "cisco_mod:brightsteel_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59634160EEA2AC0B"
+					item: {
+						Count: 1b
+						id: "cisco_mod:brightsteel_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26C0B12FCAC951AD"
+					item: {
+						Count: 1b
+						id: "cisco_mod:brightsteel_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69E95C0190AA791A"
+					item: {
+						Count: 1b
+						id: "cisco_mod:brightsteel_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Brightsteel Armor"
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B1FA4C0929A40D9"]
+			description: ["&eThe Gilded Eagle &farmor set provides medium protections but bonus and speed and the &eability &fto breifly &ddodge &fincoming attacks."]
+			id: "25B412C443489BF9"
+			rewards: [{
+				count: 4
+				id: "01C58FD7A130E724"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Master Assassin"
+			tasks: [
+				{
+					id: "7213A647A63A33CD"
+					item: {
+						Count: 1b
+						id: "cisco_mod:gilded_eagle_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DA5BD1B224D4B53"
+					item: {
+						Count: 1b
+						id: "cisco_mod:gilded_eagle_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A33FECCEC5139E3"
+					item: {
+						Count: 1b
+						id: "cisco_mod:gilded_eagle_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D2C9C07C86252EC"
+					item: {
+						Count: 1b
+						id: "cisco_mod:gilded_eagle_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gilded Eagle"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7B1FA4C0929A40D9"]
+			description: ["This &4multitool &ffashioned with &ebrightsteel &fwill greatly aid in the acquisition of natural resources."]
+			id: "6853D0C9370FDC1F"
+			rewards: [
+				{
+					id: "64B8AE1BA7F6BE8D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "19B2499FED4B535A"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			subtitle: "All purpose Tool"
+			tasks: [{
+				id: "5102E1EE0B19EC49"
+				item: {
+					Count: 1b
+					id: "cisco_mod:brightsteel_multi_tool"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&aMounted Zombies &fhave been attacking travelers and must be"
+				"dealt with."
+			]
+			id: "4D11A9DAFE60575B"
+			rewards: [
+				{
+					id: "3B2C1E51DDFF16C7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "32A3487495A1DC49"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Mounted Menace"
+			tasks: [{
+				entity: "enemyexpansion:equestrian"
+				icon: {
+					Count: 1b
+					id: "twilightforest:zombie_skull_candle"
+					tag: {
+						BlockEntityTag: {
+							CandleAmount: 1
+							CandleColor: 0
+						}
+					}
+				}
+				id: "324F22F77B43133E"
+				title: "Kill Equestrians"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["23864A4966441D61"]
+			description: ["These annoying little creatures have been terrorising villages , get rid of them."]
+			id: "1050696B001AF863"
+			rewards: [
+				{
+					id: "672684F597E30C7A"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "52B75C5FA298A1BF"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "0366D348CA29E39E"
+					item: {
+						Count: 1b
+						id: "ringsofascension:ring_strength"
+						tag: {
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Mincing Meat"
+			tasks: [{
+				entity: "enemyexpansion:meature"
+				icon: {
+					Count: 1b
+					id: "enemyexpansion:meathead_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "7BC4E425808B02B2"
+				title: "Kill Meatures"
+				type: "kill"
+				value: 20L
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			description: ["&cRogue Knights &fwander these lands and pose a threat to the safety of the villagers. Destroy them."]
+			icon: {
+				Count: 1b
+				id: "undead_unleashed:grave_metal_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "44B380D57A6721F1"
+			rewards: [
+				{
+					id: "3238C61749301F1D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "18B92E3814727747"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Forsaken Oaths"
+			tasks: [{
+				entity: "undead_unleashed:frenzied_knight"
+				icon: {
+					Count: 1b
+					id: "undead_unleashed:grave_metal_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "5FB2B4C28390DB5A"
+				type: "kill"
+				value: 15L
+			}]
+			title: "Defeat Rogue Knights"
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			description: ["Masters of the &5Undead &fhave been ressurecting corpses in the world and must be stopped."]
+			id: "5305DB03904E4CEB"
+			rewards: [
+				{
+					id: "59A66BE8C01711DD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "332470ED8800FEBC"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Grave Danger"
+			tasks: [{
+				entity: "undead_unleashed:graveriser"
+				icon: {
+					Count: 1b
+					id: "immersive_armors:bone_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "0F890F787DB85213"
+				title: "Slay Graverisers"
+				type: "kill"
+				value: 6L
+			}]
+			x: -9.5d
+			y: -8.5d
+		}
+		{
+			description: ["The &0spider &fpopulation has grown out of hand, reduce thier numbers."]
+			id: "7C0C571649F8E5AA"
+			rewards: [
+				{
+					id: "03B3C027BFFF02F4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1751896E97D050C8"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Annihilating Arachnids"
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					Count: 1b
+					id: "blue_skies:arachnarch_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				id: "53712273863B9AA2"
+				title: "Slay Spiders"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Slay Spiders"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"&dGate pearls &fcan be crafted to summon waves of specific creatures."
+				""
+				"Craft the &2zombie pearl &fand open it's gate, then defeat the onslaught in time."
+			]
+			id: "2C3C0839D2E8803B"
+			rewards: [
+				{
+					id: "1E88A742C555C7FE"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:zombie_gate_large"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "356491183A091EC7"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Opening the zombie gate"
+			tasks: [{
+				id: "04FBCF924199AC0A"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:zombie_gate"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			description: ["Hostile &2Goblins &fare becoming a nuissance , take care of them."]
+			id: "67C8D98A2FE55A26"
+			rewards: [
+				{
+					id: "7A802888F62E232D"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 2
+					id: "219576432CC6CFB9"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Goblin Grief"
+			tasks: [
+				{
+					entity: "enemyexpansion:goblin"
+					icon: "enemyexpansion:goblin_spawn_egg"
+					id: "37CBF39E47939C42"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "iter_rpg:hobgoblin"
+					icon: "iter_rpg:hobgoblin_spawn_egg"
+					id: "4056AFC1E6AD1AFC"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "iter_rpg:goblin_warrior"
+					icon: "iter_rpg:goblin_warrior_spawn_egg"
+					id: "1A69EF9BADF5BCEC"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Slay Goblins"
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			description: ["&cBlood Sucking Demons &froam the lands preying on man and beast alike...Send them back to hell."]
+			id: "623E59B20E99F9A3"
+			rewards: [
+				{
+					id: "0E3E1399A0797D52"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5FC3228784DC4192"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Vanquishing Vampires"
+			tasks: [{
+				entity: "enemyexpansion:vampire"
+				icon: "irons_spellbooks:blood_vial"
+				id: "03A4DF05B6747430"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Slay Vampires"
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			description: ["Used to store and retrieve &aexperience levels."]
+			id: "553D2E842160B922"
+			rewards: [{
+				id: "76DB1A8F385AA9C7"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			subtitle: "Extending Experience"
+			tasks: [{
+				id: "1A2B267D5FC7A321"
+				item: {
+					Count: 1b
+					id: "xpbook:xp_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["363D127C20EAC8FC"]
+			description: ["Craft the &9Adventurer's Armor &fand continue your journey."]
+			id: "159FD707980D3015"
+			rewards: [
+				{
+					id: "2851B67B9D2346CA"
+					item: {
+						Count: 1b
+						id: "cisco_mod:adventurer_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FCE7F85A84DFA86"
+					item: {
+						Count: 1b
+						id: "cisco_mod:adventurer_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "098C37AEFC13F39F"
+					item: {
+						Count: 1b
+						id: "cisco_mod:adventurer_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "198E604E474DDE2E"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Suiting Up"
+			tasks: [{
+				id: "133116A1A8C00969"
+				item: {
+					Count: 1b
+					id: "cisco_mod:adventurer_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Adventurers Garments"
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B1FA4C0929A40D9"]
+			description: ["This highly efficient pickaxe is second only to the &0darksteel &5variant."]
+			id: "163054D41143A0B9"
+			rewards: [{
+				count: 2
+				id: "1678608836EE34D9"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Breaking with Brightsteel"
+			tasks: [{
+				id: "3493AA4B96B64710"
+				item: {
+					Count: 1b
+					id: "cisco_mod:bright_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft the brightsteel pickaxe"
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["163054D41143A0B9"]
+			description: ["The &0darksteel pickaxe &fuses &cancient magic &fto enhance the users strikes increasing efficiency to unparralled levels."]
+			id: "5F0BBBF9A4360E45"
+			rewards: [{
+				count: 2
+				id: "19C3990E81596DBA"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Digging with darksteel"
+			tasks: [{
+				id: "57E58D4156407778"
+				item: {
+					Count: 1b
+					id: "cisco_mod:dark_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"&4Demons &fborn of the &cseven deadly sins &fhave found their way into our world."
+				""
+				"They pose a significant danger and must be dealt with quickly. "
+				""
+				"Rumors are they only spawn at night."
+			]
+			id: "30A0BC21027B02A6"
+			rewards: [
+				{
+					id: "26F040B00D78CDFE"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "68AA895E2A7EB206"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Banishing the Betrayed"
+			tasks: [{
+				entity: "sons_of_sins:betrayed_guzzler"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 11
+						}
+					}
+					id: "sons_of_sins:flesh_carcass"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 11
+						}
+					}
+				}
+				id: "72476D1E65B23CF3"
+				title: "Slayed Betrayed Guzzler"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["642C85E431896FB0"]
+			description: [
+				"To begin your study of &aambient magic &fyou will need to craft a &9spell book."
+				""
+				"&fMore powerful &9spellbooks &fcan be found in dungeon chests , aquired from &4slaying enemies &for crafted with very rare materials. "
+			]
+			id: "7916F83211133602"
+			rewards: [
+				{
+					count: 2
+					id: "072FBD38327A002D"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "4FFABEAF809565E8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Initiate"
+			tasks: [{
+				id: "7CD0B0FCDCF1D32B"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 4
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4F6408ADEB30E0FB"]
+			description: [
+				"Before you are able to &binscribe &fyour &1spell &finto your &1spell book &fyou will need &0ink."
+				""
+				"&fThese can be found in chests at different rarities but easily found from &dmage towers &fand defeating the &1wizards &fwithin."
+			]
+			id: "12E6E8AA3ADA8496"
+			rewards: [
+				{
+					count: 5
+					id: "63EB2C573ACC83BC"
+					item: "irons_spellbooks:uncommon_ink"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1E351F5B2F8EA42E"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "03A454126572C26D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Finding Ink"
+			tasks: [{
+				id: "1BF4B566AC36109A"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			title: "Acquiring Ink"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["12E6E8AA3ADA8496"]
+			description: [
+				"With the &0ink &fyou have collected you will also require a table to do the &binscription."
+				""
+				"&bThe inscription table &fcan be easily crafted or \"borrowed\" from a &dmage structure."
+			]
+			id: "1713C024E6505594"
+			rewards: [
+				{
+					id: "262E5568EC1387EF"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_spell: {
+								id: "irons_spellbooks:firebolt"
+								level: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "111465C0C6153F77"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_spell: {
+								id: "irons_spellbooks:firebolt"
+								level: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CDB948E6FCF3009"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Inscribing Spells"
+			tasks: [{
+				id: "3D4975E67C6568BB"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A24E1249722EEA9"]
+			description: [
+				"&9Gems &fwhich increase spell power when socketed in the correct pieces of gear can significantly boost your &1magic &cdamage output."
+				""
+				"You may only socket one &9gem of the archmage &finto your chestplate so it is recommended to use one of the highest &aquality &favailable."
+				""
+				"Multiple &dsource jewels &fmay be socketed in thier respective pieces of gear however , which can provide stacking &aincreases &fto &cdamage."
+			]
+			id: "5C15BCCD252805DC"
+			rewards: [
+				{
+					count: 2
+					id: "619E675C073D7098"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheotic_additions:modded/ars_mana"
+							rarity: "rare"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F7B29AB79E2C759"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Outrageous Gems"
+			tasks: [{
+				id: "40B767A977DC69CC"
+				item: {
+					Count: 1b
+					id: "apotheosis:gem"
+					tag: {
+						gem: "apotheotic_additions:modded/archmage"
+						rarity: "mythic"
+					}
+				}
+				type: "item"
+			}]
+			title: "Use Gems to increase spell power"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["609257BFA1739C99"]
+			description: [
+				"Socketing &9gems &finto your equipment will &aboost &fthe respective &cpower &fof that &1magical &dschool."
+				""
+				"The main way to find these &1gems &fwould be within dungeons throughout"
+				"the world."
+			]
+			id: "430E2D9A0D2D5C61"
+			rewards: [
+				{
+					count: 15
+					id: "708F959C691F4C8D"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "626C82FBDBACADEE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Gem power"
+			tasks: [{
+				id: "61CB8B87270806ED"
+				item: {
+					Count: 1b
+					id: "apotheosis:gem"
+					tag: {
+						gem: "irons_spellbooks:fire"
+						rarity: "mythic"
+					}
+				}
+				type: "item"
+			}]
+			title: "Socketing Gems"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1713C024E6505594"]
+			description: ["The &barcane anvil &fhas multiple uses with the main being the &acombination &fof &ftwo &7scrolls &fof the same rarity into higher tier versions of themselves."]
+			id: "609257BFA1739C99"
+			rewards: [
+				{
+					count: 5
+					id: "743D190950278F0A"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+				{
+					id: "6700507813F0B80D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "1B0181016E9270C2"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Arcane Anvil"
+			tasks: [{
+				id: "3F86CD5497AD1C27"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["430E2D9A0D2D5C61"]
+			description: ["&8The ancient codex &fis the most &cpowerful &1spell book &fand can be crafted with very rare materials."]
+			id: "03E41C9A2A59791A"
+			rewards: [
+				{
+					count: 4
+					id: "746230A7F3448F61"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "625C09FAF289C7B4"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_spell: {
+								id: "irons_spellbooks:firebolt"
+								level: 8
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0AE8296D749FC099"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+			]
+			subtitle: "The Codex"
+			tasks: [{
+				id: "1628342F0518689F"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 10
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "The ultimate Spell Book"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7916F83211133602"]
+			description: [
+				"&9Spells &fcan be found throughout the &aworld &fin dungeons and &dmage towers &fin the form of &7scrolls."
+				""
+				"&fThese &7scrolls &fare &4single &fuse only but can and should be &3inscribed &finto a &9spellbook &fto use &arepeatedly."
+			]
+			id: "4F6408ADEB30E0FB"
+			rewards: [{
+				id: "29B613BDBE1DB49F"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_spell: {
+							id: "irons_spellbooks:firebolt"
+							level: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Firebolt"
+			tasks: [{
+				id: "34DA6A3D28450C70"
+				title: "Click the the checkmark."
+				type: "checkmark"
+			}]
+			title: "First Spell"
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6853D0C9370FDC1F"]
+			description: ["The &0darksteel variant &fof the &ebrightsteel &4multitool &funrivalled in speed an efficiency."]
+			id: "526D9E48AED9FF47"
+			rewards: [
+				{
+					count: 3
+					id: "7979A17B65EA9593"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "331E4BFED9CEC761"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Ancient and All Purpose"
+			tasks: [{
+				id: "238A6E8D53570C6C"
+				item: {
+					Count: 1b
+					id: "cisco_mod:darksteel_multitool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["64286A21FDB8288F"]
+			dependency_requirement: "all_started"
+			description: ["&bOcean monuments &fcan be found within &1ocean &fbiomes."]
+			id: "1E29BFDBAB318BB6"
+			rewards: [
+				{
+					id: "7975A90FD1D5554D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "24F301F58D65C390"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Temple of the Ancients"
+			tasks: [{
+				icon: "minecraft:prismarine_bricks"
+				id: "2EED7608BD110714"
+				structure: "#betteroceanmonuments:better_ocean_monuments"
+				title: "Visit Ocean Monument"
+				type: "structure"
+			}]
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1E29BFDBAB318BB6"]
+			description: [
+				"                 &dGatekeeper"
+				""
+				"&4The Elder Guardian &fis a powerful creature which guards the ocean monument."
+				""
+				"You can obtain the guardian eye required for opening the end portal from killing it."
+			]
+			id: "58711E64C6F2ABF5"
+			rewards: [
+				{
+					id: "42A81120D54CB1B2"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 5
+					id: "75C2BFD920E5F7A9"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "31146EC7EBB35C87"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Glaring Guardian "
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "20F2F7818312DA64"
+				title: "Slay the Elder Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7F28DA2696D94242"]
+			description: [
+				"&0Darksteel Armor &fprovides superior overall protection with added defence against especially lethal hits."
+				""
+				"It also grants a permanent &8resistance &fbuff."
+			]
+			id: "7DB626B9F20BAADC"
+			rewards: [{
+				count: 4
+				id: "72BFCC06060824DB"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Heavier Knight"
+			tasks: [
+				{
+					id: "55E554FD2BF1C027"
+					item: {
+						Count: 1b
+						id: "cisco_mod:darksteel_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F896BFC713B0AD1"
+					item: {
+						Count: 1b
+						id: "cisco_mod:darksteel_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B09A5D8028CB67D"
+					item: {
+						Count: 1b
+						id: "cisco_mod:darksteel_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "142FCC4FE0D7A51C"
+					item: {
+						Count: 1b
+						id: "cisco_mod:darksteel_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Darksteel Armor"
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&cHunstman &fare very potent threats to villagers due to thier lethality at range. "
+				""
+				"Eradicate as many as you can."
+			]
+			id: "3BCCBB577ED5F71C"
+			rewards: [
+				{
+					id: "73F5A44728A2132B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "167222701725C32F"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Hunting Huntsmen"
+			tasks: [{
+				entity: "enemyexpansion:huntsman"
+				icon: {
+					Count: 1b
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "718015E8F08EB6CD"
+				title: "Slay huntsman"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Slay Huntsmen"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			description: ["&8Silverfish &6Queens &fhave developed the ability to takeover and control desecrated corpses making them extremely dangerous. "]
+			icon: {
+				Count: 1b
+				id: "enemyexpansion:silverhead_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "454C1951C03D73CD"
+			rewards: [
+				{
+					id: "39BF922747490D20"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "0B3C92BD8E0330FD"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Descrated and Dethroned"
+			tasks: [{
+				entity: "enemyexpansion:silverqueen"
+				icon: {
+					Count: 1b
+					id: "enemyexpansion:silverhead_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "0A00EA90BED153E2"
+				title: "Slay Silverqueens"
+				type: "kill"
+				value: 7L
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+	]
+	title: "{\"text\":\"The Champion's Trials\",\"color\":\"light_purple\",\"bold\":false,\"underlined\":false}"
+}

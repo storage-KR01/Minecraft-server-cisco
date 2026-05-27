@@ -1,0 +1,3978 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "knighthood"
+	group: "3B0CDB8395E59365"
+	icon: {
+		Count: 1b
+		id: "royalvariations:royal_knight_helmet_helmet"
+		tag: {
+			Damage: 0
+			affix_data: {
+				affixes: {
+					"apotheosis:socket": 0.0f
+				}
+			}
+		}
+	}
+	id: "671A2861628BD89F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6Royal &fvariants of certain &4hostile &fcreatures have began to appear throughout the world."
+				""
+				"These variants are more powerful and posses special abilities making them even more &4dangerous."
+			]
+			icon: "royalvariations:spiritual_crown"
+			id: "5A521B7B085BAA11"
+			rewards: [{
+				id: "01F0AC436FD3B5ED"
+				item: "royalvariations:spiritual_crown"
+				type: "item"
+			}]
+			subtitle: "Regal Regrets"
+			tasks: [{
+				id: "3AE8EF51A06D368E"
+				title: "Royal Creatures"
+				type: "checkmark"
+			}]
+			title: "Royal Variants"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A521B7B085BAA11"]
+			dependency_requirement: "one_started"
+			description: [
+				"This &8skeleton &fhas improved characteristics. It's shots are much more &cpowerful &fand capable of knockback and &cheadshots &fon hit."
+				""
+				"&cHeadshots &fwill weaken and slow the target. This skeleton will also attempt to &aevade incoming attacks."
+				""
+				"It drops the &6royal bone &fwhich can make an amplified bonemeal."
+			]
+			id: "37BCCA5A6ADED964"
+			rewards: [{
+				count: 5
+				id: "5D43A87D96D8AB61"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Skeleton King"
+			tasks: [{
+				entity: "royalvariations:royal_skeleton"
+				icon: "royalvariations:royal_bone"
+				id: "290E8547DA4D4564"
+				title: "Royal Skeleton"
+				type: "kill"
+				value: 5L
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5A521B7B085BAA11"]
+			dependency_requirement: "one_started"
+			description: [
+				"Has increased health and movement &espeed &fand is capable of infecting victims with &2toxic spores."
+				""
+				"The &2toxic spores &fwill slow and &apoison &fyou whilst buffing the &espeed &fand &cdamage &fof affected hostile mobs."
+				""
+				"It drops &6royal gundpowder &fused to make a powerful bomb."
+			]
+			id: "0788815539A1C182"
+			rewards: [{
+				count: 5
+				id: "33A96D0BBC04089D"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Creeper King"
+			tasks: [{
+				entity: "royalvariations:royal_creeper"
+				icon: "royalvariations:royal_bomb"
+				id: "7240212979350300"
+				title: "Royal Creeper"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5A521B7B085BAA11"]
+			dependency_requirement: "one_started"
+			description: [
+				"Has higher stats and is always accompanied by two other zombies. It equips these zombies with a helmet and sword increasing their &9defence &fand &cattack."
+				""
+				"It is also able inflict a &0debuff &fon you that will cause nearby zombies to be &abuffed."
+				""
+				"It drops the &6royal staff&f a usefull item for &abuffing &fallies."
+			]
+			id: "585F4F141B410F38"
+			rewards: [{
+				count: 5
+				id: "483C916299D09EA2"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Zombie King"
+			tasks: [{
+				entity: "royalvariations:royal_zombie"
+				icon: {
+					Count: 1b
+					id: "royalvariations:royal_staff"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "3C5E6DF82B36D933"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Royal Zombie"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: ["Craft the Apple Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:apple_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "72E3DC134C635D09"
+			rewards: [{
+				count: 5
+				id: "5058EFF9F517E82C"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Apple Knight"
+			tasks: [
+				{
+					id: "1CC8780916F6A09C"
+					item: {
+						Count: 1b
+						id: "knightquest:apple_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1295C1622969218A"
+					item: {
+						Count: 1b
+						id: "knightquest:apple_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CCE8AF4E96C6804"
+					item: {
+						Count: 1b
+						id: "knightquest:apple_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B45DCBFE6531CD8"
+					item: {
+						Count: 1b
+						id: "knightquest:apple_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Apple Knighthood"
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			description: ["Craft the Blue Bamboo set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:bamboo_blue_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "16975DDE326B6C77"
+			rewards: [{
+				count: 5
+				id: "22249493B25C3C49"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Blue Bamboo Knight"
+			tasks: [
+				{
+					id: "2984150191E7F039"
+					item: {
+						Count: 1b
+						id: "knightquest:bamboo_blue_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "420B1B405227A119"
+					item: {
+						Count: 1b
+						id: "knightquest:bamboo_blue_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E081CA3B7C2E144"
+					item: {
+						Count: 1b
+						id: "knightquest:bamboo_blue_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "468618B861095A97"
+					item: {
+						Count: 1b
+						id: "knightquest:bamboo_blue_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blue Bamboo Knighthood"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			description: ["Craft the Green Bamboo set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:bamboo_green_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "514A46D49C5FD15F"
+			rewards: [{
+				count: 5
+				id: "59A9279042A9A63C"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Green Bamboo Knight"
+			tasks: [
+				{
+					id: "202D2CEDE3BBD9CA"
+					item: {
+						Count: 1b
+						id: "knightquest:bamboo_green_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16E21DCCED74D394"
+					item: {
+						Count: 1b
+						id: "knightquest:bamboo_green_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E480A3A8895A867"
+					item: {
+						Count: 1b
+						id: "knightquest:bamboo_green_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D2C8E55C614D7BE"
+					item: {
+						Count: 1b
+						id: "knightquest:bamboo_green_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Green Bamboo Knighthood"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			description: ["Complete the Bamboo Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:bamboo_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "0F8412BB49F3E7EB"
+			rewards: [{
+				count: 5
+				id: "5287661AF6F0196F"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Bamboo Knight"
+			tasks: [
+				{
+					id: "0B1CDF6E9258A66C"
+					item: {
+						Count: 1b
+						id: "knightquest:bamboo_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EC03C5D51F99E69"
+					item: {
+						Count: 1b
+						id: "knightquest:bamboo_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46A55D4ADD26A2CF"
+					item: {
+						Count: 1b
+						id: "knightquest:bamboo_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "654609BA029097C8"
+					item: {
+						Count: 1b
+						id: "knightquest:bamboo_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bamboo Knighthood"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			description: ["Craft the Bat Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:bat_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "6AC6CA137C193DEF"
+			rewards: [{
+				count: 5
+				id: "09DA7BD93938BEAF"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Bat Knight"
+			tasks: [
+				{
+					id: "2962BA4091E87E6B"
+					item: {
+						Count: 1b
+						id: "knightquest:bat_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "119848ED4E89D17D"
+					item: {
+						Count: 1b
+						id: "knightquest:bat_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34E487572274ACE2"
+					item: {
+						Count: 1b
+						id: "knightquest:bat_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BD5964A1D3F1F91"
+					item: {
+						Count: 1b
+						id: "knightquest:bat_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bat Knighthood"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: ["Craft the Blaze Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:blaze_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "1E882D351E6254CD"
+			rewards: [{
+				count: 5
+				id: "3860CCCB1EE97978"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Blaze Knight"
+			tasks: [
+				{
+					id: "784A37F7E4406754"
+					item: {
+						Count: 1b
+						id: "knightquest:blaze_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57F598E4DA5AD646"
+					item: {
+						Count: 1b
+						id: "knightquest:blaze_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "388CD377C31A5507"
+					item: {
+						Count: 1b
+						id: "knightquest:blaze_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03E7998A625F2810"
+					item: {
+						Count: 1b
+						id: "knightquest:blaze_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blaze Knighthood"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Craft the Bow Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:bow_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "3E155196B5E15A45"
+			rewards: [{
+				count: 5
+				id: "1EF91344A707F92A"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Bow Knight"
+			tasks: [
+				{
+					id: "3F10EE1CC56A10F4"
+					item: {
+						Count: 1b
+						id: "knightquest:bow_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E8CD0F9B11E9E80"
+					item: {
+						Count: 1b
+						id: "knightquest:bow_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "006E81FF67740B40"
+					item: {
+						Count: 1b
+						id: "knightquest:bow_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2515A36D24AD6DF2"
+					item: {
+						Count: 1b
+						id: "knightquest:bow_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bow Knighthood"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: ["Craft the Horn Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:horn_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "35BAF0BFD6D569AA"
+			rewards: [{
+				count: 5
+				id: "75AAA20743E6C334"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Horn Knight"
+			tasks: [
+				{
+					id: "29D34DFC3424CB0C"
+					item: {
+						Count: 1b
+						id: "knightquest:horn_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CBF8EEE8C725939"
+					item: {
+						Count: 1b
+						id: "knightquest:horn_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7805807D63C4A371"
+					item: {
+						Count: 1b
+						id: "knightquest:horn_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31B03EE72264CDE2"
+					item: {
+						Count: 1b
+						id: "knightquest:horn_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Horn Knighthood"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["Craft the Creeper Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:creeper_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "3B38930109FC23AD"
+			rewards: [{
+				count: 5
+				id: "140E659454ABF958"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Creeper Knight"
+			tasks: [
+				{
+					id: "46222FF78EED411D"
+					item: {
+						Count: 1b
+						id: "knightquest:creeper_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DA2DB3B2F3F6A99"
+					item: {
+						Count: 1b
+						id: "knightquest:creeper_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6772F43D9CE49640"
+					item: {
+						Count: 1b
+						id: "knightquest:creeper_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41594F793578CAE1"
+					item: {
+						Count: 1b
+						id: "knightquest:creeper_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Creeper Knighthood"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["Craft the Deepslate Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:deepslate_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "3CC46229A8A1F444"
+			rewards: [{
+				count: 5
+				id: "3601588BF2960FBB"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Deepslate Knight"
+			tasks: [
+				{
+					id: "1113F781FD434B57"
+					item: {
+						Count: 1b
+						id: "knightquest:deepslate_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1163355814CEC261"
+					item: {
+						Count: 1b
+						id: "knightquest:deepslate_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61FE3EA565FB1FB6"
+					item: {
+						Count: 1b
+						id: "knightquest:deepslate_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D7610D6CDE3134E"
+					item: {
+						Count: 1b
+						id: "knightquest:deepslate_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Deepslate Knighthood"
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			description: ["Craft the Dragon Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:dragon_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "087BB61068702CAF"
+			rewards: [{
+				count: 5
+				id: "637B5CE6BAB6C323"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Dragon Knight"
+			tasks: [
+				{
+					id: "135D0185020E7CA3"
+					item: {
+						Count: 1b
+						id: "knightquest:dragon_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A387828077656C3"
+					item: {
+						Count: 1b
+						id: "knightquest:dragon_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E4D266C9D41BFD4"
+					item: {
+						Count: 1b
+						id: "knightquest:dragon_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1534B4A5110B52DB"
+					item: {
+						Count: 1b
+						id: "knightquest:dragon_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dragon Knighthood"
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			description: ["Craft the Enderman Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:enderman_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "15FD112F64ECB73F"
+			rewards: [{
+				count: 5
+				id: "56153A43550B8A0A"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Enderman Knight"
+			tasks: [
+				{
+					id: "67B4BEF291E0044B"
+					item: {
+						Count: 1b
+						id: "knightquest:enderman_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A6D25ECF8985082"
+					item: {
+						Count: 1b
+						id: "knightquest:enderman_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02DE00E0BB424173"
+					item: {
+						Count: 1b
+						id: "knightquest:enderman_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4807B181D02165D1"
+					item: {
+						Count: 1b
+						id: "knightquest:enderman_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Enderman Knighthood"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			description: ["Craft the Evoker Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:evoker_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "568F396199D1D7B3"
+			rewards: [{
+				count: 5
+				id: "559A1AF10505697F"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Evoker Knight"
+			tasks: [
+				{
+					id: "38020B2FAFD92180"
+					item: {
+						Count: 1b
+						id: "knightquest:evoker_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "716767C1DBD2D769"
+					item: {
+						Count: 1b
+						id: "knightquest:evoker_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C147E433094E87C"
+					item: {
+						Count: 1b
+						id: "knightquest:evoker_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60CE866684831F62"
+					item: {
+						Count: 1b
+						id: "knightquest:evoker_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Evoker Knighthood"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			description: ["Craft the Forze Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:forze_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "73258CE2D8F00419"
+			rewards: [{
+				count: 5
+				id: "566E621C982F9940"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Forze Knight"
+			tasks: [
+				{
+					id: "45949EC40DE45F38"
+					item: {
+						Count: 1b
+						id: "knightquest:forze_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EA958CDB6F678FD"
+					item: {
+						Count: 1b
+						id: "knightquest:forze_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11F05497B18AA332"
+					item: {
+						Count: 1b
+						id: "knightquest:forze_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DE46189B7064A14"
+					item: {
+						Count: 1b
+						id: "knightquest:forze_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forze Knighthood"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			description: ["Craft the Hollow Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:hollow_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "09158624064124B8"
+			rewards: [{
+				count: 5
+				id: "57A9BEEF68B8C70F"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Hollow Knight"
+			tasks: [
+				{
+					id: "0304FD6902AA63D2"
+					item: {
+						Count: 1b
+						id: "knightquest:hollow_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64F407E9157CEBFE"
+					item: {
+						Count: 1b
+						id: "knightquest:hollow_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52F619C1B07A8FB8"
+					item: {
+						Count: 1b
+						id: "knightquest:hollow_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D45FE6FAFAC0151"
+					item: {
+						Count: 1b
+						id: "knightquest:hollow_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hollow Knighthood"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			description: ["Craft the Nether Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:nether_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "429B55DC47AA5FEA"
+			rewards: [{
+				count: 5
+				id: "10A392DC33C3CF64"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Nether Knight"
+			tasks: [
+				{
+					id: "3F8413C4EBC1921A"
+					item: {
+						Count: 1b
+						id: "knightquest:nether_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AA811AD56AECCE6"
+					item: {
+						Count: 1b
+						id: "knightquest:nether_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A11C8AE2BE45D15"
+					item: {
+						Count: 1b
+						id: "knightquest:nether_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "326E69EA30B3507C"
+					item: {
+						Count: 1b
+						id: "knightquest:nether_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Nether Knighthood"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: ["Craft the Veteran Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:veteran_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "5C2ECA21478E475F"
+			rewards: [{
+				count: 5
+				id: "4B0346D4ED0A0D6D"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Veteran Knighthood"
+			tasks: [
+				{
+					id: "778F3124F33C8C07"
+					item: {
+						Count: 1b
+						id: "knightquest:veteran_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69CB8E747C25F78F"
+					item: {
+						Count: 1b
+						id: "knightquest:veteran_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D225D2F74D5FD71"
+					item: {
+						Count: 1b
+						id: "knightquest:veteran_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F5EBAB3D5C780C5"
+					item: {
+						Count: 1b
+						id: "knightquest:veteran_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Veteran Knighthood"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: ["Craft the Path Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:path_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "15A75A22622F4EDF"
+			rewards: [{
+				count: 5
+				id: "00CC14B93AE8F497"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Path Knighthood"
+			tasks: [
+				{
+					id: "0ECEC4AE8180B0BE"
+					item: {
+						Count: 1b
+						id: "knightquest:path_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A3601339B35E58C"
+					item: {
+						Count: 1b
+						id: "knightquest:path_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03DE786562D2D16B"
+					item: {
+						Count: 1b
+						id: "knightquest:path_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B82CB3166A15FD4"
+					item: {
+						Count: 1b
+						id: "knightquest:path_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Path Knighthood"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			description: ["Craft the Phantom Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:phantom_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "69A1B55FD65C7A4C"
+			rewards: [{
+				count: 5
+				id: "2FEED01D3CE484A1"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Phantom Knight"
+			tasks: [
+				{
+					id: "4942CB6DA7CACEB7"
+					item: {
+						Count: 1b
+						id: "knightquest:phantom_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "706118F4BD772C20"
+					item: {
+						Count: 1b
+						id: "knightquest:phantom_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2284A14D6F53386C"
+					item: {
+						Count: 1b
+						id: "knightquest:phantom_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D103C46097DFF3E"
+					item: {
+						Count: 1b
+						id: "knightquest:phantom_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Phantom Knighthood"
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			description: ["Craft the Sea Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:sea_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "577E3929EDC7DD8A"
+			rewards: [{
+				count: 5
+				id: "6218F96DBDA551FC"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Sea Knight"
+			tasks: [
+				{
+					id: "145ACB7DDAAF5326"
+					item: {
+						Count: 1b
+						id: "knightquest:sea_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4281948932F7FABA"
+					item: {
+						Count: 1b
+						id: "knightquest:sea_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5279167A69FF69C4"
+					item: {
+						Count: 1b
+						id: "knightquest:sea_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B5A07C73E5C8931"
+					item: {
+						Count: 1b
+						id: "knightquest:sea_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sea Knighthood"
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			description: ["Craft the Shield Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:shield_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "5F2855051164123F"
+			rewards: [{
+				count: 5
+				id: "41B7D8BFD7D841D3"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Shield Knight"
+			tasks: [
+				{
+					id: "087A7C156EB79C73"
+					item: {
+						Count: 1b
+						id: "knightquest:shield_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DDA115927C4DDDA"
+					item: {
+						Count: 1b
+						id: "knightquest:shield_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56C40C8F061C6DFC"
+					item: {
+						Count: 1b
+						id: "knightquest:shield_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0008D5D67117E71E"
+					item: {
+						Count: 1b
+						id: "knightquest:shield_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shield Knighthood"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			description: ["Craft the Silver Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:silver_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "6B52BBA280336679"
+			rewards: [{
+				count: 5
+				id: "696BB9D6CBD5694D"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Silver Knight"
+			tasks: [
+				{
+					id: "2221DCD7046A9784"
+					item: {
+						Count: 1b
+						id: "knightquest:silver_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "517890D722CE2424"
+					item: {
+						Count: 1b
+						id: "knightquest:silver_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B7433254C995BF5"
+					item: {
+						Count: 1b
+						id: "knightquest:silver_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B538D5C7B6FE98B"
+					item: {
+						Count: 1b
+						id: "knightquest:silver_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Silver Knighthood"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			description: ["Craft the Silverfish Knight set to complete it's Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:silverfish_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "25ED35C0D0E1A8BE"
+			rewards: [{
+				count: 5
+				id: "3EFD4B2E8378DD9F"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Silverfish Knight"
+			tasks: [
+				{
+					id: "6E40367EFB8D2F95"
+					item: {
+						Count: 1b
+						id: "knightquest:silverfish_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07B5B36E62E06658"
+					item: {
+						Count: 1b
+						id: "knightquest:silverfish_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44C09B7D3F94B6D7"
+					item: {
+						Count: 1b
+						id: "knightquest:silverfish_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D70D4179651B745"
+					item: {
+						Count: 1b
+						id: "knightquest:silverfish_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Silverfish Knighthood"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			description: ["Craft the Skeleton Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:skeleton_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "310A055362DA0CD5"
+			rewards: [{
+				count: 5
+				id: "65F3E25E163B2BB5"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Skeleton Knight"
+			tasks: [
+				{
+					id: "2C757160E9355689"
+					item: {
+						Count: 1b
+						id: "knightquest:skeleton_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6247B54B8DF21267"
+					item: {
+						Count: 1b
+						id: "knightquest:skeleton_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4770E61388D3C2BE"
+					item: {
+						Count: 1b
+						id: "knightquest:skeleton_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61FDFD9EC403D44D"
+					item: {
+						Count: 1b
+						id: "knightquest:skeleton_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Skeleton Knighthood"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			description: ["Craft the Spider Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:spider_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "7DB6A64E7346788F"
+			rewards: [{
+				count: 5
+				id: "79C083B300AB5CB0"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Spider Knight"
+			tasks: [
+				{
+					id: "7DB39EBABE9F8C08"
+					item: {
+						Count: 1b
+						id: "knightquest:spider_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "040F8CE1E6FC1A53"
+					item: {
+						Count: 1b
+						id: "knightquest:spider_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30CC64B182B2CCCE"
+					item: {
+						Count: 1b
+						id: "knightquest:spider_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A54F9A0E94C1795"
+					item: {
+						Count: 1b
+						id: "knightquest:spider_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Spider Knighthood"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			description: ["Craft the Warlord Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:warlord_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "552509F0AF34557A"
+			rewards: [{
+				count: 5
+				id: "0F37ABE2175BB9C9"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Warlord Knight"
+			tasks: [
+				{
+					id: "51FF5AA2B5B9CC48"
+					item: {
+						Count: 1b
+						id: "knightquest:warlord_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "730A16E9B95EA157"
+					item: {
+						Count: 1b
+						id: "knightquest:warlord_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CCCB37A35DD5188"
+					item: {
+						Count: 1b
+						id: "knightquest:warlord_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59CA97F218C2323D"
+					item: {
+						Count: 1b
+						id: "knightquest:warlord_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Warlord Knighthood"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: ["Craft the Straw-hat Knight Set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:strawhat_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "2FEC2F6B92024906"
+			rewards: [{
+				count: 5
+				id: "0949AF91CF7AF42B"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Straw-hat Knight"
+			tasks: [
+				{
+					id: "0DDA3294FA96181E"
+					item: {
+						Count: 1b
+						id: "knightquest:strawhat_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36AC65F3C6D2CDF3"
+					item: {
+						Count: 1b
+						id: "knightquest:strawhat_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11DEC5DB5CE30797"
+					item: {
+						Count: 1b
+						id: "knightquest:strawhat_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A66E9E6DAAB4CE2"
+					item: {
+						Count: 1b
+						id: "knightquest:strawhat_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Straw-hat Knighthood"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			description: ["Craft the Pirate Knight set and it's helmet variants to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:pirate_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "25394BFF1E90A1C1"
+			rewards: [{
+				count: 5
+				id: "14B1537C11EBBE32"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Pirate Knight"
+			tasks: [
+				{
+					id: "7A9ECA16E3116992"
+					item: {
+						Count: 1b
+						id: "knightquest:pirate_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11DFA5291DF530D9"
+					item: {
+						Count: 1b
+						id: "knightquest:pirate_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6959C6ECB653C1AF"
+					item: {
+						Count: 1b
+						id: "knightquest:pirate_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F3D666765586F6E"
+					item: {
+						Count: 1b
+						id: "knightquest:pirate_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1457F66CBCA9CC1C"
+					item: {
+						Count: 1b
+						id: "knightquest:pirate2_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "049295B877CDBD33"
+					item: {
+						Count: 1b
+						id: "knightquest:pirate3_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pirate Knighthood"
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			description: ["Craft the Conquistador Knight set and it's helmet variants to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:conquistador_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "548C7A97B7F4B750"
+			rewards: [{
+				count: 5
+				id: "28AB7F4B283E6013"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Conquistador Knight"
+			tasks: [
+				{
+					id: "33864F3A5A13302D"
+					item: {
+						Count: 1b
+						id: "knightquest:conquistador_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CD63450B7F38D2D"
+					item: {
+						Count: 1b
+						id: "knightquest:conquistador_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F62FFA3EF1F789F"
+					item: {
+						Count: 1b
+						id: "knightquest:conquistador_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34CCAE8B1D545DE9"
+					item: {
+						Count: 1b
+						id: "knightquest:conquistador_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D461FC2D42887B3"
+					item: {
+						Count: 1b
+						id: "knightquest:conquistador3_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3766CE5D5428F5A5"
+					item: {
+						Count: 1b
+						id: "knightquest:conquistador2_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Conquistador Knighthood"
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			description: ["Craft the Zombie Knight set and it's helmet variants to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:zombie_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "7CB702BACE00DF15"
+			rewards: [{
+				count: 5
+				id: "15530D7244941826"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Zombie Knight"
+			tasks: [
+				{
+					id: "233013AF9B28B997"
+					item: {
+						Count: 1b
+						id: "knightquest:zombie_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25745CA6A75377E1"
+					item: {
+						Count: 1b
+						id: "knightquest:zombie_helmet2"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5008D12B35BECC6F"
+					item: {
+						Count: 1b
+						id: "knightquest:zombie_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E94BFB17AE0E0C9"
+					item: {
+						Count: 1b
+						id: "knightquest:zombie_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A32592E6B4D940E"
+					item: {
+						Count: 1b
+						id: "knightquest:zombie_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Zombie Knighthood"
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			description: ["Craft the Husk Knight set and it's helmet variants to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:husk_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "5E8A7A971A1885BE"
+			rewards: [{
+				count: 5
+				id: "0444418AFA1851AE"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Husk Knight"
+			tasks: [
+				{
+					id: "77738E119B34D645"
+					item: {
+						Count: 1b
+						id: "knightquest:husk_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65C60D7EA119E28B"
+					item: {
+						Count: 1b
+						id: "knightquest:husk_helmet2"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E0A9397E9DA7303"
+					item: {
+						Count: 1b
+						id: "knightquest:husk_helmet3"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69AAEC1B79F0B671"
+					item: {
+						Count: 1b
+						id: "knightquest:husk_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74B045537B8E1461"
+					item: {
+						Count: 1b
+						id: "knightquest:husk_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "550BFE48203A927C"
+					item: {
+						Count: 1b
+						id: "knightquest:husk_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Husk Knighthood"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			description: ["Craft the Wither Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:wither_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "17993E8354F0D8C5"
+			rewards: [{
+				count: 5
+				id: "6904048923EAC395"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Wither Knight"
+			tasks: [
+				{
+					id: "166FEBD64D8B5B2C"
+					item: {
+						Count: 1b
+						id: "knightquest:wither_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "677AAA9C31A2DBFA"
+					item: {
+						Count: 1b
+						id: "knightquest:wither_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00A6F895750A6552"
+					item: {
+						Count: 1b
+						id: "knightquest:wither_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22B07C38C20E4607"
+					item: {
+						Count: 1b
+						id: "knightquest:wither_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wither Knighthood"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			description: ["Craft the Squire Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:squire_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "72D2C5AE6DC9F756"
+			rewards: [{
+				count: 5
+				id: "569DCFB606D8475E"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Squire Knight"
+			tasks: [
+				{
+					id: "0EF59ACD1A3F32E8"
+					item: {
+						Count: 1b
+						id: "knightquest:squire_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "721F5FD2435C54D7"
+					item: {
+						Count: 1b
+						id: "knightquest:squire_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70E5D9DDC31BD74A"
+					item: {
+						Count: 1b
+						id: "knightquest:squire_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0223C54AA0536946"
+					item: {
+						Count: 1b
+						id: "knightquest:squire_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Squire Knighthood"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			description: ["Craft the Witch Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:witch_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "16F60ADAF3382478"
+			rewards: [{
+				count: 5
+				id: "0D2F22AA973A5A4C"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Squire Knight"
+			tasks: [
+				{
+					id: "153654F18D8D249A"
+					item: {
+						Count: 1b
+						id: "knightquest:witch_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "072F874431F74B36"
+					item: {
+						Count: 1b
+						id: "knightquest:witch_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "608FD63F09F7B176"
+					item: {
+						Count: 1b
+						id: "knightquest:witch_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12B8FC7A4F6210D6"
+					item: {
+						Count: 1b
+						id: "knightquest:witch_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Witch Knighthood"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			description: ["Craft the Polar Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:polar_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "78736E3B2697C1DF"
+			rewards: [{
+				count: 5
+				id: "3D4D24F715054312"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Polar Knight"
+			tasks: [
+				{
+					id: "17068F10F04F93B4"
+					item: {
+						Count: 1b
+						id: "knightquest:polar_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B5596C421D841F8"
+					item: {
+						Count: 1b
+						id: "knightquest:polar_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EF04047830BE358"
+					item: {
+						Count: 1b
+						id: "knightquest:polar_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46F046F73DA2DAB6"
+					item: {
+						Count: 1b
+						id: "knightquest:polar_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Polar Knighthood"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			description: ["Craft the Shinobi Knight set to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:shinobi_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "71708E77F99D11CD"
+			rewards: [{
+				count: 5
+				id: "4E3107BAF67728C9"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Shinobi Knight"
+			tasks: [
+				{
+					id: "4E72B1C0A457D337"
+					item: {
+						Count: 1b
+						id: "knightquest:shinobi_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "745FA4C9E57F62C5"
+					item: {
+						Count: 1b
+						id: "knightquest:shinobi_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F11CF04C5E7FE11"
+					item: {
+						Count: 1b
+						id: "knightquest:shinobi_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DC7D80E41DF6663"
+					item: {
+						Count: 1b
+						id: "knightquest:shinobi_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shinobi Knighthood"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			description: ["Craft the Sculk Knight set and it's helmet variants to complete it's &5Knighthood."]
+			icon: {
+				Count: 1b
+				id: "knightquest:skulk_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "6E976CD1A75E624F"
+			subtitle: "Sculk Knight"
+			tasks: [
+				{
+					id: "767734B914DB08E9"
+					item: {
+						Count: 1b
+						id: "knightquest:skulk_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BACE4ACEA37424C"
+					item: {
+						Count: 1b
+						id: "knightquest:skulk2_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E0D6930A89769B6"
+					item: {
+						Count: 1b
+						id: "knightquest:skulk3_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FFA4F37C7F3A9C8"
+					item: {
+						Count: 1b
+						id: "knightquest:skulk4_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39879046CE68AD6E"
+					item: {
+						Count: 1b
+						id: "knightquest:skulk_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B7E1776B3A177D7"
+					item: {
+						Count: 1b
+						id: "knightquest:skulk_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "055FA00468683F7A"
+					item: {
+						Count: 1b
+						id: "knightquest:skulk_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sculk Knighthood"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0F8412BB49F3E7EB"
+				"6AC6CA137C193DEF"
+				"1E882D351E6254CD"
+				"72E3DC134C635D09"
+				"16975DDE326B6C77"
+				"3E155196B5E15A45"
+				"548C7A97B7F4B750"
+				"087BB61068702CAF"
+				"3CC46229A8A1F444"
+				"15FD112F64ECB73F"
+				"514A46D49C5FD15F"
+				"568F396199D1D7B3"
+				"73258CE2D8F00419"
+				"6B52BBA280336679"
+				"25ED35C0D0E1A8BE"
+				"35BAF0BFD6D569AA"
+				"3B38930109FC23AD"
+				"09158624064124B8"
+				"577E3929EDC7DD8A"
+				"429B55DC47AA5FEA"
+				"15A75A22622F4EDF"
+				"5C2ECA21478E475F"
+				"69A1B55FD65C7A4C"
+				"25394BFF1E90A1C1"
+				"6E976CD1A75E624F"
+				"7CB702BACE00DF15"
+				"5E8A7A971A1885BE"
+				"17993E8354F0D8C5"
+				"72D2C5AE6DC9F756"
+				"16F60ADAF3382478"
+				"78736E3B2697C1DF"
+				"71708E77F99D11CD"
+				"310A055362DA0CD5"
+				"7DB6A64E7346788F"
+				"2FEC2F6B92024906"
+				"552509F0AF34557A"
+				"5F2855051164123F"
+			]
+			description: ["You have proven your &6valor &fand attained every possible &5knighthood &f thus you shall be rewarded."]
+			icon: {
+				Count: 1b
+				id: "royalvariations:royal_knight_helmet_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "411806371322B020"
+			rewards: [
+				{
+					count: 7777
+					id: "2245BF70E57C5F65"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					count: 7777
+					id: "4CEBF01243FE2EA7"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Complete and Compensated"
+			tasks: [{
+				id: "26927F588556C94D"
+				title: "Ultimate Knight"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"You can find him playing in gardens with flowers or summon him by placing a &6jack-o - lantern &fatop a &egold &fblock. "
+				""
+				"Give him &agreat essence &fto tame him. He likes the squire helmet so try giving it to him."
+			]
+			id: "57A5C4A1664A21AB"
+			rewards: [{
+				count: 3
+				id: "19E7AF6E4661748F"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Subdue Samhain"
+			tasks: [{
+				icon: "minecraft:carved_pumpkin"
+				id: "37DC4D8C23997042"
+				observe_type: 0
+				timer: 0L
+				title: "Find and Tame Samhain"
+				to_observe: "knightquest:samhain"
+				type: "observation"
+			}]
+			x: -15.0d
+			y: -4.5d
+		}
+		{
+			description: ["Ratmen are cunning creatures usually found in &8caves&f. It wields a crossbow and is able to go invisible or use &apoison &farrows when it's health drops below a certain threshold."]
+			id: "1B93754C030FC8AC"
+			rewards: [
+				{
+					id: "34605A2F33EE0E1C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "4A203887B168E71B"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Rancid Ratmen"
+			tasks: [{
+				entity: "knightquest:ratman"
+				icon: {
+					Count: 1b
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "6BC2963F043B5996"
+				title: "Slay Ratmen"
+				type: "kill"
+				value: 10L
+			}]
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			description: ["Gremlins are nasty little creatures found in the &4nether.&fThey are able to spawn ghosties which will make them &ainvunerable &funitl defeated."]
+			icon: {
+				Count: 1b
+				id: "knightquest:nether_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "405A1FC363396EEC"
+			rewards: [
+				{
+					id: "1635BDFF5984E898"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 6
+					id: "5C1BF72ACCB67049"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Gremlins and Ghosties"
+			tasks: [
+				{
+					entity: "knightquest:gremlin"
+					icon: {
+						Count: 1b
+						id: "knightquest:nether_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "726384222E7AFD98"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "knightquest:ghosty"
+					icon: "forbidden_arcanus:enchanted_soul"
+					id: "46A695F46631BB3E"
+					type: "kill"
+					value: 12L
+				}
+			]
+			title: "Slay Gremlins and Ghosties"
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"This heavily armored warrior likes the &bcold &fand is very durable. "
+				""
+				"If damaged enough it can &apoison &fenemies whiles &2healing &fitself."
+				""
+				"It may also spawn eld bombs which are very lethal."
+			]
+			id: "10E11B1BBE5517A0"
+			rewards: [
+				{
+					id: "38E2A7B5F28A0BA0"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 7
+					id: "42810B43E38F12EF"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Armored Adversary"
+			tasks: [{
+				entity: "knightquest:eldknight"
+				icon: {
+					Count: 1b
+					id: "knightquest:steel_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "17D38B47829CC527"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Slay Eld Knights"
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Swampmen are half fish , half men monstrosities capable of wielding  weapons."]
+			id: "5DB0425B8CC50835"
+			rewards: [
+				{
+					id: "794987271D5DDC5F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "192D2C3B4C7CC971"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Slaying Swampmen"
+			tasks: [{
+				entity: "knightquest:swampman"
+				icon: "aquamirae:spinefish"
+				id: "4D513FEE3FD0C395"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Kill Swampmen"
+			x: -15.0d
+			y: -3.0d
+		}
+	]
+	title: "{\"text\":\"KnightHood\",\"color\":\"#f5426f\"}"
+}

@@ -1,0 +1,150 @@
+{
+	"variant": "samurai",
+	"weight": 10,
+	"quality": 0,
+	"dimensions": [
+	],
+	"unique": true,
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "light_ranged",
+				"types": [
+					"sword",
+					"trident",
+					"bow",
+					"crossbow"
+				]
+			},
+			"attribute": "apotheosis:crit_chance",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.02,
+				"uncommon": 0.05,
+				"rare": 0.10,
+				"epic": 0.15,
+				"mythic": 0.175,
+				"ancient": 0.20
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "heavy_weapon",
+				"types": [
+					"heavy_weapon"
+				]
+			},
+			"attribute": "apotheosis:crit_chance",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.05,
+				"uncommon": 0.10,
+				"rare": 0.15,
+				"epic": 0.17,
+				"mythic": 0.205,
+				"ancient": 0.255
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"leggings",
+					"boots"
+				]
+			},
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.05,
+				"uncommon": 0.15,
+				"rare": 0.25,
+				"epic": 0.35,
+				"mythic": 0.45,
+				"ancient": 0.65
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"attribute": "apotheosis:arrow_velocity",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.075,
+				"uncommon": 0.15,
+				"rare": 0.25,
+				"epic": 0.375,
+				"mythic": 0.425,
+				"ancient": 0.50
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"attribute": "apotheosis:dodge_chance",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.01,
+				"uncommon": 0.02,
+				"rare": 0.04,
+				"epic": 0.06,
+				"mythic": 0.08,
+				"ancient": 0.10
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios",
+				"types": [
+					"curios:ring",
+		"curios:head",
+		"curios:necklace",
+		"curios:hostility_curse",
+		"curios:back",
+		"curios:an_focus",
+		"curios:bangle",
+		"curios:body",
+		"curios:bundle",
+		"curios:quiver",
+		"curios:spellstone",
+		"curios:bracelet",
+		"curios:hands",
+		"curios:belt",
+		"curios:charm",
+		"curios:feet",
+		"curios:talisman",
+		"curios:aether_ring",
+        "curios:aether_cape",
+        "curios:aether_gloves",
+        "curios:aether_accessory",
+        "curios:aether_shield",
+        "curios:aether_pendant"
+				]
+			},
+			"attribute": "apotheosis:crit_chance",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.015,
+				"uncommon": 0.025,
+				"rare": 0.0275,
+				"epic": 0.03,
+				"mythic": 0.04,
+				"ancient": 0.05
+			}
+		}
+	]
+}

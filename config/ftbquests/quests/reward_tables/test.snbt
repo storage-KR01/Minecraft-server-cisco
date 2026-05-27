@@ -1,0 +1,11 @@
+{
+	icon: "minecraft:apple"
+	id: "6D7671E2594D1EAB"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 40, item: "minecraft:cooked_beef" }
+		{ count: 20, item: "minecraft:golden_apple" }
+	]
+	title: "Food Rewards"
+}

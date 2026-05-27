@@ -1,0 +1,193 @@
+{
+"affix.apothiccurios:apothcurios/attribute/agile": "Agile",
+"affix.apothiccurios:apothcurios/attribute/agile.suffix": "of Dexterity",
+
+"affix.apotheotic_additions:armor/attribute/lava_speed": "Magmatic",
+"affix.apotheotic_additions:armor/attribute/lava_speed.suffix": "of Lava Swimming",
+
+"affix.apothiccurios:apothcurios/attribute/berserking": "Berserking",
+"affix.apothiccurios:apothcurios/attribute/berserking.suffix": "of the Berserker",
+
+"affix.apothiccurios:apothcurios/attribute/blessed": "Blessed",
+"affix.apothiccurios:apothcurios/attribute/blessed.suffix": "of Health",
+
+"affix.apothiccurios:apothcurios/attribute/immortal": "Immortal",
+"affix.apothiccurios:apothcurios/attribute/immortal.suffix": "of Health",
+
+"affix.apothiccurios:apothcurios/attribute/destructive": "Destructive",
+"affix.apothiccurios:apothcurios/attribute/destructive.suffix": "of Quarrying",
+
+"affix.apothiccurios:apothcurios/attribute/elven": "Elven",
+"affix.apothiccurios:apothcurios/attribute/elven.suffix": "of the First Archer",
+
+"affix.apothiccurios:apothcurios/attribute/experienced": "Experienced",
+"affix.apothiccurios:apothcurios/attribute/experienced.suffix": "of the Scholar",
+
+"affix.apothiccurios:apothcurios/attribute/fortunate": "Fortunate",
+"affix.apothiccurios:apothcurios/attribute/fortunate.suffix": "of the Four-Leaf Clover",
+
+"affix.apothiccurios:apothcurios/attribute/giant_slaying": "Giant Slaying",
+"affix.apothiccurios:apothcurios/attribute/giant_slaying.suffix": "of Colossal Strikes",
+
+"affix.apothiccurios:apothcurios/attribute/glacial": "Glacial",
+"affix.apothiccurios:apothcurios/attribute/glacial.suffix": "of the Frostlands",
+
+"affix.apothiccurios:apothcurios/attribute/windswept": "Windswept",
+"affix.apothiccurios:apothcurios/attribute/windswept.suffix": "of the Current",
+
+"affix.apothiccurios:apothcurios/attribute/infernal": "Infernal",
+"affix.apothiccurios:apothcurios/attribute/infernal.suffix": "of the Sun",
+
+"affix.apothiccurios:apothcurios/attribute/intricate": "Intricate",
+"affix.apothiccurios:apothcurios/attribute/intricate.suffix": "of Critical Thinking",
+
+"affix.apothiccurios:apothcurios/attribute/ironforged": "Ironforged",
+"affix.apothiccurios:apothcurios/attribute/ironforged.suffix": "of Iron",
+
+"affix.apothiccurios:apothcurios/attribute/lacerating": "Lacerating",
+"affix.apothiccurios:apothcurios/attribute/lacerating.suffix": "of Surgical Precision",
+
+"affix.apothiccurios:apothcurios/attribute/piercing": "Piercing",
+"affix.apothiccurios:apothcurios/attribute/piercing.suffix": "of the Sunderer",
+
+"affix.apothiccurios:apothcurios/attribute/power_blood": "Sanguine",
+"affix.apothiccurios:apothcurios/attribute/power_blood.suffix": "of The Sire",
+
+"affix.apothiccurios:apothcurios/attribute/power_ender": "Ender",
+"affix.apothiccurios:apothcurios/attribute/power_ender.suffix": "of The End",
+
+"affix.apothiccurios:apothcurios/attribute/power_evocation": "Exile's",
+"affix.apothiccurios:apothcurios/attribute/power_evocation.suffix": "of The Arch-Illager",
+
+"affix.apothiccurios:apothcurios/attribute/power_fire": "Nethermancer's",
+"affix.apothiccurios:apothcurios/attribute/power_fire.suffix": "of The Nether",
+
+"affix.apothiccurios:apothcurios/attribute/power_lightning": "Aethermancer",
+"affix.apothiccurios:apothcurios/attribute/power_lightning.suffix": "of The Storm Eater",
+
+"affix.apothiccurios:apothcurios/attribute/power_nature": "Druid's",
+"affix.apothiccurios:apothcurios/attribute/power_nature.suffix": "of The Summoner",
+
+"affix.apothiccurios:apothcurios/attribute/summon": "Necromantic",
+"affix.apothiccurios:apothcurios/attribute/summon.suffix": "of The Summoner",
+
+"affix.apothiccurios:apothcurios/attribute/power_holy": "Holy",
+"affix.apothiccurios:apothcurios/attribute/power_holy.suffix": "of Radiance",
+
+"affix.apothiccurios:apothcurios/attribute/power_ice": "Cryomancer's",
+"affix.apothiccurios:apothcurios/attribute/power_ice.suffix": "of The Arctic",
+
+"affix.apothiccurios:apothcurios/attribute/sourcetouched": "Source-touched",
+"affix.apothiccurios:apothcurios/attribute/sourcetouched.suffix": "of Magic",
+
+"affix.apothiccurios:apothcurios/attribute/spellbreaking": "Spellbreaking",
+"affix.apothiccurios:apothcurios/attribute/spellbreaking.suffix": "of the Petricite Golem",
+
+"affix.apothiccurios:apothcurios/attribute/spiritual": "Spiritual",
+"affix.apothiccurios:apothcurios/attribute/spiritual.suffix": "of the Witch Doctor",
+
+"affix.apothiccurios:apothcurios/attribute/steel_touched": "Steel Touched",
+"affix.apothiccurios:apothcurios/attribute/steel_touched.suffix": "of the Defender",
+
+"affix.apothiccurios:apothcurios/attribute/streamlined": "Streamlined",
+"affix.apothiccurios:apothcurios/attribute/streamlined.suffix": "of the Sniper",
+
+"affix.apothiccurios:apothcurios/attribute/vampiric": "Vampiric",
+"affix.apothiccurios:apothcurios/attribute/vampiric.suffix": "of Bloodletting",
+
+"affix.apothiccurios:apothcurios/attribute/violent": "Violent",
+"affix.apothiccurios:apothcurios/attribute/violent.suffix": "of Slaying",
+
+"affix.apothiccurios:apothcurios/dmg_reduction/blockading": "Blockading",
+"affix.apothiccurios:apothcurios/dmg_reduction/blockading.suffix": "of the Blockade", 
+
+"affix.apothiccurios:apothcurios/dmg_reduction/dwarven": "Dwarven",
+"affix.apothiccurios:apothcurios/dmg_reduction/dwarven.suffix": "of the Volcano", 
+
+"affix.apothiccurios:apothcurios/dmg_reduction/runed": "Runed",
+"affix.apothiccurios:apothcurios/dmg_reduction/runed.suffix": "of the Spellwarden", 
+
+"affix.apothiccurios:apothcurios/mob_effect/acidic": "Acidic",
+"affix.apothiccurios:apothcurios/mob_effect/acidic.suffix": "of Corrosion",
+
+"affix.apothiccurios:apothcurios/mob_effect/abyssal_curse": "Abyssal",
+"affix.apothiccurios:apothcurios/mob_effect/abyssal_curse.suffix": "of the Void",
+
+"affix.apothiccurios:apothcurios/mob_effect/blazing_brand": "Blazing",
+"affix.apothiccurios:apothcurios/mob_effect/blazing_brand.suffix": "of Branding",
+
+"affix.apothiccurios:apothcurios/mob_effect/bolstering": "Bolstering",
+"affix.apothiccurios:apothcurios/mob_effect/bolstering.suffix": "of Fortitude",
+
+"affix.apothiccurios:apothcurios/mob_effect/ensnaring": "Ensnaring",
+"affix.apothiccurios:apothcurios/mob_effect/ensnaring.suffix": "of the Predator",
+
+"affix.apothiccurios:apothcurios/mob_effect/ivy_laced": "Ivy Laced",
+"affix.apothiccurios:apothcurios/mob_effect/ivy_laced.suffix": "of Natural Toxins",
+
+"affix.apothiccurios:apothcurios/mob_effect/nimble": "Nimble",
+"affix.apothiccurios:apothcurios/mob_effect/nimble.suffix": "of the Fox",
+
+"affix.apothiccurios:apothcurios/mob_effect/revitalizing": "Revitalizing",
+"affix.apothiccurios:apothcurios/mob_effect/revitalizing.suffix": "of the Wellspring",
+
+"affix.apothiccurios:apothcurios/mob_effect/satanic": "Satanic",
+"affix.apothiccurios:apothcurios/mob_effect/satanic.suffix": "of the Burning Hells",
+
+   "gem_class.curios": "All Curios",
+  "gem_class.necklace": "Neck Curios",
+  "gem_class.hat": "Head Curios",
+  "gem_class.focus": "Spell Focus Curios",
+  "gem_class.ring": "Ring Curios",
+  "gem_class.othercurios": "Other Curios",
+
+
+  "text.apotheosis.category.curios:curio": "Curio",
+  "text.apotheosis.category.curios:curio.plural": "Curios",
+  "text.apotheosis.category.curios:hostiltiy_curse": "Hostility Curse",
+  "text.apotheosis.category.curios:hostility_curse.plural": "Hostility Curses",
+  "text.apotheosis.category.curios:aether_accessory": "Accessory",
+  "text.apotheosis.category.curios:aether_accessory.plural": "Accessories",
+  "text.apotheosis.category.curios:aether_cape": "Cape",
+  "text.apotheosis.category.curios:aether_cape.plural": "Capes",
+  "text.apotheosis.category.curios:aether_gloves": "Gloves",
+  "text.apotheosis.category.curios:aether_gloves.plural": "Gloves",
+  "text.apotheosis.category.curios:aether_pendant": "Pendant",
+  "text.apotheosis.category.curios:aether_pendant.plural": "Pendants",
+  "text.apotheosis.category.curios:aether_ring": "Aetheric Ring",
+  "text.apotheosis.category.curios:aether_ring.plural": "Aetheric Rings",
+  "text.apotheosis.category.curios:aether_shield": "Aetheric Shield",
+  "text.apotheosis.category.curios:aether_shield.plural": "Aetheric Shields",
+  "text.apotheosis.category.curios:back": "Back",
+  "text.apotheosis.category.curios:back.plural": "Back",
+  "text.apotheosis.category.curios:an_focus": "Spell Focus",
+  "text.apotheosis.category.curios:an_focus.plural": "Spell Focuses",
+  "text.apotheosis.category.curios:bangle": "Bangle",
+  "text.apotheosis.category.curios:bangle.plural": "Bangles",
+  "text.apotheosis.category.curios:belt": "Belt",
+  "text.apotheosis.category.curios:belt.plural": "Belts",
+  "text.apotheosis.category.curios:body": "Body",
+  "text.apotheosis.category.curios:body.plural": "Body",
+  "text.apotheosis.category.curios:talisman": "Talisman",
+  "text.apotheosis.category.curios:talisman.plural": "Talismans",
+  "text.apotheosis.category.curios:bracelet": "Bracelet",
+  "text.apotheosis.category.curios:bracelet.plural": "Bracelets",
+  "text.apotheosis.category.curios:bundle": "Bundle",
+  "text.apotheosis.category.curios:bundle.plural": "Bundles",
+  "text.apotheosis.category.curios:charm": "Charm",
+  "text.apotheosis.category.curios:charm.plural": "Charms",
+  "text.apotheosis.category.curios:feet": "Shoes",
+  "text.apotheosis.category.curios:feet.plural": "Shoes",
+  "text.apotheosis.category.curios:hands": "Hand",
+  "text.apotheosis.category.curios:hands.plural": "Hands",
+  "text.apotheosis.category.curios:head": "Head",
+  "text.apotheosis.category.curios:head.plural": "Head",
+  "text.apotheosis.category.curios:necklace": "Necklace",
+  "text.apotheosis.category.curios:necklace.plural": "Necklaces",
+  "text.apotheosis.category.curios:quiver": "Quiver",
+  "text.apotheosis.category.curios:quiver.plural": "Quivers",
+  "text.apotheosis.category.curios:ring": "Ring",
+  "text.apotheosis.category.curios:ring.plural": "Rings",
+  "text.apotheosis.category.curios:spellstone": "Spellstone",
+  "text.apotheosis.category.curios:spellstone.plural": "Spellstones"
+}

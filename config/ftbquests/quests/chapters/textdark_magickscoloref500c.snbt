@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "textdark_magickscoloref500c"
+	group: "3B0CDB8395E59365"
+	icon: {
+		Count: 1b
+		id: "apotheosis:gem"
+		tag: {
+			gem: "irons_spellbooks:eldritch"
+			rarity: "ancient"
+		}
+	}
+	id: "39A12A3BBCD69D07"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&aAmbient magic &fresides within the world and it's living creatures. For millenia individuals have devoted their lives to it's study , separating the mana types into \"schools\"."
+				""
+				"Schools such as the widely used &6fire , &bice and &eholy are encouraged for use by the &dgrand citadel &fwhich oversees magical affairs. However, while not prohibited completely the use of schools such as &5ender &fare frowned upon due to the the dark nature of it's &9mana."
+				""
+				"And though even those schools which have restrictions placed on their use are still widely used in some regions there are two schools which are completely forbidden."
+			]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "cataclysm_spellbooks:void_beam"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "65993F4D40D84B74"
+			rewards: [{
+				count: 2
+				id: "47F62914A8C40E16"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Dark Arts"
+			tasks: [{
+				id: "56E356D0D75B3442"
+				title: "Click to Complete"
+				type: "checkmark"
+			}]
+			title: "Forbidden Magic"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65993F4D40D84B74"]
+			description: [
+				"One of the two forbidden schools &0eldritch, &fit's &9mana &foriginated from &0the dark one &fhimself as a gift to those whom he chose to do his bidding."
+				""
+				"Unlike the other schools which derive their &9mana &ffrom the environment an individual is imbued with &0eldritch &9mana &fupon the acceptance of &0the dark one's &fpact."
+				""
+				"I order to begin your journey you will need to find &8ancient knowledge &ffragments to forge an &0eldritch &8manuscript."
+			]
+			id: "6B0FCE3DEEDB952A"
+			rewards: [{
+				count: 4
+				id: "4EAFA1E0393DF5C7"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				type: "item"
+			}]
+			subtitle: "The Dark One's Gift"
+			tasks: [{
+				id: "083451D036F6C4CA"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				type: "item"
+			}]
+			title: "Eldritch School"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B0FCE3DEEDB952A"]
+			description: [
+				"Upon completion of the &0eldritch &8manuscript &fread it to enter a pact with &0the dark one &fgaining a random &0eldritch spell. "
+				""
+				"You will need to acquire more manuscripts to attain more spells."
+			]
+			id: "35648D67DCE2EC41"
+			rewards: [{
+				count: 5
+				id: "13EC70D98FC063EB"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				type: "item"
+			}]
+			subtitle: "Dark's One's Pact"
+			tasks: [{
+				id: "2420DCC54740DADB"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35648D67DCE2EC41"]
+			description: [
+				"Whilst &0eldritch &fspells are formidable on thier own thier potency can be further enhanced with the use of &dgems."
+				""
+				"The dark one's gem when socketed in your gear will bolster the power of your &0eldritch &0spells."
+				""
+				"They can be found in dungeons or purchased in the &6shop."
+			]
+			icon: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "irons_spellbooks:eldritch"
+					rarity: "ancient"
+				}
+			}
+			id: "2EF8DE651DF12843"
+			rewards: [{
+				id: "15C33D0AE4ADE279"
+				item: {
+					Count: 1b
+					id: "apotheosis:gem"
+					tag: {
+						gem: "irons_spellbooks:eldritch"
+						rarity: "ancient"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The Dark One's Gem"
+			tasks: [{
+				id: "2DA63504C8AA0921"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			title: "Eldrich Spell Power"
+			x: 4.5d
+			y: 1.0d
+		}
+	]
+	title: "{\"text\":\"Forbidden Magicks\",\"color\":\"#EF500C\"}"
+}

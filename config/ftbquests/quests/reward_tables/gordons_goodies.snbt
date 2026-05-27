@@ -1,0 +1,11 @@
+{
+	id: "27B628E39B823EBC"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "upgradednetherite_items:netherite_apple" }
+		{ item: "minecraft:netherite_scrap" }
+		{ count: 2, item: "minecraft:netherite_scrap" }
+	]
+	title: "Gordon's Goodies"
+}

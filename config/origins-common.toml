@@ -1,0 +1,736 @@
+
+[origins]
+
+	[origins."strictly:wildcat"]
+		enabled = true
+		"strictly:feline_grace" = true
+		"strictly:feared_hunter" = true
+		"strictly:soft_paws" = true
+		"origins:climbing" = true
+		"strictly:night_hunter" = true
+		"origins:carnivore" = true
+		"strictly:water_weary" = true
+		"strictly:nocturnal_eyes1" = true
+
+	[origins."origins-classes:warrior"]
+		enabled = true
+		"origins-classes:more_attack_damage" = true
+		"origins-classes:less_shield_slowdown" = true
+
+	[origins."arkwys:demon"]
+		enabled = true
+		"arkwys:demon/blood_drinker" = true
+		"arkwys:demon/blood_sacrifice" = true
+		"arkwys:demon/cursed_armor" = true
+		"arkwys:demon/dash" = true
+		"arkwys:demon/dash_cooldown" = true
+		"arkwys:demon/dash_count" = true
+		"arkwys:demon/more_energy" = true
+		"arkwys:demon/night_vision" = true
+		"arkwys:demon/no_eating" = true
+		"arkwys:demon/soul_count" = true
+		"origins:fall_immunity" = true
+		"arkwys:demon/soul_count_on_death" = true
+		"arkwys:demon/soul_count_on_kill" = true
+		"arkwys:demon/soul_eater" = true
+		"arkwys:demon/sun" = true
+		"arkwys:credits" = true
+
+	[origins."medievalorigins:dwarf"]
+		enabled = true
+		"medievalorigins:dwarf/dense" = true
+		"medievalorigins:dwarf/haste" = true
+		"medievalorigins:dwarf/miniature" = true
+		"medievalorigins:dwarf/nocturnal_eyes" = true
+		"medievalorigins:dwarf/nocturnal" = true
+		"medievalorigins:dwarf/pickaxeless_stone" = true
+		"medievalorigins:dwarf/potent_brew" = true
+		"medievalorigins:dwarf/reach_fix" = true
+
+	[origins."origins:elytrian"]
+		enabled = true
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
+
+	[origins."medievalorigins:pixie"]
+		enabled = true
+		"medievalorigins:pixie/pixie_properties" = true
+		"medievalorigins:pixie/feather_footed" = true
+		"medievalorigins:pixie/flight" = true
+		"medievalorigins:pixie/good_fortunes" = true
+		"medievalorigins:pixie/mischief_maketh_man" = true
+		"medievalorigins:pixie/curse_of_flight" = true
+		"medievalorigins:pixie/soaked" = true
+		"medievalorigins:pixie/troublemaker" = true
+
+	[origins."origins-classes:explorer"]
+		enabled = true
+		"origins-classes:explorer_kit" = true
+		"origins-classes:no_sprint_exhaustion" = true
+
+	[origins."medievalorigins:gorgon"]
+		enabled = true
+		"medievalorigins:gorgon/hydrophobe_gorg" = true
+		"medievalorigins:gorgon/medusa_team" = true
+		"medievalorigins:gorgon/petrification" = true
+		"medievalorigins:gorgon/serpentine_companions" = true
+		"medievalorigins:gorgon/silver_aversion" = true
+		"medievalorigins:gorgon/silver_aversion_iceandfire" = true
+		"medievalorigins:gorgon/silverfish_aggro" = true
+		"medievalorigins:gorgon/stony_gaze" = true
+		"medievalorigins:gorgon/super_strength" = true
+
+	[origins."strictly:priest"]
+		enabled = true
+		"strictly:scholar" = true
+		"strictly:nimble" = true
+		"origins:vegetarian" = true
+		"origins:fall_immunity" = true
+		"strictly:holy_curse" = true
+		"origins:ender_particles" = true
+
+	[origins."medievalorigins:knight"]
+		enabled = true
+
+	[origins."origins-classes:rancher"]
+		enabled = true
+		"origins-classes:twin_breeding" = true
+		"origins-classes:more_animal_loot" = true
+
+	[origins."origins:blazeborn"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
+
+	[origins."cisco_rpg_origins:skadis_blessing"]
+		enabled = true
+		"cisco_rpg_origins:skadis_boon_minor" = true
+		"cisco_rpg_origins:skadis_boon_major" = true
+
+	[origins."origins-classes:farmer"]
+		enabled = true
+		"origins-classes:more_crop_drops" = true
+		"origins-classes:better_bone_meal" = true
+
+	[origins."arkwys:deer"]
+		enabled = true
+		"origins:vegetarian" = true
+		"arkwys:deer/oh_deer_god_drawback" = true
+		"arkwys:deer/oh_deer_god" = true
+		"arkwys:deer/forest_native" = true
+		"arkwys:deer/sensitive_awareness" = true
+		"arkwys:deer/food_bonus" = true
+		"arkwys:deer/weak" = true
+		"arkwys:deer/jump_bonus" = true
+
+	[origins."strictly:high_elf"]
+		enabled = true
+		"strictly:flamethrower" = true
+		"strictly:forest_vision" = true
+		"strictly:hyper_sight" = true
+		"strictly:towering" = true
+		"strictly:vegetarian" = true
+		"strictly:spindly" = true
+		"strictly:jump3" = true
+		"strictly:falldmg" = true
+
+	[origins."origins-classes:miner"]
+		enabled = true
+		"origins-classes:more_stone_break_speed" = true
+		"origins-classes:no_mining_exhaustion" = true
+
+	[origins."cisco_rpg_origins:susanoos_blessing"]
+		enabled = true
+		"cisco_rpg_origins:susanoos_boon_minor" = true
+		"cisco_rpg_origins:susanoos_boon_major" = true
+		"cisco_rpg_origins:susanoos_boon_major2" = true
+
+	[origins."origins-classes:cook"]
+		enabled = true
+		"origins-classes:better_crafted_food" = true
+		"origins-classes:more_smoker_xp" = true
+
+	[origins."medievalorigins:elf"]
+		enabled = true
+		"medievalorigins:elf/archer" = true
+		"medievalorigins:elf/forest_vision" = true
+		"medievalorigins:elf/hyper_sight" = true
+		"medievalorigins:elf/spindly" = true
+		"medievalorigins:elf/towering" = true
+		"medievalorigins:elf/vegetarian" = true
+		"medievalorigins:elf/weak_melee" = true
+		"medievalorigins:elf/weak_melee_dungeons_gear" = true
+		"medievalorigins:elf/weak_melee_iceandfire" = true
+		"medievalorigins:elf/weak_melee_spartanweaponry" = true
+		"medievalorigins:elf/weak_swords" = true
+		"medievalorigins:elf/weak_swords_dungeons_gear" = true
+		"medievalorigins:elf/weak_swords_iceandfire" = true
+		"medievalorigins:elf/weak_swords_spartanweaponry" = true
+
+	[origins."strictly:troll"]
+		enabled = true
+		"strictly:lead_belly" = true
+		"strictly:stocky" = true
+		"strictly:gargantuan" = true
+		"strictly:ravenous" = true
+		"strictly:sluggish" = true
+		"strictly:xxxl" = true
+		"strictly:unweildy" = true
+		"strictly:cunning_hidden" = true
+
+	[origins."medievalorigins:fae"]
+		enabled = true
+
+	[origins."medievalorigins:goblin"]
+		enabled = true
+		"medievalorigins:goblin/cunning" = true
+		"medievalorigins:goblin/frail" = true
+		"medievalorigins:goblin/greedy" = true
+		"medievalorigins:goblin/greedy_dungeons_gear" = true
+		"medievalorigins:goblin/looter" = true
+		"medievalorigins:goblin/nippy" = true
+		"medievalorigins:goblin/stunted" = true
+
+	[origins."medievalorigins:siren"]
+		enabled = true
+		"medievalorigins:siren/amphibious" = true
+		"medievalorigins:siren/flammable" = true
+		"medievalorigins:siren/holy_water" = true
+		"medievalorigins:siren/out_of_your_depth" = true
+		"medievalorigins:siren/prone" = true
+		"medievalorigins:siren/siren_song" = true
+		"medievalorigins:siren/water_vision" = true
+
+	[origins."arkwys:phantom"]
+		enabled = true
+
+	[origins."strictly:buzz"]
+		enabled = true
+		"strictly:stinger" = true
+		"strictly:bee_diet" = true
+		"strictly:bee_skin" = true
+		"strictly:freedom_calls" = true
+		"strictly:itty_bitty" = true
+		"strictly:nectar_processing" = true
+		"strictly:new_diet" = true
+		"strictly:smoke_sickness" = true
+
+	[origins."cisco_rpg_origins:demi_god_umbra"]
+		enabled = true
+		"cisco_rpg_origins:divine_strength" = true
+		"cisco_rpg_origins:hubris" = true
+		"cisco_rpg_origins:umbral_lineage" = true
+		"cisco_rpg_origins:dark_vision" = true
+		"cisco_rpg_origins:divine_hunger" = true
+		"cisco_rpg_origins:divine_body" = true
+		"cisco_rpg_origins:test_dark_spell" = true
+
+	[origins."arkwys:moth"]
+		enabled = true
+
+	[origins."arkwys:slimefolk"]
+		enabled = true
+		"arkwys:slimefolk/high_jump" = true
+		"arkwys:slimefolk/translucent_skin" = true
+		"arkwys:slimefolk/swamp_habitat" = true
+		"arkwys:slimefolk/slime_size" = true
+		"arkwys:slimefolk/slime_health" = true
+		"origins:fall_immunity" = true
+		"arkwys:slimefolk/reach_fix" = true
+		"arkwys:credits" = true
+
+	[origins."strictly:otter"]
+		enabled = true
+		"origins:aqua_affinity" = true
+		"origins:aquatic" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:no_shield" = true
+		"strictly:improved_lungs" = true
+		"strictly:aquatic_predator" = true
+		"strictly:otter_gods_blessing" = true
+		"strictly:otter_pouch" = true
+		"origins:claustrophobia" = true
+		"strictly:heart_reduction" = true
+		"strictly:mini_riptide" = true
+		"strictly:miniature_dwarf" = true
+		"strictly:land_slow" = true
+		"strictly:jump" = true
+		"strictly:step_height" = true
+
+	[origins."strictly:thief"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"strictly:superstealth" = true
+		"origins:tailwind" = true
+		"origins:fragile" = true
+		"strictly:cloak" = true
+		"strictly:money_lover" = true
+		"strictly:strong" = true
+		"origins:more_exhaustion" = true
+		"strictly:night-owl" = true
+
+	[origins."medievalorigins:troll"]
+		enabled = true
+
+	[origins."origins-classes:blacksmith"]
+		enabled = true
+		"origins-classes:quality_equipment" = true
+		"origins-classes:efficient_repairs" = true
+
+	[origins."cisco_rpg_origins:no_blessing"]
+		enabled = true
+
+	[origins."medievalorigins:paladin"]
+		enabled = true
+
+	[origins."strictly:plantaemancer"]
+		enabled = true
+		"strictly:poison_ivy_vines" = true
+		"strictly:plant_caretaker" = true
+		"strictly:regrowth" = true
+		"strictly:flammable" = true
+		"strictly:light_deprivation" = true
+		"strictly:blissful_light" = true
+
+	[origins."origins-classes:rogue"]
+		enabled = true
+		"origins-classes:sneaky" = true
+		"origins-classes:stealth" = true
+		"origins-classes:stealth_core" = true
+
+	[origins."origins-classes:nitwit"]
+		enabled = true
+
+	[origins."origins:enderian"]
+		enabled = true
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:feline"]
+		enabled = true
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+
+	[origins."cisco_rpg_origins:athenas_blessing"]
+		enabled = true
+		"cisco_rpg_origins:athenas_boon_minor" = true
+		"cisco_rpg_origins:athenas_boon_major" = true
+
+	[origins."medievalorigins:necromancer"]
+		enabled = true
+		"medievalorigins:necromancer/black_thumb" = true
+		"medievalorigins:necromancer/disturbed" = true
+		"medievalorigins:necromancer/hellraiser" = true
+		"medievalorigins:necromancer/impervious" = true
+		"medievalorigins:necromancer/poor_reputation" = true
+		"medievalorigins:necromancer/resilient" = true
+		"medievalorigins:necromancer/unguarded" = true
+
+	[origins."arkwys:bee"]
+		enabled = true
+
+	[origins."medievalorigins:plague_victim"]
+		enabled = true
+
+	[origins."medievalorigins:daemon"]
+		enabled = true
+
+	[origins."medievalorigins:banshee"]
+		enabled = true
+		"medievalorigins:banshee/ethereal" = true
+		"medievalorigins:banshee/flesheater" = true
+		"medievalorigins:banshee/hexed" = true
+		"medievalorigins:banshee/immaterial" = true
+		"medievalorigins:banshee/iron_aversion_banshee" = true
+		"medievalorigins:banshee/sonic_shriek" = true
+
+	[origins."strictly:knight"]
+		enabled = true
+		"strictly:skofnung" = true
+		"strictly:skilled_swordsman" = true
+		"strictly:valour" = true
+		"strictly:burdened" = true
+		"strictly:bowless" = true
+		"strictly:book" = true
+		"strictly:crescent_worship" = true
+
+	[origins."strictly:paladin"]
+		enabled = true
+		"strictly:holy_fire" = true
+		"strictly:dried_out" = true
+		"strictly:leech" = true
+		"strictly:well_built" = true
+		"strictly:durendal" = true
+		"strictly:skilled_swordsman_1" = true
+		"strictly:book" = true
+		"strictly:praise_the_sun" = true
+
+	[origins."origins:phantom"]
+		enabled = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:phasing" = true
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."arkwys:piglinbrute"]
+		enabled = true
+		"origins:water_vulnerability" = true
+		"origins:no_shield" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:carnivore" = true
+		"origins:strong_arms" = true
+		"arkwys:brute/soul_spooked" = true
+		"arkwys:brute/all_that_glitters" = true
+		"arkwys:brute/axe_efficient" = true
+		"arkwys:brute/axe_efficient_dungeons_gear" = true
+		"arkwys:brute/axe_efficient_spartanweaponry" = true
+
+	[origins."origins-classes:beastmaster"]
+		enabled = true
+		"origins-classes:tamed_animal_boost" = true
+		"origins-classes:tamed_potion_diffusal" = true
+
+	[origins."origins-classes:merchant"]
+		enabled = true
+		"origins-classes:trade_availability" = true
+		"origins-classes:rare_wandering_loot" = true
+
+	[origins."strictly:adapted_raccoon"]
+		enabled = true
+		"strictly:arrow_weak" = true
+		"strictly:claustrophobia" = true
+		"strictly:expert_at_hiding" = true
+		"strictly:hates_carrots" = true
+		"strictly:nocturnal_eyes1" = true
+		"strictly:nocturnal" = true
+		"strictly:rabies_resistant" = true
+		"strictly:rabies" = true
+		"strictly:scurry" = true
+		"strictly:rabies_cont" = true
+		"strictly:sharp_claws" = true
+		"strictly:small_body" = true
+		"strictly:small_hands" = true
+		"strictly:thick_fur" = true
+		"strictly:tough_heart" = true
+		"strictly:tough_stomach" = true
+		"strictly:trash_lover" = true
+		"strictly:jump2" = true
+		"strictly:step_height" = true
+
+	[origins."strictly:birdofparadise"]
+		enabled = true
+		"strictly:winged" = true
+		"strictly:angelicgrace" = true
+		"origins:aerial_combatant" = true
+		"origins:tailwind" = true
+		"strictly:wet_wings" = true
+		"strictly:windsblessing" = true
+
+	[origins."origins:avian"]
+		enabled = true
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
+
+	[origins."origins-classes:archer"]
+		enabled = true
+		"origins-classes:no_projectile_divergence" = true
+		"origins-classes:less_bow_slowdown" = true
+
+	[origins."cisco_rpg_origins:demi_god_lux"]
+		enabled = true
+		"cisco_rpg_origins:divine_strength" = true
+		"cisco_rpg_origins:hubris" = true
+		"cisco_rpg_origins:luxian_lineage" = true
+		"cisco_rpg_origins:divine_hunger" = true
+		"cisco_rpg_origins:lightbringer" = true
+		"cisco_rpg_origins:divine_body" = true
+
+	[origins."strictly:dwarf"]
+		enabled = true
+		"strictly:haste" = true
+		"strictly:potent_brew" = true
+		"strictly:miniature_dwarf" = true
+		"strictly:dense" = true
+		"strictly:insatiable_hunger" = true
+		"strictly:gold_lover" = true
+		"strictly:nocturnal_eyes1" = true
+		"strictly:pickaxeless_stone" = true
+		"strictly:jump" = true
+		"strictly:step_height" = true
+
+	[origins."cisco_rpg_origins:thors_blessing"]
+		enabled = true
+		"cisco_rpg_origins:thors_boon_minor" = true
+		"cisco_rpg_origins:thors_boon_major" = true
+
+	[origins."medievalorigins:werewolf"]
+		enabled = true
+
+	[origins."cisco_rpg_origins:amaterasus_blessing"]
+		enabled = true
+		"cisco_rpg_origins:amaterasus_boon_minor" = true
+		"cisco_rpg_origins:amaterasus_boon_major" = true
+		"cisco_rpg_origins:amaterasus_boon_major2" = true
+
+	[origins."arkwys:woodelf"]
+		enabled = true
+		"arkwys:woodelf/adept_projectiles" = true
+		"arkwys:woodelf/forest_habitat" = true
+		"arkwys:woodelf/light_armoured" = true
+		"arkwys:woodelf/vegetarian" = true
+		"arkwys:woodelf/weak_melee_dungeons_gear" = true
+		"arkwys:woodelf/weak_melee_iceandfire" = true
+		"arkwys:woodelf/weak_melee_spartanweaponry" = true
+		"arkwys:woodelf/weak_melee" = true
+		"arkwys:credits" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."cisco_rpg_origins:venthari_sharpshooter"]
+		enabled = true
+		"cisco_rpg_origins:deadeye" = true
+		"cisco_rpg_origins:carnivore" = true
+		"cisco_rpg_origins:terrain" = true
+		"cisco_rpg_origins:terrain2" = true
+		"cisco_rpg_origins:fragility" = true
+
+	[origins."origins-classes:lumberjack"]
+		enabled = true
+		"origins-classes:tree_felling" = true
+		"origins-classes:more_planks_from_logs" = true
+
+	[origins."arkwys:minotaur"]
+		enabled = true
+		"arkwys:minotaur/agoraphobia" = true
+		"origins:carnivore" = true
+		"arkwys:minotaur/agoraphobia2" = true
+		"arkwys:minotaur/hungry" = true
+		"arkwys:minotaur/armor" = true
+		"arkwys:minotaur/no_swim" = true
+		"arkwys:minotaur/milk_give" = true
+		"arkwys:minotaur/milk_tag" = true
+		"arkwys:minotaur/ram" = true
+		"arkwys:minotaur/axe_proficiency" = true
+		"arkwys:minotaur/axe_proficiency_dungeons_gear" = true
+		"arkwys:minotaur/axe_proficiency_iceandfire" = true
+		"arkwys:minotaur/axe_proficiency_spartanweaponry" = true
+		"arkwys:minotaur/big" = true
+		"arkwys:minotaur/health" = true
+		"arkwys:minotaur/fire" = true
+
+	[origins."medievalorigins:yeti"]
+		enabled = true
+		"medievalorigins:yeti/frigid_pulse" = true
+		"medievalorigins:yeti/from_whence_you_came" = true
+		"medievalorigins:yeti/frosty_breath" = true
+		"medievalorigins:yeti/titanic" = true
+		"medievalorigins:yeti/unstoppable" = true
+		"medievalorigins:yeti/winter_body" = true
+		"medievalorigins:yeti/flammable" = true
+		"medievalorigins:yeti/thick_fur" = true
+
+	[origins."arkwys:plague_victim"]
+		enabled = true
+
+	[origins."origins:shulk"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+
+	[origins."origins-classes:cleric"]
+		enabled = true
+		"origins-classes:potion_bonus" = true
+		"origins-classes:better_enchanting" = true
+
+	[origins."origins:merling"]
+		enabled = true
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+
+	[origins."cisco_rpg_origins:neptunes_blessing"]
+		enabled = true
+		"cisco_rpg_origins:neptunes_boon_minor" = true
+		"cisco_rpg_origins:neptunes_boon_major" = true
+
+	[origins."medievalorigins:ogre"]
+		enabled = true
+
+	[origins."origins:arachnid"]
+		enabled = true
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+
+	[origins."medievalorigins:phantom"]
+		enabled = true
+
+	[origins."medievalorigins:arachnae"]
+		enabled = true
+		"medievalorigins:arachnae/bottomless_stomach" = true
+		"medievalorigins:arachnae/brittle" = true
+		"medievalorigins:arachnae/climber" = true
+		"medievalorigins:arachnae/fragile_exoskeleton" = true
+		"medievalorigins:arachnae/many_eyes" = true
+		"medievalorigins:arachnae/venomous_bite" = true
+		"medievalorigins:arachnae/web_slinger" = true
+
+	[origins."cisco_rpg_origins:zephyrus_blessing"]
+		enabled = true
+		"cisco_rpg_origins:zephyrus_boon_minor" = true
+		"cisco_rpg_origins:zephyrus_boon_minor2" = true
+		"cisco_rpg_origins:zephyrus_boon_major" = true
+
+	[origins."strictly:umvuthana"]
+		enabled = true
+		"strictly:sunblessing" = true
+		"strictly:sun_block" = true
+		"strictly:weak_health" = true
+		"strictly:superstealth" = true
+
+	[origins."cisco_rpg_origins:lokis_blessing"]
+		enabled = true
+		"cisco_rpg_origins:lokis_boon_minor" = true
+		"cisco_rpg_origins:lokis_boon_minor2" = true
+		"cisco_rpg_origins:lokis_boon_major" = true
+		"cisco_rpg_origins:lokis_boon_minor3" = true
+		"cisco_rpg_origins:lokis_boon_major2" = true
+
+	[origins."strictly:umvuthi"]
+		enabled = true
+		"strictly:sunblessing" = true
+		"strictly:sun_block" = true
+		"strictly:weak_health" = true
+		"strictly:vegetarian1" = true
+
+	[origins."cisco_rpg_origins:rastrayian_justicar"]
+		enabled = true
+		"cisco_rpg_origins:rastraiya_might" = true
+		"cisco_rpg_origins:ender_rebuke" = true
+		"cisco_rpg_origins:holy_blessing" = true
+		"cisco_rpg_origins:dl_blessing" = true
+		"cisco_rpg_origins:guiding_bolt_expert" = true
+		"cisco_rpg_origins:fortify" = true
+		"cisco_rpg_origins:righteous_respite" = true
+
+	[origins."cisco_rpg_origins:hobrosi_dark_mage"]
+		enabled = true
+		"cisco_rpg_origins:ender_affinity" = true
+		"cisco_rpg_origins:holy_rebuke" = true
+		"cisco_rpg_origins:dark_blessing" = true
+		"cisco_rpg_origins:dl_blessing" = true
+		"cisco_rpg_origins:magic_missle_expert" = true
+		"cisco_rpg_origins:ethereal_evasion" = true
+		"cisco_rpg_origins:profane_sacrifice" = true
+
+	[origins."cisco_rpg_origins:frijani_drengr"]
+		enabled = true
+		"cisco_rpg_origins:berserkergang" = true
+		"cisco_rpg_origins:berserkergang2" = true
+		"cisco_rpg_origins:chilled_blades" = true
+		"cisco_rpg_origins:chilled_blades2" = true
+		"cisco_rpg_origins:chilled_blades3" = true
+		"cisco_rpg_origins:reckless_fury" = true
+		"cisco_rpg_origins:andhrimnir" = true
+		"cisco_rpg_origins:skjoldur" = true
+
+	[origins."cisco_rpg_origins:hephaestus_blessing"]
+		enabled = true
+		"cisco_rpg_origins:hephaestus_boon_minor" = true
+		"cisco_rpg_origins:hephaestus_boon_major" = true
+
+	[origins."cisco_rpg_origins:ares_blessing"]
+		enabled = true
+		"cisco_rpg_origins:ares_boon_minor" = true
+		"cisco_rpg_origins:ares_boon_major" = true
+		"cisco_rpg_origins:ares_boon_major2" = true
+
+	[origins."cisco_rpg_origins:boreas_blessing"]
+		enabled = true
+		"cisco_rpg_origins:boreas_boon_minor" = true
+		"cisco_rpg_origins:boreas_boon_major" = true
+
+	[origins."cisco_rpg_origins:ras_blessing"]
+		enabled = true
+		"cisco_rpg_origins:ras_boon_minor" = true
+		"cisco_rpg_origins:ras_boon_major" = true
+
+	[origins."cisco_rpg_origins:pyrios_pheonix_knight"]
+		enabled = true
+		"cisco_rpg_origins:infernal_blade" = true
+		"cisco_rpg_origins:damnation_of_pyr" = true
+		"cisco_rpg_origins:solar_eclipse" = true
+		"cisco_rpg_origins:pheonix_renewal" = true
+		"cisco_rpg_origins:endothermic" = true
+		"cisco_rpg_origins:flame_god_might" = true
+		"cisco_rpg_origins:burning_dash_expert" = true
+		"cisco_rpg_origins:flame_god_might2" = true
+
+	[origins."cisco_rpg_origins:arthurs_blessing"]
+		enabled = true
+		"cisco_rpg_origins:arthurs_boon_minor" = true
+		"cisco_rpg_origins:arthurs_boon_major2" = true
+		"cisco_rpg_origins:arthurs_boon_major3" = true
+		"cisco_rpg_origins:arthurs_boon_major" = true
+
+	[origins."cisco_rpg_origins:vishnus_blessing"]
+		enabled = true
+		"cisco_rpg_origins:vishnu_boon_minor" = true
+		"cisco_rpg_origins:vishnus_boon_major2" = true
+		"cisco_rpg_origins:vishnu_boon_major2" = true
+		"cisco_rpg_origins:vishnu_boon_major" = true
+
+	[origins."cisco_rpg_origins:ahmuzencab_blessing"]
+		enabled = true
+
+	[origins."cisco_rpg_origins:babayaga_blessing"]
+		enabled = true
+		"cisco_rpg_origins:babayaga_boon_minor" = true
+		"cisco_rpg_origins:babayaga_boon_major" = true
+
+	[origins."cisco_rpg_origins:chiron_blessing"]
+		enabled = true
+		"cisco_rpg_origins:chiron_boon_minor" = true
+		"cisco_rpg_origins:chiron_boon_major" = true
+		"cisco_rpg_origins:chiron_boon_major2" = true
+

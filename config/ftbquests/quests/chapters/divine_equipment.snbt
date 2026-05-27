@@ -1,0 +1,672 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "divine_equipment"
+	group: "103C318287AA2A0F"
+	icon: {
+		Count: 1b
+		id: "cisco_mod:equillibrium"
+		tag: {
+			Damage: 0
+			affix_data: {
+				affixes: {
+					"apotheosis:socket": 1.0f
+				}
+			}
+		}
+	}
+	id: "08FFA9A856E66C0A"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "kubejs:textures/fellkingpose1.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: -11.0d
+		y: -0.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"I fashioned an &6ornate armor set &fand one by one, i gained the favour of the &egods &fobtaining four unique blessings one for each piece of armor."
+				""
+				"The &cpower &fcontained within was at first too much for me but with deep meditation and considerable focus i learned to &dcontrol &fand even amplify it with my own &cstrength."
+			]
+			icon: {
+				Count: 1b
+				id: "cisco_mod:ciscos_armor_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "340BCEB3585A311C"
+			rewards: [{
+				count: 7
+				id: "21A7FB9FD1B51976"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Chosen Champion"
+			tasks: [
+				{
+					id: "54178A1D799CBA7D"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ciscos_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2B77793B5729F6"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ciscos_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6943B96722573F85"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ciscos_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0220C612F6045F71"
+					item: {
+						Count: 1b
+						id: "cisco_mod:ciscos_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{\"text\":\"Divine Armor\",\"color\":\"#DCC815\",\"bold\":false,\"underlined\":false}"
+			x: 1.25d
+			y: -5.0d
+		}
+		{
+			description: [
+				"I needed a &cpowerful weapon &fand so i travelled to the depths of &4&fhell in a bid to find the most resilent &0material &fknown to humanity at the time."
+				""
+				"With it i fashioned a &cblade &fdecorating it with softer more &6ornate metals. "
+			]
+			id: "4CC94BA5994DB6F7"
+			rewards: [{
+				count: 3
+				id: "29A628FB5E84FF20"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Sleeping Giant"
+			tasks: [{
+				id: "470D6AD56DD0046D"
+				item: {
+					Count: 1b
+					id: "cisco_mod:slumbering_equillibrium"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 6.25d
+		}
+		{
+			description: ["I inserted the &4gem &fand the &cblade &elit&f up before me. Enemies hit with it were torched by &ddragonfire."]
+			id: "4D13391578E4A553"
+			rewards: [{
+				count: 7
+				id: "693904D6A251D92A"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Blade of Balance"
+			tasks: [{
+				id: "01B7E8AD99E9A72C"
+				item: {
+					Count: 1b
+					id: "cisco_mod:equillibrium"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["4D13391578E4A553"]
+			dependency_requirement: "all_started"
+			description: [
+				"My friend and legendary blacksmith &4arthas, &fwhilst maintaining the  blade thought it would be more efficient to use it as a lighter variant of the original. This modification would allow for faster more agile attacks . "
+				""
+				"Reluctant , i allowed &4him &fto make his modifications upon the assurance that he would return it to its original state if need be."
+			]
+			id: "35898195DCC583A6"
+			rewards: [
+				{
+					id: "3C3C655E53E6F352"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "14E73DA9A768B6F6"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Size Matters"
+			tasks: [{
+				id: "40C05FACCF503096"
+				item: {
+					Count: 1b
+					id: "cisco_mod:refined_equillibrium"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.25d
+		}
+		{
+			description: [
+				"An &4unforseen enemy&f....my brothers and sisters in the &eheavens &fslain.. at the brink of death, through sheer rage, my true &cpower &r&ffinally awakened."
+				""
+				"I felt the hold of something &0sinister, &fbut also a &cstrength &ffar beyond anything i had felt before. I reluctantly surrendered to it's cold embrace. &0Tainted &fbut &ereborn,  &fi vowed to avenge the lost."
+			]
+			id: "4B3AED224389528F"
+			rewards: [{
+				count: 3
+				id: "049329C71CABE6ED"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "A fallen hero rises"
+			tasks: [{
+				id: "3CE11BE2A58E2307"
+				item: {
+					Count: 1b
+					id: "cisco_mod:nightfall"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -8.75d
+		}
+		{
+			description: [
+				"I cut my way through what felt like thousands of the &4Fell King's&f forces. My &cstrength &fhowever, &fonly increased with each swing of Nightfall."
+				""
+				"Perhaps &4he &fgrew tired of his &0legion's &fincompetence or thought it best to put an end to me &4himself &fbut the &4fell king &fwould descend upon me with a determined ferocity. &fAfter hours of furious fighting I stood atop his defeated body."
+			]
+			id: "45D8D5B8D47651DF"
+			rewards: [
+				{
+					id: "06CAB40BC8570013"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "71893CB6ABE2AC6E"
+					item: "cisco_mod:darksteel"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "At what cost?"
+			tasks: [
+				{
+					id: "53D5CC05466B385D"
+					item: {
+						Count: 1b
+						id: "cisco_mod:fallen_hero_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47BBD902328916C4"
+					item: {
+						Count: 1b
+						id: "cisco_mod:fallen_hero_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C550D8346D71F37"
+					item: {
+						Count: 1b
+						id: "cisco_mod:fallen_hero_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C3A4594A7C39BAB"
+					item: {
+						Count: 1b
+						id: "cisco_mod:fallen_hero_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{\"text\":\"Fallen Hero\",\"color\":\"red\",\"bold\":false,\"underlined\":false}"
+			x: 1.25d
+			y: -12.5d
+		}
+		{
+			description: [
+				"I enhanced and refined the &4gem &funtill the &cpower &fwithin overflowed so vigourously i thought the gem would consume itself. "
+				""
+				"With the &4gem &fnow stable it was finally ready to serve it's purpose. "
+			]
+			id: "5AFA5CB101E31BE4"
+			rewards: [{
+				count: 3
+				id: "7940159F83CA50B6"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Crimson Radiance"
+			tasks: [{
+				id: "022397B35A0E22E3"
+				item: "cisco_mod:radiant_ruby"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 2.5d
+		}
+		{
+			description: [
+				"I knelt down and lifted &4the fell king's &fhelm revealing not the face of a demon but the bloodied grin of &4Arthas&f...the blacksmith ... one whom i had considered a close freind."
+				""
+				"He lifted his arm slowly....there was a brief pause before a sudden searing pain reverberated in my chest completely paralysing me. I could see streaks of a &0dark energy &fleaving my body being transfered to him. The colour slowly returned to his face as &4he &fgot back up to his feet."
+			]
+			id: "479168EE1144DBB1"
+			rewards: [
+				{
+					id: "0BAE1BAD5C935254"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 7
+					id: "7DE6D63453D0A926"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Freinds and Foes"
+			tasks: [
+				{
+					id: "4F36F8D02DC09DCD"
+					item: {
+						Count: 1b
+						id: "cisco_mod:fell_king_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0800CD5694D83FFC"
+					item: {
+						Count: 1b
+						id: "cisco_mod:fell_king_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D25A92BD4B6C973"
+					item: {
+						Count: 1b
+						id: "cisco_mod:fell_king_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37475132E347887F"
+					item: {
+						Count: 1b
+						id: "cisco_mod:fell_king_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{\"text\":\"The Fell King\",\"color\":\"dark_red\",\"bold\":false,\"underlined\":false}"
+			x: 6.25d
+			y: -12.5d
+		}
+		{
+			description: [
+				"Severely weakened i struggled to get to my feet.. But a vicious strike from &5Fell Ragnarok &fwould shatter my chestplate and send me flying off a nearby cliff edge."
+				""
+				"As i plunged into the depths i could see &4his &fonce familiar face staring down at me his eyes blazing with &0dark energy &fand utter contempt as &4he &fslowly turned his back , walking away, leaving me to my fate."
+			]
+			id: "49EB4B9AE3365883"
+			rewards: [
+				{
+					id: "30601979DFD73D7A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "1419223081ADF0CB"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Ragnarok"
+			tasks: [{
+				id: "1FDD850C578CBABF"
+				item: {
+					Count: 1b
+					id: "cisco_mod:fell_ragnarok"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.25d
+			y: -12.5d
+		}
+		{
+			description: [
+				"I used the last portion of my &4power &fto teleport myself to the &dend dimension &faverting impending doom. &fThere the &5enderdragon &fembraced me as her kin whilst i recuperated ."
+				""
+				"I lack the &4power &fto defeat &4the &4fell &4king &falone &fbut perhaps you can... I wish to test your &4strength &fand &fshould you be able to defeat me, i will show you how to &asummon &4the &4fell &4king &fso we can end him once and for all. "
+				""
+				"Craft and use the &6talisman &6of &6challenge &fand we shall begin your &btrial."
+			]
+			icon: {
+				Count: 1b
+				id: "cisco_mod:ciscos_armor_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "134D9801D13D58F5"
+			rewards: [
+				{
+					id: "504EEB7552C74A8A"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42EDE716E8B3B407"
+					table_id: 3194438759912871293L
+					type: "choice"
+				}
+				{
+					count: 15
+					id: "2161D0D50769FCDA"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Challenging Cisco"
+			tasks: [
+				{
+					advancement: "cisco_mod:anewlegend"
+					criterion: ""
+					id: "2E3A6C1C8CB0E12A"
+					type: "advancement"
+				}
+				{
+					id: "5A12A630E7A5BB5A"
+					item: "cisco_mod:talisman_of_challenge"
+					type: "item"
+				}
+			]
+			title: "Cisco's Trial"
+			x: 16.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["134D9801D13D58F5"]
+			description: [
+				"During my journey to the &5fallen realm &fin search of a way to defeat &4the Fell King &fi stumbled upon his soldiers mining a mysterious &0dark crystal. &fUpon thorough examination it dawned on me that it was indeed the source of his immense &cpower."
+				""
+				"&fAfter many experiments i was able to tamper with the unique &9magical &fsignature to create a weakening effect. "
+				""
+				"Craft an &5altar &fto use as a gateway then &0corrupt &fthe &etalisman &fwith the &0fell fragments. &fThe altar will extract his primordial essence when he is defeated."
+				""
+				"&fUse the &0corrupted &etalisman &fon the &5altar &fand defeat &4the &4Fell king &fand take your rightful place as divinity."
+			]
+			id: "238511D8E52BB53E"
+			rewards: [
+				{
+					id: "7CB3486D023E7AF7"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 2
+					id: "49C394E32D2CFD2B"
+					item: "cisco_mod:tabletof_ascension"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3E767F2AFF00B600"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Felling The Fell King"
+			tasks: [
+				{
+					entity: "cisco_mod:fellkingboss"
+					icon: {
+						Count: 1b
+						id: "cisco_mod:fell_king_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "06567CB7308DCCD2"
+					title: "Defeat The Fell King"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "13B0806F755967AE"
+					item: "cisco_mod:podiumofpurgatory"
+					type: "item"
+				}
+				{
+					id: "2DBF64C06FDAD32B"
+					item: "cisco_mod:tainted_talisman"
+					type: "item"
+				}
+			]
+			title: "Defeat the Fell King"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"The son of a &afarmerwoman &fand an &0unknown god &fi grew up being no stronger than the average mortal. Despite this my half brothers and sisters in the &eheavens&f always looked favourably upon me intervening at key points in my life."
+				""
+				"What i did have however, was a natural apptitude for things &1arcane. &fSo , the minute i was of age i left my small village to enroll with &dthe order of the owl &fat &2the grand citadel. "
+				""
+				"&fThere i would relatively quickly attain the prestigous rank of &bSage. &fI would eventually grow bored of the citadel however, deciding to embark on a journey to truly make a name for myself. Using my knowledge of &9alchemy &fi forged a &4ruby &fthat would be help me borrow and harness the &edivine gifts &fof my more powerful &ekin &fto aid me on what would surely be a treachorous journey."
+			]
+			id: "288608ED892DC5EB"
+			rewards: [{
+				count: 2
+				id: "600FF15BCE3E202C"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Red as a Ruby"
+			tasks: [{
+				id: "4F241D893DBF361F"
+				item: "cisco_mod:divine_core"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 10.0d
+		}
+	]
+	title: "{\"text\":\"Cisco's Fate\",\"color\":\"dark_red\",\"bold\":true,\"underlined\":false}"
+}

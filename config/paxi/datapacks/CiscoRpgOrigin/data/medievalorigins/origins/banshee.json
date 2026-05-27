@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"medievalorigins:banshee/ethereal",
+		"medievalorigins:banshee/flesheater",
+		"medievalorigins:banshee/hexed",
+		"medievalorigins:banshee/immaterial",
+		"medievalorigins:banshee/iron_aversion_banshee",
+		"medievalorigins:banshee/sonic_shriek"
+	],
+	"icon": "minecraft:ender_eye",
+	"impact": 2,
+	"order": 1
+}

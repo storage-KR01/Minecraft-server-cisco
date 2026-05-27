@@ -1,0 +1,57 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "minecraft:generic.armor_toughness",
+	"operation": "ADDITION",
+	"values": {
+		"rare": {
+			"min": 1,
+			"steps": 0.5,
+			"step": 0
+		},
+		"epic": {
+			"min": 2,
+			"steps": 1,
+			"step": 0.125
+		},
+		"mythic": {
+			"min": 2,
+			"steps": 2,
+			"step": 0.125
+		},
+		"ancient": {
+			"min": 2,
+			"steps": 4,
+			"step": 0.125
+		}
+	},
+	"types": [
+		"curios:ring",
+		"curios:head",
+		"curios:necklace",
+		"curios:back",
+		"curios:an_focus",
+		"curios:bangle",
+		"curios:body",
+		"curios:hostility_curse",
+		"curios:bundle",
+		"curios:quiver",
+		"curios:spellstone",
+		"curios:artifact_head",
+					"curios:artifact_necklace",
+                    "curios:artifact_body",
+                    "curios:artifact_belt",
+                    "curios:artifact_bracelet",
+		"curios:hands",
+		"curios:belt",
+		"curios:trinkets",
+		"curios:charm",
+		"curios:talisman",
+		"curios:feet",
+		"curios:aether_ring",
+        "curios:aether_cape",
+        "curios:aether_gloves",
+        "curios:aether_accessory",
+        "curios:aether_shield",
+        "curios:aether_pendant"
+	]
+}

@@ -1,0 +1,115 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "undergarden"
+	}],
+	"weight": 5,
+	"quality": 1.5,
+	"dimensions": ["undergarden:undergarden"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+		"type": "apotheosis:drop_transform",
+		"gem_class": {
+			"key": "pickaxe",
+			"types": [
+				"pickaxe"
+			]
+		},
+		"blocks": "forge:stone",
+		"inputs": {
+			"tag": "forge:cobblestone"
+		},
+		"output": {
+			"item": "undergarden:depthrock"
+		},
+		"values": {
+			"rare": 0.20,
+			"epic": 0.40,
+			"mythic": 0.60,
+			"ancient": 0.80
+		},
+		"desc": "gem.apotheotic_additions:alchemy/decay.pickaxe"
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "light_weapon",
+			"types": [
+				"sword",
+				"trident"
+			]
+		},
+		"attribute": "apotheosis:armor_shred",
+		"operation": "ADDITION",
+		"values": {
+			"rare": 0.015,
+			"epic": 0.03,
+			"mythic": 0.045,
+			"ancient": 0.06
+		}
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "lower_armor",
+			"types": [
+				"leggings", "boots"
+			]
+		},
+		"attribute": "apotheosis:mining_speed",
+		"operation": "ADDITION",
+		"values": {
+			"rare": 0.05,
+			"epic": 0.1,
+			"mythic": 0.15,
+			"ancient": 0.2
+		}
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "curios",
+			"types": [
+				"curios:ring",
+				"curios:hostility_curse",
+				"curios:head",
+				"curios:necklace",
+				"curios:back",
+				"curios:an_focus",
+				"curios:bangle",
+				"curios:body",
+				"curios:bundle",
+				"curios:quiver",
+				"curios:spellstone",
+				"curios:artifact_head",
+				"curios:artifact_necklace",
+				"curios:artifact_body",
+				"curios:artifact_belt",
+				"curios:artifact_bracelet",
+				"curios:hands",
+				"curios:belt",
+				"curios:charm",
+				"curios:feet",
+				"curios:talisman",
+				"curios:aether_ring",
+				"curios:aether_cape",
+				"curios:aether_gloves",
+				"curios:aether_accessory",
+				"curios:aether_shield",
+				"curios:aether_pendant",
+				"curios:trinkets"
+]
+},
+"attribute": "apotheosis:armor_shred",
+"operation": "ADDITION",
+"values": {
+	"rare": 0.0075,
+	"epic": 0.015,
+	"mythic": 0.0225,
+	"ancient": 0.03
+		}
+	}
+]
+}

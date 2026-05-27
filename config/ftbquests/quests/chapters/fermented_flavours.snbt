@@ -1,0 +1,860 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fermented_flavours"
+	group: "023383BFD724C232"
+	id: "54B793592E713627"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This station is used to turn grape juice into wine ."]
+			id: "261F6609A94B1DAE"
+			rewards: [
+				{
+					id: "683F2B86739CB765"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "6376FDEF85D7F590"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 3.0d
+			subtitle: "Aged to perfection"
+			tasks: [{
+				id: "3B3F55815286C526"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			title: "Craft an Aging Barrel"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Used by placing grapes into it then jumping on them to make grape juice."]
+			id: "6B877F81B4C36660"
+			rewards: [
+				{
+					id: "44CCC4FA988F1AB8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "4093B1AD276E2A57"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Jumpin for Juice"
+			tasks: [{
+				id: "4468E2343195986B"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			title: "Craft the grapevine pot"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: ["Used to crush apples into apple mash a useful ingredient for certain wine recipes."]
+			id: "2BF5BB222FD6B9B2"
+			rewards: [
+				{
+					id: "7D8A0060352DB78F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "07850C1D4879B044"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Apple Masher"
+			tasks: [{
+				id: "491964F66863EB76"
+				item: "vinery:wine_press"
+				type: "item"
+			}]
+			title: "Craft the Apple press"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["Found in biomes all over your world find every species of red grape."]
+			id: "6809A4B9748A3329"
+			rewards: [{
+				id: "3EDF2AB34BA417FC"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Red Grape Conniseur"
+			tasks: [
+				{
+					id: "15884F86BC21963A"
+					item: "vinery:red_grape"
+					type: "item"
+				}
+				{
+					id: "2B32916A3E1C217C"
+					item: "vinery:savanna_grapes_red"
+					type: "item"
+				}
+				{
+					id: "7D5E5BB1EC5FA847"
+					item: "vinery:taiga_grapes_red"
+					type: "item"
+				}
+				{
+					id: "05543C5157F1020D"
+					item: "vinery:jungle_grapes_red"
+					type: "item"
+				}
+			]
+			title: "Aquire All red grape Species"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["Found in biomes all over your world find every species of white grape."]
+			id: "48ACE52B3F556D08"
+			rewards: [{
+				id: "32E14401B23D0A17"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "White Grape Coniseur"
+			tasks: [
+				{
+					id: "5AA34A0E2AC0047E"
+					item: "vinery:white_grape"
+					type: "item"
+				}
+				{
+					id: "67177F07F86558FA"
+					item: "vinery:savanna_grapes_white"
+					type: "item"
+				}
+				{
+					id: "32E96957DAD2EBA1"
+					item: "vinery:taiga_grapes_white"
+					type: "item"
+				}
+				{
+					id: "3C3A341FE7B2527E"
+					item: "vinery:jungle_grapes_white"
+					type: "item"
+				}
+			]
+			title: "Aquire All white grape Species"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Increases your maximum health breifly."]
+			id: "304E5654DE633847"
+			rewards: [
+				{
+					id: "5363C2357BE82238"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60C3EDD5ABFC28C2"
+					table_id: 1709372113236253247L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "1EBA1641D5DD697D"
+				item: {
+					Count: 1b
+					id: "vinery:stal_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			description: ["Grants resistance to damage and the absorption effects."]
+			id: "4E0E9C41B8A574CB"
+			rewards: [
+				{
+					id: "7BFCFE5889518EDE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D648E50B84F2C2D"
+					table_id: 9151115841851796944L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "34205526B6D0AFBC"
+				item: {
+					Count: 1b
+					id: "vinery:strad_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Pulls nearby items to the player."]
+			id: "2EF7920F4E87897A"
+			rewards: [{
+				id: "2D4A10F70DE79D51"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Winery"
+			tasks: [{
+				id: "1098183B49C9D36A"
+				item: {
+					Count: 1b
+					id: "vinery:magnetic_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			description: ["A great way of travelling to random locations."]
+			id: "20A8955FEDC3498F"
+			rewards: [
+				{
+					id: "08FD28BEE5AE3E50"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03D361620C9EDC78"
+					table_id: 1709372113236253247L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "15A3E080783B87D3"
+				item: {
+					Count: 1b
+					id: "vinery:chorus_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			description: ["This wine helps you see better in dark environments."]
+			id: "4233865D6448E86A"
+			rewards: [
+				{
+					id: "1A2B03769C3CB99B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B3BA497DEF35933"
+					table_id: 9151115841851796944L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "55E30EB10B088D76"
+				item: {
+					Count: 1b
+					id: "vinery:aegis_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			description: ["A perfect wine for the offensively minded."]
+			id: "7EBD3F539BDE1B80"
+			rewards: [{
+				id: "2BDF5BC1C6D333D0"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Winery"
+			tasks: [{
+				id: "251D39565BE8C9E4"
+				item: {
+					Count: 1b
+					id: "vinery:solaris_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Restores health when consumed."]
+			id: "4E51813603983427"
+			rewards: [
+				{
+					id: "3294EF44195A53A8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4934F74F99AA1BEC"
+					table_id: 9151115841851796944L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "0F1A8EFA3F39EAD8"
+				item: {
+					Count: 1b
+					id: "vinery:noir_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			description: ["Grants good fortune and attack speed."]
+			id: "2FAE951894283826"
+			rewards: [
+				{
+					id: "177934976679EAE3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A5350C9A462E60F"
+					table_id: 9151115841851796944L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "50B1220A270213EE"
+				item: {
+					Count: 1b
+					id: "vinery:bolvar_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			description: ["Provides mild regeneration when consumed."]
+			id: "514F15E78A9EEE8B"
+			rewards: [
+				{
+					id: "752D107ECE8F82F5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F2649359172E6D4"
+					table_id: 9151115841851796944L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "5F92CB3F05500AA4"
+				item: {
+					Count: 1b
+					id: "vinery:cherry_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			description: ["A great wine for additional mobility."]
+			id: "7B605A945DD4E8D2"
+			rewards: [
+				{
+					id: "2B0286D080458C59"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CEA5F8331CF32FD"
+					table_id: 9151115841851796944L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "517EC566D6B24A96"
+				item: {
+					Count: 1b
+					id: "vinery:clark_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			description: ["A powerful regenerative wine."]
+			id: "7B77DD61F18C5B81"
+			rewards: [
+				{
+					id: "7A8DE30F40C22D03"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0289F9F7BBAC3708"
+					table_id: 9151115841851796944L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "4D3811F67E7E633F"
+				item: {
+					Count: 1b
+					id: "vinery:jellie_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			description: ["A great wine for restoring a maintaining high health."]
+			id: "29A905C82057764F"
+			rewards: [
+				{
+					id: "5F0FE21169183BB8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "036A3D66D96D4CAB"
+					table_id: 9151115841851796944L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "468BA96E1F3CE01E"
+				item: {
+					Count: 1b
+					id: "vinery:apple_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			description: ["Grants resistance to fire and absorbtion when consumed."]
+			id: "3E291D5E02383887"
+			rewards: [
+				{
+					id: "165C83D84E6CE138"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00AB38361E4646A5"
+					table_id: 9151115841851796944L
+					type: "choice"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "02F28030B2E5845B"
+				item: {
+					Count: 1b
+					id: "vinery:red_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			description: ["Makes you glow making you more visible to other players."]
+			id: "40646DDF0D2B8ECB"
+			rewards: [
+				{
+					id: "7FCD2CA81FDCEA2A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A5B60753CB18590"
+					table_id: 9151115841851796944L
+					type: "choice"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "554A642ED7DBB625"
+				item: {
+					Count: 1b
+					id: "vinery:praetorian_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			description: ["Grants a speed bonus and the ability to walk on water when consumed."]
+			id: "26FAA7FEC378D3B8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "488143892DD54B22"
+					table_id: 1187722465311690695L
+					type: "choice"
+				}
+				{
+					id: "233F6C976F5AB4C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "3CDE5E2740E4A601"
+				item: {
+					Count: 1b
+					id: "vinery:chenet_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			description: ["Powerful healing wine."]
+			id: "7B004324BBDA7AF3"
+			rewards: [
+				{
+					id: "4D26A37C0A567ABA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "055567D63F2B9D9C"
+					table_id: 9151115841851796944L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "30E8F19E344DE85C"
+				item: {
+					Count: 1b
+					id: "vinery:king_danis_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			description: ["Fire resistance and absorbtion."]
+			id: "35D3631AC2451F08"
+			rewards: [
+				{
+					id: "4823178650F0BE0F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5276EA354C088793"
+					table_id: 9151115841851796944L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "7FEE5B02BA5E42E0"
+				item: {
+					Count: 1b
+					id: "vinery:mellohi_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			description: ["Boosts experience gain when consumed."]
+			id: "66E91443BD6ACBA2"
+			rewards: [{
+				id: "58679551837B72AB"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Winery"
+			tasks: [{
+				id: "7405F3ED1A8A84F8"
+				item: {
+					Count: 1b
+					id: "vinery:cristel_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			description: ["Makes you glow allowing other players to better locate you."]
+			id: "56BD1CAA8183E779"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DB6C35F69D08566"
+					table_id: 1187722465311690695L
+					type: "choice"
+				}
+				{
+					id: "0D80D620FED3C0E9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "790D0A7DB741F9F6"
+				item: {
+					Count: 1b
+					id: "vinery:glowing_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			description: ["Go out with a bang!"]
+			id: "5628FB58F7FDB241"
+			rewards: [{
+				id: "30F00419D3ED1A29"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Winery"
+			tasks: [{
+				id: "37C114C9F58C5983"
+				item: {
+					Count: 1b
+					id: "vinery:creepers_crush"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			description: ["Grants you strength when consumed."]
+			id: "66CF139A2C3B20C7"
+			rewards: [{
+				id: "2DDB7E015F12E5AA"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Winery"
+			tasks: [{
+				id: "17FEB17760862E98"
+				item: {
+					Count: 1b
+					id: "vinery:bottle_mojang_noir"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			description: ["Grants you bad omen providing a better way to initiate raids."]
+			id: "3FCD27F122D4FFBE"
+			rewards: [{
+				id: "42DE390EFE26A78C"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Winery"
+			tasks: [{
+				id: "6CE28C645D8AA4BB"
+				item: {
+					Count: 1b
+					id: "vinery:villagers_fright"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			description: ["Raises your hunger  and prevents it from depleting ."]
+			id: "167D0929F7D2FE81"
+			rewards: [
+				{
+					id: "314259CCFFD67F3B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BA885088C33ED96"
+					table_id: 9151115841851796944L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "15D0C6715114BEEC"
+				item: {
+					Count: 1b
+					id: "vinery:mead"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			description: ["Provides a powerful health boost."]
+			id: "33A7327ACA12C8E3"
+			rewards: [
+				{
+					id: "5640CC906A2AABA0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "431676F9D580CA4C"
+					table_id: 9151115841851796944L
+					type: "random"
+				}
+			]
+			subtitle: "Winery"
+			tasks: [{
+				id: "5084E49C5567AE4E"
+				item: {
+					Count: 1b
+					id: "vinery:eiswein"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+	]
+	title: "{\"text\":\"Fermented Flavours\",\"color\":\"#875E0B\",\"bold\":false,\"underlined\":false}"
+}

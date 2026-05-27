@@ -1,0 +1,69 @@
+{
+	id: "236C2319228DC76B"
+	loot_crate: {
+		color: 16753920
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "legendary_crate"
+	}
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 4, item: "minecraft:netherite_ingot" }
+		{
+			item: {
+				Count: 1b
+				id: "irons_spellbooks:netherite_spell_book"
+				tag: {
+					ISB_spellbook: {
+						activeSpellIndex: -1
+						spellSlots: 10
+						spells: [ ]
+					}
+				}
+			}
+			weight: 0.8f
+		}
+		{ item: "ringsofascension:ring_undying", weight: 0.5f }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:the_end/endersurge"
+					rarity: "ancient"
+				}
+			}
+		}
+		{ count: 32, item: "apotheosis:mythic_material", weight: 0.7f }
+		{ count: 10, item: "irons_spellbooks:legendary_ink" }
+		{ item: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot" }
+		{
+			type: "xp_levels"
+			xp_levels: 100
+		}
+		{ item: "origins:orb_of_origin" }
+		{
+			item: {
+				Count: 1b
+				id: "forbidden_arcanus:eternal_stella"
+				tag: { }
+			}
+		}
+	]
+	title: "Legendary Crate"
+}

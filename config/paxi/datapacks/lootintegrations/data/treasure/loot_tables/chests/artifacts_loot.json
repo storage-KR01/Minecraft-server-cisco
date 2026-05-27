@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+         {
+          "type":"minecraft:item",
+          "weight":4,
+          "name": "cisco_mod:ancient_boots_tablet"
+        },
+        {
+          "type":"minecraft:item",
+          "weight":4,
+          "name": "cisco_mod:ancient_chesplate_tablet"
+        },
+        {
+          "type":"minecraft:item",
+          "weight":4,
+          "name": "cisco_mod:ancient_helmet_tablet"
+        },
+        {
+          "type":"minecraft:item",
+          "weight":4,
+          "name": "cisco_mod:ancient_leggings_tablet"
+        },
+        {
+          "type":"minecraft:item",
+          "weight":6,
+          "name": "cisco_mod:champion_coin"
+        },
+        {
+          "type":"minecraft:item",
+          "weight":8,
+          "name": "cisco_mod:championlootbag"
+        }
+      ]
+    }
+  ]
+}
+
+    
+  
+  
+  

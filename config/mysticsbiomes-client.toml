@@ -1,0 +1,8 @@
+
+#Mystic's Biomes
+#Client Config Center
+[Misc]
+	#Falling leaf particles underneath blossom leaves.
+	#Default value: true
+	"Enable Falling Leaf Particles?" = true
+

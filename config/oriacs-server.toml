@@ -1,0 +1,42 @@
+
+[diet]
+	#If enabled: Carnivore may only eat meat, Vegetarian may only eat vegetables
+	#If disabled: Carnivore may eat anything besides vegetables, Vegetarian may eat anything besides meat
+	#Only vanilla foods are pre-defined, you could made mod foods compatible through tags
+	#It's recommended to leave this with the value of false if no compat has been made
+	strictDiet = false
+
+[helmet]
+
+	[helmet.diving]
+		#How long in seconds for the Diving Helmet to transform into Landwalking Helmet in Water
+		#Range: > 0
+		transformTime = 600
+		#How much will Respiration enchantment increase the transform time for Diving Helmet
+		#Range: 0.0 ~ 1.7976931348623157E308
+		respirationMultiplier = 1.0
+
+	[helmet.landwalking]
+		#How long in seconds for the Landwalking Helmet to transform into Diving Helmet in Water
+		#Range: > 0
+		transformTime = 600
+		#How much will Respiration enchantment increase the transform time for Landwalking Helmet
+		#Range: 0.0 ~ 1.7976931348623157E308
+		respirationMultiplier = 1.0
+
+[umbrella]
+	#Max damage of the Umbrella, aka. seconds available in rain
+	#Range: > 1
+	maxDamage = 600
+	#If the Umbrella can be used to keep its holder from rain
+	canKeepOutRain = true
+	#If the Umbrealla can be used to keep its holder from sunlight
+	canKeepOutSunlight = true
+	#The maximum R/G/B value of the Umbrella's color to keep out sunlight
+	#If set to 255, umbrella of all colors can keep out sunlight
+	#Range: 0 ~ 255
+	maxKeepOutSunlightColor = 127
+	#The chance for a zombie is spawned with an umbrella in hard difficulty
+	#Range: 0.0 ~ 1.0
+	spawnWithZombieChance = 0.05
+

@@ -1,0 +1,50 @@
+{
+	id: "77D0B7C123BCF34D"
+	loot_crate: {
+		color: 8388736
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "epic_crate"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 32, item: "minecraft:diamond" }
+		{ count: 2, item: "minecraft:netherite_ingot" }
+		{ item: "minecraft:nether_star" }
+		{ count: 15, item: "upgradednetherite_items:enchanted_netherite_apple" }
+		{ count: 2, item: "simplyswords:empowered_remnant" }
+		{
+			item: {
+				Count: 1b
+				id: "irons_spellbooks:diamond_spell_book"
+				tag: {
+					ISB_spellbook: {
+						activeSpellIndex: -1
+						spellSlots: 8
+						spells: [ ]
+					}
+				}
+			}
+		}
+		{ count: 32, item: "apotheosis:epic_material" }
+		{ count: 10, item: "irons_spellbooks:epic_ink" }
+		{ item: "deeperdarker:reinforced_echo_shard" }
+		{
+			type: "xp_levels"
+			xp_levels: 50
+		}
+		{
+			item: {
+				Count: 1b
+				id: "forbidden_arcanus:eternal_stella"
+				tag: { }
+			}
+		}
+		{ item: "origins:orb_of_origin", weight: 0.5f }
+	]
+	title: "Epic Crate"
+}

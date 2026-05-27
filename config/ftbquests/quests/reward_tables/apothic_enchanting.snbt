@@ -1,0 +1,11 @@
+{
+	id: "127137D1006865A3"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 3, item: "apotheosis:glowing_hellshelf" }
+		{ count: 3, item: "apotheosis:crystal_seashelf" }
+		{ count: 3, item: "apotheosis:deepshelf" }
+	]
+	title: "Apothic Enchanting"
+}

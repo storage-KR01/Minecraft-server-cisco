@@ -1,0 +1,1059 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ciscos_wares"
+	group: "2156AFA4B5DF976B"
+	icon: "cisco_mod:champion_coin"
+	id: "2D81F7A8D44A3971"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "legendary_crate"
+				}
+			}
+			id: "576A68E80DC58777"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07EC066B3BED864C"
+				table_id: 2552453679673100139L
+				type: "random"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 35L
+				id: "65C9ADB4DAF651C4"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Legendary Loot Crate"
+			x: -18.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "epic_crate"
+				}
+			}
+			id: "3641C469C243DE3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D4AE3E7705DF730"
+				table_id: 8633602525825397581L
+				type: "random"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "21FEBB546E4C917C"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Epic Loot Crate"
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "rare_lootcrate"
+				}
+			}
+			id: "2F43D065E76BAC8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23BB21904A80BA61"
+				table_id: 7406293268280868751L
+				type: "random"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "5CAB79426942DF1B"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Rare Loot Crate"
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:netherite_ingot"
+			id: "6CEDAE878E5ABB0D"
+			rewards: [{
+				id: "72631C29DACF0C38"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "5A927B32374CC799"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Netherite Ingot"
+			x: -18.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: "cisco_mod:talisman_of_challenge"
+			id: "5ACBAA051A586F1A"
+			rewards: [{
+				id: "7ADCBBCA4E0EAF9C"
+				item: "cisco_mod:talisman_of_challenge"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 7L
+				id: "3C3EC7BCCFDF5387"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Talisman of Challenge"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			icon: "cisco_mod:tainted_talisman"
+			id: "4E0F4C5859E752C2"
+			rewards: [{
+				id: "2B5F6DA79016D792"
+				item: "cisco_mod:tainted_talisman"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 14L
+				id: "0E10F49E0BC56180"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Tainted Talisman"
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: "cisco_mod:brightsteelblock"
+			id: "1DE09E80E0F08DE7"
+			rewards: [{
+				id: "7253967F4D961F99"
+				item: "cisco_mod:brightsteelblock"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "406447B4025C7D46"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Brightsteel Block"
+			x: -13.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: "cisco_mod:wind_core"
+			id: "352ABB214ED29314"
+			rewards: [{
+				id: "2DE4984E753F2545"
+				item: "cisco_mod:wind_core"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "547FE01D497444DE"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Wind Core"
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "cisco_mod:thunder_core"
+			id: "5C8AD0C57152EB8E"
+			rewards: [{
+				id: "3AF1EA8C773E29FC"
+				item: "cisco_mod:thunder_core"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "1A67DCF37CB38671"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Thunder Core"
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "cisco_mod:dark_core"
+			id: "240C64F99C280FBF"
+			rewards: [{
+				id: "53E40FB2EFF82237"
+				item: "cisco_mod:dark_core"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "5A115881716BBBD2"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Dark Core"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "cisco_mod:light_core"
+			id: "3549D1628A6DA56C"
+			rewards: [{
+				id: "6AD7E339E64F8C26"
+				item: "cisco_mod:light_core"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "77B132FE467F1689"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Light Core"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "cisco_mod:glacial_core"
+			id: "1844D8263FD2DAF5"
+			rewards: [{
+				id: "0A85D50A03AC0812"
+				item: "cisco_mod:glacial_core"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "3E0D6E3516C3CA89"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Glacial Core"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "cisco_mod:ember_core"
+			id: "508F3D484B28C407"
+			rewards: [{
+				id: "500478F87851D6D9"
+				item: "cisco_mod:ember_core"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "512CE3170AA689E4"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Ember Core"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "cisco_mod:divine_core"
+			id: "22B46C7A778A21E0"
+			rewards: [{
+				id: "4BBDF68A5ED0E909"
+				item: "cisco_mod:divine_core"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 7L
+				id: "311B7BFCC097BFBC"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Divine Ruby"
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: "skilltree:wisdom_scroll"
+			id: "6C141F245A25CAD5"
+			rewards: [{
+				id: "24DC8673A30C26B0"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "26426542004ABF35"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Wisdom Scroll"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/combatant"
+					rarity: "rare"
+				}
+			}
+			id: "759F120170CD9FE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63A02C0B04A14228"
+				table_id: 1709372113236253247L
+				type: "random"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "604DF5AD0F7BA0A4"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Random Flawed Gem"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "sons_of_sins:wistiver_spawn_egg"
+			id: "73DD41F1E5332485"
+			rewards: [{
+				id: "7280A530B984BBB5"
+				item: "sons_of_sins:wistiver_spawn_egg"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				id: "7E91D9DD6407863A"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Sin of gluttony"
+			x: -18.0d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			icon: "sons_of_sins:walking_bed_spawn_egg"
+			id: "6A81B7297530DC47"
+			rewards: [{
+				id: "2A661F8891248543"
+				item: "sons_of_sins:walking_bed_spawn_egg"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				id: "49E3AF0898F732D8"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Sin of Sloth"
+			x: -13.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			icon: "sons_of_sins:blud_spawn_egg"
+			id: "1965BA5DAC47ACC7"
+			rewards: [{
+				id: "1FA17A9A99923369"
+				item: "sons_of_sins:blud_spawn_egg"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				id: "0930079C54E50768"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Sin of Greed"
+			x: -9.0d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			icon: "sons_of_sins:prowler_spawn_egg"
+			id: "406888C5E049E3D6"
+			rewards: [{
+				id: "56DBF325AF42BCA7"
+				item: "sons_of_sins:prowler_spawn_egg"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				id: "02790BAD2F892EF0"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Sin of Pride"
+			x: -4.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			icon: "sons_of_sins:kelvin_spawn_egg"
+			id: "3846FF794614E6A5"
+			rewards: [{
+				id: "1E10ECA2A9F4C285"
+				item: "sons_of_sins:kelvin_spawn_egg"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				id: "4CE136D274D55578"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Sin of Envy"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			icon: "sons_of_sins:curse_spawn_egg"
+			id: "7DBF0A5E56CEE3F8"
+			rewards: [{
+				id: "49B047A4C762A708"
+				item: "sons_of_sins:curse_spawn_egg"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				id: "5A11A4B7DFEF434F"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Sin of Lust"
+			x: 4.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			icon: "sons_of_sins:butcher_spawn_egg"
+			id: "67CE4EDF87F112A2"
+			rewards: [{
+				id: "0EA8AEA298566636"
+				item: "sons_of_sins:butcher_spawn_egg"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				id: "51B539540E093C80"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Sin of Wrath"
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "cisco_mod:amuletof_vitality"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "29F8130C7AE1A75D"
+			rewards: [{
+				id: "0860C718DD1E4CFC"
+				item: {
+					Count: 1b
+					id: "cisco_mod:amuletof_vitality"
+					tag: {
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "7663D9871781D3A9"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Amulet of Vitality"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "cisco_mod:amuletof_swim_speed"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "1FF12F09A1CEC290"
+			rewards: [{
+				id: "2BD05F48DE3B6D59"
+				item: {
+					Count: 1b
+					id: "cisco_mod:amuletof_swim_speed"
+					tag: {
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "5477D37CC761BFFE"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Amulet of Swim Speed"
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "cisco_mod:amuletof_luck"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "0A0DD56751DC1C24"
+			rewards: [{
+				id: "533C932E2F9082F4"
+				item: {
+					Count: 1b
+					id: "cisco_mod:amuletof_luck"
+					tag: {
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "157EBAD20CAB6C9C"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Amulet of Luck"
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: "skilltree:amnesia_scroll"
+			id: "6B1614AD10F33C54"
+			rewards: [{
+				id: "134D2F3D53D171B9"
+				item: "skilltree:amnesia_scroll"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "53493004758C3789"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Amnesia Scroll"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			icon: "farmersdelight:honey_glazed_ham"
+			id: "2AE651270FD58200"
+			rewards: [{
+				count: 16
+				id: "1AAF2DB7F3B1A419"
+				item: "farmersdelight:honey_glazed_ham"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "670F3886215AD741"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Plate of Honey Glazed Ham"
+			x: 8.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Reduces world level by 50 . Requires the quest ascendant difficulty to be completed."]
+			icon: "minecraft:clock"
+			id: "4057862FA8DB2C5E"
+			rewards: [{
+				command: "/autoleveling level add -50"
+				icon: "minecraft:clock"
+				id: "1FEA9E0C7B969C06"
+				title: "Reduce world level by 50"
+				type: "command"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "6D9862413F17ECA8"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "7968E9043D917D13"
+					stage: "ascendant"
+					title: "Ascendant Difficulty"
+					type: "gamestage"
+				}
+			]
+			title: "Reduce world level by 50"
+			x: -4.5d
+			y: -18.0d
+		}
+		{
+			can_repeat: true
+			icon: "iter_rpg:insatiable_spawn_egg"
+			id: "35FAC8E46690631B"
+			rewards: [{
+				id: "2AA97FE0BEFD21D0"
+				item: "iter_rpg:insatiable_spawn_egg"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "53E17C5E30594200"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Insatiable"
+			x: -9.0d
+			y: -18.0d
+		}
+		{
+			can_repeat: true
+			icon: "cataclysm:remnant_skull"
+			id: "0D7120FAA767086B"
+			rewards: [
+				{
+					id: "6E18B1F378C032E4"
+					item: "cataclysm:ancient_remnant_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "25FC55744594D068"
+					item: "cataclysm:necklace_of_the_desert"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7BB26B5C608A6B7B"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Ancient Remnant"
+			x: 0.0d
+			y: -18.0d
+		}
+		{
+			can_repeat: true
+			icon: "enigmaticlegacy:fabulous_scroll"
+			id: "0A239CE5AE3D9DEC"
+			rewards: [{
+				id: "7C11D6A400E084CC"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 35000L
+				id: "0E59DAFFB7BCF488"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Grace of the Creator"
+			x: -13.5d
+			y: -18.0d
+		}
+		{
+			can_repeat: true
+			icon: "enigmaticlegacy:astral_fruit"
+			id: "32CA254752FEA51F"
+			rewards: [{
+				id: "199B62DFECC340F1"
+				item: "enigmaticlegacy:astral_fruit"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 5000L
+				id: "10191662C251D1B0"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Celestial Fruit"
+			x: 4.5d
+			y: -18.0d
+		}
+		{
+			can_repeat: true
+			icon: "enigmaticlegacy:forbidden_fruit"
+			id: "104A981DC54BA459"
+			rewards: [{
+				id: "7FDF5D418ED28341"
+				item: "enigmaticlegacy:forbidden_fruit"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 7000L
+				id: "38F79BFD34ECAFDD"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Forbidden Fruit"
+			x: 8.5d
+			y: -18.0d
+		}
+		{
+			can_repeat: true
+			icon: "enigmaticlegacy:the_cube"
+			id: "6E66FB9B9FB5311E"
+			rewards: [{
+				id: "57A941A9F94F4F1E"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 50000L
+				id: "195AF63F5D96A033"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Non-Euclidean Cube"
+			x: -18.0d
+			y: -18.0d
+		}
+		{
+			icon: "cisco_mod:crownofthe_emperor"
+			id: "77A697FDEDF472D1"
+			rewards: [{
+				id: "760A41240B0A0638"
+				item: "cisco_mod:crownofthe_emperor"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 9L
+				id: "0A3CA48099C9AF58"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Emperor's Crown"
+			x: -4.5d
+			y: -22.5d
+		}
+		{
+			icon: "cisco_mod:beltof_bracing"
+			id: "4BB0E401FB2BA73D"
+			rewards: [{
+				id: "456FFEC63BF4B50C"
+				item: "cisco_mod:beltof_bracing"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 9L
+				id: "187C3A597C7DD7E7"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Belt of Bracing"
+			x: -9.0d
+			y: -22.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ringsofascension:ring_flight"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "3849515FF51B98E9"
+			rewards: [{
+				id: "465FC051F9BCA7D3"
+				item: {
+					Count: 1b
+					id: "ringsofascension:ring_flight"
+					tag: {
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 50000L
+				icon: "cisco_mod:champion_coin"
+				id: "71A6386E0963606D"
+				item: "cisco_mod:champion_coin"
+				title: "Ring of Flight"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -22.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "irons_spellbooks:eldritch"
+					rarity: "ancient"
+				}
+			}
+			id: "61BACC8336886C79"
+			rewards: [{
+				id: "1F70F944FD854130"
+				item: {
+					Count: 1b
+					id: "apotheosis:gem"
+					tag: {
+						gem: "irons_spellbooks:eldritch"
+						rarity: "ancient"
+					}
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Exchange"
+			tasks: [{
+				consume_items: true
+				count: 500L
+				id: "211295A2082CDC7E"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Perfect Dark One Gem"
+			x: -4.5d
+			y: -27.0d
+		}
+		{
+			can_repeat: true
+			icon: "cisco_mod:temporal_core"
+			id: "6E49B2FCB0D80D6B"
+			rewards: [{
+				id: "7123AF8E528DD3D7"
+				item: "cisco_mod:temporal_core"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Equivalent Exchange"
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "568CE4F7D2DCCFD5"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Temporal Core"
+			x: -9.0d
+			y: -27.0d
+		}
+		{
+			can_repeat: true
+			icon: "cisco_mod:talisman_of_betrayal"
+			id: "533F55220DBA3F49"
+			rewards: [{
+				id: "2311F4B27F89DEC0"
+				item: "cisco_mod:talisman_of_betrayal"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Equivalent Exchange"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "435A99F62F81D603"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Talisman of Betrayal"
+			x: 0.0d
+			y: -27.0d
+		}
+	]
+	title: "{\"text\":\"Cisco's Wares\",\"color\":\"#E8CD1E\"}"
+}

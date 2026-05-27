@@ -1,0 +1,116 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "undergarden"
+	}],
+	"weight": 5,
+	"quality": 1.5,
+	"dimensions": ["undergarden:undergarden"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "minecraft:generic.max_health",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 4.0,
+				"epic": 6.0,
+				"mythic": 8.0,
+				"ancient": 10.0
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"attribute": "apotheosis:life_steal",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"rare": 0.50,
+				"epic": 0.625,
+				"mythic": 0.75,
+				"ancient": 0.90
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "ranged_weapon",
+				"types": [
+					"bow",
+					"crossbow",
+					"trident"
+				]
+			},
+			"mob_effect": "undergarden:virulence",
+			"target": "arrow_target",
+			"values": {
+				"mythic": {
+					"duration": 180,
+					"amplifier": 1,
+					"cooldown": 500
+				},
+				"ancient": {
+					"duration": 240,
+					"amplifier": 2,
+					"cooldown": 500
+				}
+			}
+		},
+		{
+				"type": "apotheosis:attribute",
+				"gem_class": {
+					"key": "curios",
+					"types": [
+						"curios:ring",
+						"curios:hostility_curse",
+						"curios:head",
+						"curios:necklace",
+						"curios:back",
+						"curios:an_focus",
+						"curios:bangle",
+						"curios:body",
+						"curios:bundle",
+						"curios:quiver",
+						"curios:spellstone",
+						"curios:artifact_head",
+						"curios:artifact_necklace",
+						"curios:artifact_body",
+						"curios:artifact_belt",
+						"curios:artifact_bracelet",
+						"curios:hands",
+						"curios:belt",
+						"curios:charm",
+						"curios:feet",
+						"curios:talisman",
+						"curios:aether_ring",
+						"curios:aether_cape",
+						"curios:aether_gloves",
+						"curios:aether_accessory",
+						"curios:aether_shield",
+						"curios:aether_pendant",
+						"curios:trinkets"
+		]
+	},
+	"attribute": "apotheosis:life_steal",
+	"operation": "MULTIPLY_TOTAL",
+	"values": {
+		"rare": 0.01,
+		"epic": 0.03,
+		"mythic": 0.04,
+		"ancient": 0.05
+				}
+			}
+		]
+}
