@@ -1,18 +1,27 @@
+```bash
 #!/bin/bash
 
-# 1. Ep buoc dung Java 17
-export JAVA_HOME="/usr/lib/jvm/java-17-amazon-corretto.x86_64"
+# =========================================================
+# Cisco Server Startup Script
+# =========================================================
+
+# Java 17
+export JAVA_HOME="/usr/lib/jvm/temurin-17-jdk-amd64"
 export PATH="$JAVA_HOME/bin:$PATH"
 
-# 2. Cau hinh RAM
+# RAM config
 MIN_RAM="8G"
 MAX_RAM="12G"
 
-# 3. Ep JVM args cho start.sh
+# JVM args
 export JAVA_ARGS="-Xms${MIN_RAM} -Xmx${MAX_RAM}"
 
-echo "Dang khoi dong server Cisco voi Java 17..."
+echo "========================================="
+echo "Khoi dong Cisco Server voi Java 17"
+echo "JAVA_HOME: $JAVA_HOME"
 echo "RAM: ${MIN_RAM} -> ${MAX_RAM}"
+echo "========================================="
 
-# 4. Chay server
-./start.sh
+# Start server
+exec ./start.sh
+```
