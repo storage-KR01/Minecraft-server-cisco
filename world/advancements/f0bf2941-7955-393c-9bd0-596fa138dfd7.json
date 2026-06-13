@@ -268,6 +268,12 @@
     },
     "done": true
   },
+  "cataclysm:find_ruined_citadel": {
+    "criteria": {
+      "citadel": "2026-05-31 14:04:31 +0000"
+    },
+    "done": true
+  },
   "enigmaticlegacy:main/etherium_tool": {
     "criteria": {
       "etherium_sword": "2026-02-13 13:38:56 +0000"
@@ -404,6 +410,12 @@
   "enigmaticlegacy:recipes/generic/tome_uncrafting/tattered_tome": {
     "criteria": {
       "has_items": "2026-02-03 13:03:11 +0000"
+    },
+    "done": true
+  },
+  "lootr:1shulker": {
+    "criteria": {
+      "opened_shulker": "2026-05-31 14:11:14 +0000"
     },
     "done": true
   },
@@ -781,10 +793,11 @@
   "lootr:social": {
     "criteria": {
       "opened_barrel": "2026-02-03 12:35:05 +0000",
+      "opened_shulker": "2026-05-31 14:11:14 +0000",
       "opened_chest": "2026-02-03 12:33:36 +0000",
       "opened_cart": "2026-02-11 09:26:17 +0000"
     },
-    "done": false
+    "done": true
   },
   "iter_rpg:economy": {
     "criteria": {
@@ -986,6 +999,12 @@
     },
     "done": true
   },
+  "phantasm:enter_underisland": {
+    "criteria": {
+      "enter_underisland": "2026-05-31 14:09:51 +0000"
+    },
+    "done": true
+  },
   "vinery:wine_press": {
     "criteria": {
       "has_the_recipe": "2026-02-03 12:29:42 +0000"
@@ -1155,6 +1174,12 @@
   "vinery:grapevine_stem": {
     "criteria": {
       "has_the_recipe": "2026-02-03 12:29:42 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:kill_ender_golem": {
+    "criteria": {
+      "endergolem": "2026-05-31 14:06:36 +0000"
     },
     "done": true
   },
@@ -1842,6 +1867,12 @@
     },
     "done": true
   },
+  "dungeons_plus:end/find_end_ruins": {
+    "criteria": {
+      "in_structure": "2026-05-31 14:14:16 +0000"
+    },
+    "done": true
+  },
   "cisco_mod:cover_me_in_bright_steel": {
     "criteria": {
       "cover_me_in_bright_steel": "2026-02-03 13:57:18 +0000"
@@ -2237,6 +2268,12 @@
   "enigmaticaddons:book/misc/totem_of_malice": {
     "criteria": {
       "has_the_recipe": "2026-02-03 12:29:42 +0000"
+    },
+    "done": true
+  },
+  "unusualend:ancient_wisdom": {
+    "criteria": {
+      "ancient_wisdom": "2026-06-01 07:11:11 +0000"
     },
     "done": true
   },
@@ -2750,6 +2787,12 @@
   "aquamirae:adventure/find_ice_maze": {
     "criteria": {
       "deep_frozen_ocean": "2026-02-13 09:07:25 +0000"
+    },
+    "done": true
+  },
+  "phantasm:enter_dreaming_den": {
+    "criteria": {
+      "enter_dreaming_den": "2026-05-31 14:08:57 +0000"
     },
     "done": true
   },
@@ -3388,6 +3431,12 @@
     },
     "done": true
   },
+  "unusualend:you_but_stronger": {
+    "criteria": {
+      "you_but_stronger": "2026-06-01 07:11:03 +0000"
+    },
+    "done": true
+  },
   "simplyswords:longsword_plague": {
     "criteria": {
       "requirement": "2026-02-13 12:01:16 +0000"
@@ -3672,6 +3721,7 @@
       "byg:rainbow_beach": "2026-02-12 05:14:34 +0000",
       "byg:sythian_torrids": "2026-02-12 13:01:57 +0000",
       "byg:temperate_grove": "2026-02-19 10:37:54 +0000",
+      "byg:bulbis_gardens": "2026-05-31 14:13:45 +0000",
       "byg:glowstone_gardens": "2026-02-20 06:35:37 +0000",
       "byg:black_forest": "2026-02-13 09:15:14 +0000",
       "byg:orchard": "2026-02-15 06:36:40 +0000",
@@ -3694,9 +3744,13 @@
       "byg:aspen_forest": "2026-02-03 14:23:10 +0000",
       "byg:skyris_vale": "2026-02-13 09:05:37 +0000",
       "byg:forgotten_forest": "2026-02-19 11:07:37 +0000",
+      "byg:imparius_grove": "2026-05-31 14:08:27 +0000",
       "byg:crimson_gardens": "2026-02-12 12:52:52 +0000",
       "byg:cardinal_tundra": "2026-02-20 03:53:08 +0000",
+      "byg:nightshade_forest": "2026-06-01 07:12:20 +0000",
+      "byg:shulkren_forest": "2026-06-01 07:12:04 +0000",
       "byg:baobab_savanna": "2026-02-04 03:22:02 +0000",
+      "byg:cryptic_wastes": "2026-05-31 14:08:32 +0000",
       "byg:brimstone_caverns": "2026-02-12 12:55:19 +0000",
       "byg:amaranth_fields": "2026-02-18 10:30:02 +0000",
       "byg:ebony_woods": "2026-02-18 11:47:18 +0000",
@@ -3822,6 +3876,7 @@
   },
   "repurposed_structures:outposts": {
     "criteria": {
+      "in_outpost_end": "2026-05-31 14:11:03 +0000",
       "in_outpost_nether_brick": "2026-02-12 12:59:08 +0000",
       "in_outpost_desert": "2026-02-19 11:15:00 +0000",
       "in_outpost_snowy": "2026-02-21 05:54:49 +0000",
